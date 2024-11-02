@@ -11,6 +11,10 @@ Vite uses [dotenv](https://github.com/motdotla/dotenv) to load env vars from `.e
 
 As well, env vars may already be present in an app env prior to executing Vite.
 
+## Security
+
+While Vite will not pass env vars to client code, sensitive vars must also be excluded from version control.  
+
 ## Priority
 
 Vars that exist prior to Vite (build) execution have highest priority and will not be overridden by `.env` files.
