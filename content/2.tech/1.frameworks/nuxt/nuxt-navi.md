@@ -3,7 +3,6 @@ title: Nuxt Navi
 description: Methods of Obtaining Navi Links
 ---
 
-
 ## Immediate Children of a Specific Dir
 
 Regexp:
