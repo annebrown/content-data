@@ -1,5 +1,5 @@
 ---
-title: 'Docs'
+title: 'DOCS'
 description: 'Technical Ref Docs'
 ---
 
