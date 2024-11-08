@@ -7,7 +7,7 @@ Nuxt is built with [vite](https://vite.dev/).  See [Vite Env Var Handling](/cont
 
 ## Categories
 
-.env.local - local dev
+`.env.local` - local dev
 
 ## Config
 
