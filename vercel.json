@@ -1,0 +1,9 @@
+{
+    "redirects": [
+      {
+        "source": "/:www.misscommunication.ca",
+        "destination": "https://mc-ca.pages.dev",
+        "permanent": true
+      }
+    ]
+  }

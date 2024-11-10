@@ -27,6 +27,10 @@ Sample `@@/nuxt.config.ts` config for a GitHub `@Nuxt/Content` public repo:
 
 ```
 
+## Workflow
+
+To publish changes, each deployment built using this remote source must be redeployed without existing cache.
+
 ## Added Costs
 
 Using or adding a remote content source won't significantly impact costs.

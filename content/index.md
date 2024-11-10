@@ -1,6 +1,7 @@
 ---
 title: 'DOCS'
 description: 'Technical Ref Docs'
+toc: false
 ---
 
 ## Purpose
