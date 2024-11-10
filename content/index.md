@@ -1,5 +1,5 @@
 ---
-title: 'DOCS'
+title: 'Docs'
 description: 'Technical Ref Docs'
 toc: false
 ---
