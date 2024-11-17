@@ -1,10 +1,18 @@
-cd ---
+---
 title: 'React'
-description: 'React Notes'
+description: 'Open-Source Front-End JavaScript UI Lib'
 ---
 
-React can be described as a library, architecture and framework, for building interfaces out of components.  
+My notes on React, {{ description }}
 
-React components are JS functions, written in JSX/TSX syntax extension.
+## General
 
-Components accept data and return results for display.  Routing and fetching are provided by other frameworks.  Data is fetched in async components that run on the server and during the build.
+React is a Javascript IF framework.
+
+Its components are JS/TS functions.
+
+Components accept data and return results for display.  
+
+Routing and fetching are provided by other frameworks.  
+
+Data is fetched in async components that run on the server and during the build.

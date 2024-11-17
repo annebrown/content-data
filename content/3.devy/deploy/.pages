@@ -1,0 +1,5 @@
+nav:
+  - index.md
+  - ReadTheDocs: readthedocs.md
+  - Netlify: netlify.md
+  - Vercel: vercel.md

@@ -1,5 +1,12 @@
 export default defineNuxtConfig({
 
+    database: { // sqlite for demo (non-persistent)
+        default: {
+          connector: 'sqlite',
+          options: { name: 'db' }
+        }
+    },
+
     devtools: { enabled: true },
   
     modules: [
