@@ -5,10 +5,6 @@ tags:
   - Console
 ---
 
-## Description
-
-{{ description }}
-
 ## Methods
 
 ### console.log()

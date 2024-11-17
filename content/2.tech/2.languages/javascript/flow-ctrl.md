@@ -3,10 +3,6 @@ title: Flow Control
 description: JavaScript Flow Control Statements
 ---
 
-## Description
-
-{{ description }}
-
 ## Return
 
 ```js

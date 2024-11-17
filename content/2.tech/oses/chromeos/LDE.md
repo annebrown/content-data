@@ -3,10 +3,6 @@ title: Linux Dev Env
 description: Install Linux Dev Env on ChromOS Host
 ---
 
-## Description
-
-{{ description }}
-
 ## Install LDE
 
 ### [Turn on Developer Mode](index.md/#developer-mode)

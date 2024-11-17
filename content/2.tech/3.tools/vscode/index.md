@@ -7,8 +7,6 @@ hide:
   - toc
 ---
 
-## Description
-
 [VSCode](https://code.visualstudio.com/download "Official Site") {{ description }}
 
   [Settings](settings/){ .ab-button }

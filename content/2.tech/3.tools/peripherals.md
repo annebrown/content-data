@@ -1,17 +1,12 @@
 ---
 title: Peripherals
-description: Input Peripheral Devices and Software
+description: Input Peripheral Devices & Software
 tags:
   - Peripherals
 hide:
   - toc
 ---
 
-## Description
-
-{{ description }} 
-
 [Solaar](../solaar/)
 
 : For controlling logitech peripherals (Unifying, bolt and BT)
-

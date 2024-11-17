@@ -3,10 +3,6 @@ title: Kubuntu 24.04 Bluetooth
 description: Bluetooth Service and Issues
 ---
 
-## Description
-
-{{ description }}
-
 Kubuntu 24.04 LTS has totes open bluetooth issues.  Use proprietary dongle until issues are resolved.
 
 [My Issue](https://www.reddit.com/r/Ubuntu/comments/1cf30qo/comment/l7tjl8p/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)

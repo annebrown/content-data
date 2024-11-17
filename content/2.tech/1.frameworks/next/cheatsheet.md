@@ -6,10 +6,6 @@ tags:
     - Next.js
 ---
 
-## Description 
-
-{{ description }}
-
 ## Commands
 
 | Action          | Command                          |

@@ -5,10 +5,6 @@ tags:
   - Git
 ---
 
-## Description
-
-{{ description }}
-
 ## Git Global Config
 
 ```bash

@@ -3,10 +3,6 @@ title: Python
 description: Programming Language
 ---
 
-## Description
-
-My notes on Python {{ description }}
-
 ## Install
 
 Add Python PPA:

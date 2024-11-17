@@ -10,10 +10,6 @@ tags:
     - SOLVED
 ---
 
-## Description
-
-{{ description }}
-
 ## Status
 
 SOLVED

@@ -5,10 +5,6 @@ tags:
   - Meta Plugin
 ---
 
-## Description
-
-{{ description }}
-
 [Meta](https://squidfunk.github.io/mkdocs-material/plugins/meta "Official Site") recursively merges the contents of `.meta.yml`  files with the frontmatter of all pages contained in the same folder and all subfolders.  This, with the help of other plugins, enables powerful features, such as inherited tags:
 
 ```md

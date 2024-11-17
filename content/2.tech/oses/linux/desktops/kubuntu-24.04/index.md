@@ -3,10 +3,6 @@ title: Kubuntu 24.04 Desktop
 description: KDE Config and Issues
 ---
 
-## Description
-
-{{ description }}
-
 ## [Bluetooth](bluetooth.md)
 
 ## Theming

@@ -5,10 +5,6 @@ tags:
   - Next.js
 ---
 
-## Description 
-
-{{ description }}
-
 ## Create Next.js App
 
 Next.js is installed as an app:

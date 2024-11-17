@@ -1,5 +1,0 @@
-This is a snippet with more than one line.
-
-It is a block of strings.
-
-Fin

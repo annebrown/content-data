@@ -3,10 +3,6 @@ title: Conditionals
 description: JavaScript Conditional Statements
 ---
 
-## Description
-
-{{ description }}
-
 ## if, else if, else
 
 ```js

@@ -3,10 +3,6 @@ title: Browsers
 description: Web Browsers
 ---
 
-## Description
-
-My notes on {{ description }}
-
 ## Temporal Search
 
 > Rapid tech progression necessitates recent search results.

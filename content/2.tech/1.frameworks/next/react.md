@@ -3,10 +3,6 @@ title: React
 description: Implementing React in Next.js
 ---
 
-## Description
-
-{{ description }}
-
 ## Import
 
 To use React in a `.tsx`, use: 
@@ -20,4 +16,3 @@ import React from 'react';
 ```bash
 npm [name-of-pkg]
 ```
-

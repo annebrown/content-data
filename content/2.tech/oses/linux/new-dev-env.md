@@ -3,10 +3,6 @@ title: New Dev Env
 description: Configure New Development Environment
 ---
 
-## Description
-
-{{ description }}
-
 ## Usage
 
 Instructions for creating a new dev env for use on bare metal hosts, VM and cloud (GitPod).

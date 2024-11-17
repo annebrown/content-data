@@ -3,11 +3,6 @@ title: Values
 description: JavaScript Values
 ---
 
-## Description
-
-{{ description }}
-
-
 ## Values
 
 ### Fixed

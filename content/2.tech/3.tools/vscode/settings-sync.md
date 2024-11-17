@@ -3,10 +3,6 @@ title: Settings Sync
 description: Syncs VSCODE Config Settings Across Dev Envs
 ---
 
-## Description
-
-{{ description }}:
-
   - Extensions Settings
   - Keyboard Shortcuts
   - Profiles

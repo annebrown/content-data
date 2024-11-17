@@ -3,10 +3,6 @@ title: Strings
 description: JavaScript String Data Type
 ---
 
-## Description
-
-{{ description }}
-
 ## Usage
 
 ```js

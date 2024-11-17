@@ -6,10 +6,6 @@ tags:
     - CLOSED
 ---
 
-### Description
-
-{{ description }}
-
 RasPi400 external monitor res (1680x1050) not supported in settings or config.
 
 ### Status

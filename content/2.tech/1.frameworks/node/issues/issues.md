@@ -6,8 +6,6 @@ tags:
   - SOLVED
 ---
 
-{{ description }}
-
 ## Status
 
 SOLVED

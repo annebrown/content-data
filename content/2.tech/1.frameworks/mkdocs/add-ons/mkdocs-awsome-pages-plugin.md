@@ -5,10 +5,6 @@ tags:
   - mkdocs-awesome-pages-plugin
 ---
 
-## Description
-
-{{ description }}
-
 The aptly-named awesome-pages plulgin adds automatic and specific dir-based navi, without polluting `mkdocs.yml`.  For detailed usage instructions see [mkdocs-aweome-pages-plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin).
 
 ## Install

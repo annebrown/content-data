@@ -6,10 +6,6 @@ tags:
   - SOLVED
 ---
 
-## Description
-
-Totes Issues w {{ description }}
-
 ## Fix
 
 ### Remove Default Distro Snap

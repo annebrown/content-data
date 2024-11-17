@@ -3,10 +3,6 @@ title: Arrays
 description: JavaScript Array Data Structure
 ---
 
-## Description
-
-{{ description }}
-
 - allows varying data types
 - allows dynamic resizing
 

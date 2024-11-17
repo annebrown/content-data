@@ -3,10 +3,6 @@ title: Operators
 description: JavaScript Operators
 ---
 
-## Description
-
-{{ description }}
-
 ## Assignment Operators
 
 - Assign vals to vars

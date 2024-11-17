@@ -6,10 +6,6 @@ tags:
   - Risks
 ---
 
-## Description
-
-My Notes on [{{ description }}](https://en.wikipedia.org/wiki/JavaScript)
-
 - For creating dynamic, interactive content
 - Single-threaded
 - Line-by-line, interpreted
@@ -23,7 +19,7 @@ My Notes on [{{ description }}](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Risks
 
-Cross-site scripts can inject external JS into visitor's browser. 
+Cross-site scripts can inject external code.
 
 ## ECMAScript
 

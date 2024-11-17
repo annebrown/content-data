@@ -5,9 +5,7 @@ tags:
   - JavaScript
 ---
 
-## Description
-
-pnpm, {{ description }}, is faster and more efficient than npm and yarn.
+Faster and more efficient than npm and yarn.
 
 ## Install pnpm
 

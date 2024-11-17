@@ -37,11 +37,3 @@ const logout = () => {
 
 Uses `v-if="isLoggedIn"` to conditionally render a welcome message when user is logged in.
 
-`v-else` shows an alternative message when the user is not logged in.
-
-Can also use v-if and v-else to toggle between showing a "Login" or "Logout" button based on the login state.
-
-The v-if directive is used for conditional rendering in Vue.js and Nuxt. It will only render the element if the expression evaluates to a truthy value. When the condition changes, Vue will efficiently update the DOM, adding or removing elements as necessary.
-Remember that in Nuxt 3, you don't need to explicitly import ref as it's auto-imported as mentioned in the Nuxt documentation.
-Vue.js documentation on v-if
-This example demonstrates a basic use of v-if in a template. You can use more complex expressions or computed properties with v-if as needed for your specific use case.

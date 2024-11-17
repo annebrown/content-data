@@ -7,7 +7,7 @@ tags:
 
 ## Description
 
-[NeoFetch](https://github.com/dylanaraps/neofetch), highly customizable, {{ description }}
+[NeoFetch](https://github.com/dylanaraps/neofetch), highly customizable
 
 ## Install
 

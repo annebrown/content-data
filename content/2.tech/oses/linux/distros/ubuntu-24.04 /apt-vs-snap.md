@@ -3,17 +3,13 @@ title: apt -vs snap
 description: apt and snap notes and comparison
 ---
 
-## Description
-
-{{ description }}
-
 Source: [Reddit](https://www.reddit.com/r/Ubuntu/comments/a364ii/proscons_of_snap_vs_apt/) (6 yrs ago)
 
 ##  Pros of debs over snaps:
 
 - Smaller packages (debs don't need to bundle their dependencies).
-- Although it's worth pointing out that while snaps are larger, updates are done with deltas, not huge downloads
-- Better theme integration (this only matters for GUI apps).
+- While snaps are larger, updates are done with deltas, not huge downloads
+- Better theme integration.
 - Confinement issues don't typically get in your way.
 - Debs come from the distribution and are reviewed by numerous people, not just the publisher.
 - This completely ignores debs outside of the distro, such as PPAs or debs found online.

@@ -1,11 +1,7 @@
 ---
 title: Usage
-description: How to Use JavaScript
+description: JavaScript Usage
 ---
-
-## Description
-
-{{ description }}
 
 ## Usage
 
@@ -30,9 +26,6 @@ description: How to Use JavaScript
 - whitespaces ignored
 - can put multiple statments on a single line
 - statements can span lines
-
-
-
 
 ## Execution Context
 

@@ -5,10 +5,6 @@ tags:
   - VSCode
 ---
 
-## Description
-
-{{ description }}
-
 ```json
 "workbench.colorCustomizations": {
     // Contrast Colors - The contrast colors are typically only set for high contrast themes. If set, they add an additional border around items across the UI to increase the contrast.

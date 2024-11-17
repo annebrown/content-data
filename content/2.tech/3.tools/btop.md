@@ -5,9 +5,8 @@ tags:
   - BTOP++
 ---
 
-## Description
 
-[BTOP++](https://github.com/aristocratos/btop), {{ description }}
+[BTOP++](https://github.com/aristocratos/btop)
 
 ## Install
 

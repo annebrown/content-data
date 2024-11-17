@@ -6,11 +6,6 @@ tags:
   - Neovim
 ---
 
-## Description
-
-{{ description }}
-
-
 ## Install
 
 ```bash

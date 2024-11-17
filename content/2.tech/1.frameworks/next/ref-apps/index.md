@@ -3,10 +3,6 @@ title: Next.js Reference Apps
 description: Complete apps and demos, used for reference
 ---
 
-## Description 
-
-{{ description }}
-
 ## Default App
 
 Default app created with `create-next-app`

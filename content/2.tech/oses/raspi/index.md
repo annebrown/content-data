@@ -5,10 +5,6 @@ tags:
   - RasPi
 ---
 
-## Description
-
-{{ description }}
-
 ## Shortcuts
 
 - Terminal: Ctrl-Alt-T

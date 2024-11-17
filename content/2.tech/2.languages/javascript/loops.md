@@ -3,10 +3,6 @@ title: Loops
 description: JavaScript Loop Statements
 ---
 
-## Description
-
-{{ description }}
-
 ## for
 
 ```js

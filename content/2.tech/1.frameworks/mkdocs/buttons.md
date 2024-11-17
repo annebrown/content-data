@@ -3,11 +3,6 @@ title: Buttons
 description: MkDocs Buttons
 ---
 
-## Description
-
-{{ description }}
-
-
 ```md title="This:"
 [Do Not Press](#){ .md-button }
 ```

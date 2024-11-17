@@ -3,16 +3,12 @@ title: Layout
 description: Next.js Layout
 ---
 
-## Description
-
-{{ description }} Files
-
 - `layout.tsx`
 - Comprise the structure and elements shared across multiple pages:
 
-    - Requred HTML Elements (`<DOCTYPE><html><header>...`)
-    - Headers, Footers, Navi
-    - Content placement
+  - Requred HTML Elements (`<DOCTYPE><html><header>...`)
+  - Headers, Footers, Navi
+  - Content placement
 
 - Provide page consistency
 

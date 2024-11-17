@@ -3,10 +3,6 @@ title: Config
 description: MkDocs Config
 ---
 
-## Description
-
-{{ description }}
-
 ## The `mkdocs.yml` File
 
 Most of MkDocs config is done in the `[proj-dir]/mkdocs.yml` file.  For some plugins, order matters.  
@@ -26,15 +22,13 @@ These settings were copied from the `meta.yml` config of a working implementatio
 #-------------------------------------------------------------------------------
 # Project:
 #-------------------------------------------------------------------------------
-site_name: docs.annebrown.ca
-site_url: https://docs.annebrown.ca
-site_author: Anne Brown
-site_description: Technical Reference Docs
+site_name: docs.some-where.com
+site_url: https://docs.somewhere.com
 ```
 
 ### Watches
 
-To provide live preview, MkDocs server watches its default confg and dirs for changes.  Add items here to include additional dirs to watch.
+Dirs to watch
 
 ```yml
 #-------------------------------------------------------------------------------
@@ -52,9 +46,8 @@ Connect proj to its source repo for  view, edit, etc.:
 #-------------------------------------------------------------------------------
 # Repo
 #-------------------------------------------------------------------------------
-repo_name: annebrown/docs-pub
-repo_url: https://github.com/annebrown/docs-pub
-```
+repo_name: github-user/repo-name
+repo_url: https://github.com/github-user/repo-name
 
 ### Copyright
 
@@ -62,7 +55,7 @@ repo_url: https://github.com/annebrown/docs-pub
 #-------------------------------------------------------------------------------
 # Copyright
 #-------------------------------------------------------------------------------
-copyright: Copyright &copy; 2024 Anne Brown
+copyright: Copyright &copy; 2024 Author
 ```
 
 ### Theme

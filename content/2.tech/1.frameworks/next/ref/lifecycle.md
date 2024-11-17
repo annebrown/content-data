@@ -3,10 +3,6 @@ title: Next.js LIfecycle
 description: Next.js app stages
 ---
 
-## Description
-
-{{ description }}
-
 ## Next.js Lifecycle
 
 Ref: [GeeksforGeeks](https://www.geeksforgeeks.org/next-js-introduction/#how-does-nextjs-work)

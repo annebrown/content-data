@@ -3,10 +3,6 @@ title: Output Options
 description: JavaScript Output Options
 ---
 
-## Description
-
-{{ description }}
-
 ## Update innerHTML
 
 ### getElementById(id="targetElementID") method

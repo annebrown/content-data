@@ -6,10 +6,6 @@ tags:
     - MkDocs
 ---
 
-## Description
-
-{{ description }}
-
 ```txt
 Install         - sudo apt install mkdocs
 Create New Proj - mkdocs new [project-name]

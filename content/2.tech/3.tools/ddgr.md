@@ -6,9 +6,7 @@ tags:
   - ddgr
 ---
 
-## Description
-
-[ddgr](https://github.com/jarun/ddgr?tab=readme-ov-file), {{ description }}
+[ddgr](https://github.com/jarun/ddgr?tab=readme-ov-file)
 
 ## Purpose
 

@@ -10,10 +10,6 @@ tags:
     - OPEN
 ---
 
-## Description
-
-{{ description }}
-
 - Tech dir has:
 
 ```yml title=".pages"

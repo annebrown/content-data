@@ -3,10 +3,6 @@ title: Navi
 description: Next.js Navi
 ---
 
-## Description
-
-{{ description }}
-
 ## Install `responsive-navbar`
 
 Navigate to project dir and nstall `responsive-navbar` and `react-icons`:

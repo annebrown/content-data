@@ -5,7 +5,3 @@ tags:
   - Firefox
 ---
 
-## Description
-
-{{ description }}
-

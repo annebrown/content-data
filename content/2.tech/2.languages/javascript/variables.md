@@ -6,14 +6,12 @@ tags:
   - Variables
 ---
 
-## Description
-{{ description }}
-
 - Name of storage locn where data is stored
 - case-sensitive
 - begin with a letter, _ or $
 - can contain letters, numberes, underscore or $
 - can't belong to reserved keywords
+  
 ## Const
 
 ```js

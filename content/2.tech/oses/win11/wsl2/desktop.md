@@ -3,11 +3,6 @@ title: Linux Desktop
 description: Install and configure Linux desktop on Win11
 ---
 
-## Description
-
-{{ description }}
-
-
 ## Install Distro
 
 Install Distro from M$tore, then:

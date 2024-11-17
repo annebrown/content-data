@@ -5,13 +5,9 @@ tags:
   - MkDocs Images
 ---
 
-## Description
-
-{{ description }}
-
 ## Install Deps
 
-Image processing libs need to be installed for enhanced image processing:
+Image processing libs for enhanced image processing:
 
 ```bash
 activate .venv/bin/activate  # use proj venv

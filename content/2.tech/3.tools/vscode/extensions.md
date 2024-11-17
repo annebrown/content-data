@@ -5,11 +5,6 @@ tags:
   - VSCode
 ---
 
-## Description
-
-{{ description }}
-
-
 ## Git
 
 Automatic, periodic git fetch on remotes: 
