@@ -1,17 +1,13 @@
-# browndomain.com
+# Content Data
 
 ## Description
 
-Source for apex domain website
+Headless MDC CMS
 
 ## Repo
 
-[bd.c](https://github.com/annebrown/bd.c.git)
+[content-data](https://github.com/annebrown/content-data.git)
 
-## Dev
+## Client
 
-pnpm dev
-
-## Stack
-
-[Nuxt](https://nuxt.com/)
+[Demo](https://misscommunication.ca)

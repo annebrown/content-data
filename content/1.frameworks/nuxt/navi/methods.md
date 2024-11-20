@@ -3,15 +3,13 @@ title: Nuxt Navi
 description: Methods of Obtaining Navi Links
 ---
 
-## Immediate Children of a Specific Dir
+## Immediate Children of Specific Path
 
-Regexp:
+Regexp excludes parent dir and nested subdirs:
 
 ```regexp
 '^/some-path/[^/]+$'
 ```
-
-yields only direct children of the '/some-path/' path, excluding both the parent dir and any nested subdirs.
 
 ## Child Links of Any Directory
 
@@ -41,8 +39,6 @@ yields only direct children of the '/some-path/' path, excluding both the parent
 
 ## Top Links and Children
 
-To loop over the children of a link in Vue.js, you can use the v-for directive. Here's an example of how you can do it:
-
 ```js
 <template>
  <ContentNavigation v-slot="{ navigation }">
@@ -51,7 +47,7 @@ To loop over the children of a link in Vue.js, you can use the v-for directive. 
             <p class="text-cyan-500">Parent</p>
           <NuxtLink :to="link._path">{{ link.title }}</NuxtLink>
           <ul v-if="link.children">
-            <p class="text-purple-500">Children</p>
+            <p>Children</p>
             <li v-for="childLink of link.children" :key="childLink._path">
               <NuxtLink :to="childLink._path">{{ childLink.title }}</NuxtLink>
             </li>
@@ -63,6 +59,8 @@ To loop over the children of a link in Vue.js, you can use the v-for directive. 
 ```
 
 ## Reverse Order
+
+`slice()` copies navi array, because reverse() modifies original array order.
 
 ```js
 <template>
@@ -77,5 +75,3 @@ To loop over the children of a link in Vue.js, you can use the v-for directive. 
   </nav>
 </template>
 ```
-
-Use `slice()` to copy nav array, then reverse() method to reverse the order. Array is copied because reverse() modifies original array order.

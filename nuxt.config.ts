@@ -1,4 +1,7 @@
+
+
 export default defineNuxtConfig({
+    telemetry: false,
 
     database: { // sqlite for demo (non-persistent)
         default: {
