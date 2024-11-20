@@ -1,40 +1,17 @@
 ---
-title: LifeParticle Cheatsheet
+title: Cheatsheet
 description: Ultimate Markdown Cheatsheet
 tags:
   - Cheatsheet
 ---
 
-## Description
-
-{{ description }}
-
 Source: `README.md`, from <https://github.com/lifeparticle/Markdown-Cheatsheet.git>
 
 ## Markdown Test Page
 
-Source: 
-
-Mods for use on this site:
-
-- /h1/h2/
-- updated alerts to new fmt
-- TOC indents /2/4/ and other list indents /2/4/
-
 <a name="top"></a>
 
-## :black_circle: The Ultimate Markdown Cheat Sheet :black_circle:
-
-<div align="center">
-
-<a href="https://github.com/lifeparticle/Markdown-Cheatsheet/actions/workflows/readme-checker.yml">
-    <img src="https://github.com/lifeparticle/Markdown-Cheatsheet/actions/workflows/readme-checker.yml/badge.svg" alt=".github/workflows/readme-checker.yml">
-</a>
-</div>
-
-!!!IMPORTANT
-
-    Check out the official documentation on [GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to learn more about writing and formatting syntax. Additionally, you can read the latest updates and features on Markdown by visiting the [GitHub changelog posts](https://github.blog/changelog/label/markdown/).
+##  The Ultimate Markdown Cheat Sheet 
 
 
 <!-- Section --------------------------------------------------------------- -->

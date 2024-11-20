@@ -40,4 +40,3 @@ app/
 - No passing data btw parent and child layout
 - Don't have access to pathname.
 - Don't have access to route segments below itself
-- 

@@ -3,13 +3,9 @@ title: Install Hyper
 description: Install Hyper Terminal
 ---
 
-## Description
-
-{{ description }}
-
 ## Required Libraries
 
-Install rqd libs deps:
+Install rqd deps:
 
 ```bash
 sudo apt install -y libxss-dev wget

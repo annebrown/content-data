@@ -5,7 +5,7 @@ description: Install and run MkDocs
 
 ## Create venv
 
-When a Python Virtual Env is activated for a proj, `pip` will install all the constricting snake stuff into `[project_dir]/.venv`. This isolates the proj with its own specific Python interpreter, and software libs and binaries.
+When a Python Virtual Env is activated for a proj, `pip` will install all the project code into `[project_dir]/.venv`. This isolates the proj with its own specific Python interpreter, and software libs and binaries.
 
 Create `.venv` under proj dir:
 

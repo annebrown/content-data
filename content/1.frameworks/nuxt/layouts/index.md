@@ -1,11 +1,9 @@
 ---
-title: Best Practices - Default
-description: Best Practices for Default Layouts
+title: Default
+description: Same Default Layout
 ---
 
-## Best practices for `/content` Layout
-
-`@/layouts/default`
+`@/layouts/default.vue`:
 
 ```js
 <template>

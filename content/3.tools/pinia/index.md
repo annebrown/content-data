@@ -40,16 +40,14 @@ export const useCounterStore = defineStore( 'counter', {
 
 ## Use Store in a Component
 
-```vue
+```ts
 <script setup>
 import {useCounterStore } from '@/stores/counter'
 
 const counter = useCounterStore ()
 
 counter.count++
-// with autocompletion ✨
 counter.$patch({ count: counter.count + 1 })
-// or using an action instead
 counter.increment()
 </script>
 
@@ -70,12 +68,11 @@ export const useTodos = defineStore('todos', {
     todos: [],
     /** @type {'all' | 'finished' | 'unfinished'} */
     filter: 'all',
-    // type will be automatically inferred to number
+    // type automatically inferred to number
     nextId: 0,
   }),
   getters: {
     finishedTodos(state) {
-      // autocompletion! ✨
       return state.todos.filter((todo) => todo.isFinished)
     },
     unfinishedTodos(state) {
@@ -86,7 +83,6 @@ export const useTodos = defineStore('todos', {
      */
     filteredTodos(state) {
       if (this.filter === 'finished') {
-        // call other getters with autocompletion ✨
         return this.finishedTodos
       } else if (this.filter === 'unfinished') {
         return this.unfinishedTodos
@@ -97,7 +93,7 @@ export const useTodos = defineStore('todos', {
   actions: {
     // any amount of arguments, return a promise or not
     addTodo(text) {
-      // you can directly mutate the state
+      // an directly mutate the state
       this.todos.push({ text, id: this.nextId++, isFinished: false })
     },
   },

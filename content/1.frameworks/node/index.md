@@ -3,10 +3,6 @@ title: Node.js
 description: Open-Source, Cross-Platform JavaScript Runtime Environment
 ---
 
-## Description 
-
-My notes on Node.js, {{ description }}
-
 ## Install
 
 ### Install nvm

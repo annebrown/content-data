@@ -3,13 +3,9 @@ title: Data Fetching
 description: Fetching Customizations
 ---
 
-## Description
-
-{{ description }}
-
 ## Intro
 
-Next.js prefetches all pages by default. This behavior can be customized, based on performance and loading rqmts.
+Next.js prefetches all pages by default. This can be customized, based on perf and loading rqmts.
 
 ### `fetch` - Svr
 
@@ -42,7 +38,7 @@ Next.js integrates w libs like fetch and axios for API requests from browser
 
 ### Svr-Side
 
-getStaticProps and getServerSideProps allow fetching svr data before pages is rendered, providing personalized, dynamic content
+getStaticProps and getServerSideProps allow fetching svr data before page is rendered, providing personalized, dynamic content
 
 ### getStaticProps
 
@@ -56,5 +52,5 @@ getStaticProps and getServerSideProps allow fetching svr data before pages is re
 
 ## Revalidating
 
-- purging cache and fetching latest
+- ditch cache and fetching latest
 - time-based or on-demand

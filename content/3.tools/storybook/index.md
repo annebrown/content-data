@@ -5,13 +5,9 @@ tags:
   - StoryBook
 --- 
 
-## Description 
-
-{{ description}}
-
 ## Install
 
-Storybook can be installed into an existing proj, or used to create a new project from scratch: 
+Installed into existing proj, create new project: 
 
 ```bash
 npx storybook@latest init

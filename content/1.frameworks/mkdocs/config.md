@@ -42,16 +42,18 @@ watch:
 
 Connect proj to its source repo for  view, edit, etc.:
 
-```yml
+```yaml
 #-------------------------------------------------------------------------------
 # Repo
 #-------------------------------------------------------------------------------
 repo_name: github-user/repo-name
 repo_url: https://github.com/github-user/repo-name
+```
 
 ### Copyright
 
-```yml
+```bash
+
 #-------------------------------------------------------------------------------
 # Copyright
 #-------------------------------------------------------------------------------
@@ -228,4 +230,4 @@ plugins:
 
 ## VSCode YAML Schema
 
-Add MkDocs Schema to VSCode.  See [VSCode YAML Extension](../../apps/vscode/extensions.md#yaml)
+Add MkDocs Schema to VSCode.  See [VSCode YAML Extension](../../tools/vscode/extensions.md#yaml)

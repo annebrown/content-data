@@ -6,10 +6,6 @@ tags:
     - SOLVED
 ---
 
-## Description 
-
-{{ description }}
-
 Next.js install script, `create-next-app`, returns error when attempting to run dev svr:
 
 ```bash

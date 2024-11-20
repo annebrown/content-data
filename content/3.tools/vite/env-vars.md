@@ -9,7 +9,7 @@ Ref: [Vite Docs](https://vite.dev/guide/env-and-mode.html)
 
 Vite uses [dotenv](https://github.com/motdotla/dotenv) to load env vars from `.env` files.
 
-As well, env vars may already be present in an app env prior to executing Vite.
+As well, env vars may already be present in app env prior to executing Vite.
 
 ## Security
 

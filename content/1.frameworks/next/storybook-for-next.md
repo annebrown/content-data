@@ -3,10 +3,6 @@ title: Storybook Integration
 description: Storybook Intregration with Next.js
 ---
 
-## Description
-
-{{ description }}
-
 [Storybook](../../apps/storybook/index.md) is a front-end tool for building UI components in isolation.
 
 

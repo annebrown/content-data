@@ -5,10 +5,6 @@ tags:
   - Hyper
 ---
 
-## Description
-
-{{ description }}
-
 ## Config File
 
 Config File: `~/.config/Hyper/config.json`.  
@@ -17,7 +13,7 @@ Also: `Menu > Edit > Preferences` or `Ctrl+comma`
 
 ## Plugins Locn
 
-## [dotfiles](../../../dev/projects/index.md))
+## [dotfiles](../../../dev/projects/index.md)
 
 ## Prepare dotfiles config
 

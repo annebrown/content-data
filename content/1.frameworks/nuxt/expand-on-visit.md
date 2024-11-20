@@ -3,9 +3,9 @@ title: Expand On Visit
 description: Expand Navi to Entry for Current Route
 ---
 
-Collapsible navi tree that automatically expands to show the current page's location each time a new content page is rendered
+Collapsible navi tree to auto-expand to show current page's locan, on each new page render
 
-`useRoute()` composable - get current route and compare with navi items to determine which sections to expand
+Gets route and compares w navi items to deter which sections to expand
 
 Collapsable `NavigationTree.vue`
 

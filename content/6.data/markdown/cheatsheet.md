@@ -5,10 +5,6 @@ tags:
   - Cheatsheet
 ---
 
-## Description
-
-{{ description }}
-
 ## Escaping
 
 | Char       | Markdown  | 
@@ -20,7 +16,7 @@ tags:
 
 ## Comments
 
-| Sample                        | Descr                            |
+| Sample Descr                            |
 | -:--------------------------- | :------------------------------- |
 | `<!--- this is a comment -->` | HTML - also supports block style |
 | `[comment]: # (Single Line)`  | Link                             |

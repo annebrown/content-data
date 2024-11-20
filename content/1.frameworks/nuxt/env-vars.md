@@ -57,8 +57,5 @@ export default defineEventHandler(async (event) => {
 });
 ```
 
-## Vercel
-
-### Connectable Accounts
 
 

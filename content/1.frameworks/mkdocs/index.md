@@ -1,17 +1,11 @@
 ---
 title: MkDocs
 description: Docs-based SSG, written in Python
-hide:
-  - toc
 ---
 
-## Description
+MkDocs and its [add-ons](../mkdocs/add-ons/index.md), provides a framework for deploying documention-based static sites.  
 
-My Notes on MkDocs, {{ description }}
-
-MkDocs, with its rich set of [add-ons](../mkdocs/add-ons/index.md), provides a feature-rich, well-documented framework for deploying documention-based static sites.  
-
-After evaluating alternatives, such as Hugo, Jeykll, Gatsby, and Next.js, MkDocs was faster to learn and deploy.  Other SSGs may have more features, but were either underdocumented or reviewing their documentation was like drinking water from a firehose.  MkDocs's specific focus and design make it my choice for a highly customizable, rapid, efficient and painless SSG.
+MkDocs is quick to learn and deploy.  It's specific focus and design make it suitable for a customizable, rapid, efficient and SSG.  While it doesn't require as much coding knowledge as some other framweorks, it also offers less control over the layout.
 
 !!! warning
 

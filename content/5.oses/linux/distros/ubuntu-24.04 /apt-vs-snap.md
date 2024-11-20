@@ -7,7 +7,7 @@ Source: [Reddit](https://www.reddit.com/r/Ubuntu/comments/a364ii/proscons_of_sna
 
 ##  Pros of debs over snaps:
 
-- Smaller packages (debs don't need to bundle their dependencies).
+- Smaller packages (no bundle dependencies).
 - While snaps are larger, updates are done with deltas, not huge downloads
 - Better theme integration.
 - Confinement issues don't typically get in your way.

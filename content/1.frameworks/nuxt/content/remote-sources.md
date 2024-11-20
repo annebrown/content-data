@@ -58,3 +58,16 @@ No additional costs at runtime.  Content fetched and built into static pages dur
 Content fetched at runtime. Edge Network optimizes and caches content. Actual cost impact depends on usage patterns, like update freq and number of received requests.
 
 Use caching strategies to minimize repeated requests to remove content source.
+
+## Local Dev
+
+Config `nuxt.config.ts` to access locally cloned content repo,   to avoid deployment rebuilds for previewing changes:
+
+```js
+local: {
+    prefix: '/local', // Prefix for routes
+    driver: 'fs',
+    base: resolve(__dirname, '/path/to/repo/content'),
+},
+```
+

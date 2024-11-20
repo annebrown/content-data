@@ -3,10 +3,6 @@ title: Navi
 description: MkDocs Navi
 ---
 
-## Description
-
-{{ description }}
-
 ## `nav` Config Setting
 
 The `/mkdocs.yml` file's `nav:` config setting defines global site navi contents and structure.  
@@ -29,4 +25,4 @@ If both an `index.md` and a `README.md` are found in a dir, `README.md` is ignor
 
 ## awesome-pages Plugin
 
-The powerful [mkdocs-awesome-pages-plugin](../mkdocs/add-ons/mkdocs-awsome-pages-plugin.md) provides essential, custom navi.
+[mkdocs-awesome-pages-plugin](../mkdocs/add-ons/mkdocs-awsome-pages-plugin.md) provides essential, custom navi.

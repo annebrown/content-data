@@ -1,4 +1,4 @@
---
+---
 title: getStaticProps
 description: SSG Fetch
 ---
@@ -8,7 +8,7 @@ description: SSG Fetch
   
 ## Example:
 
-Fetch posts from an API and display on page:
+Fetch posts from API and display on page:
 
 ```js
 // pages/posts.js

@@ -60,4 +60,4 @@ npm run dev  # URL: http://localhost:3000
 
 ## First Impressions
 
-Next.js site up and running on dev server with two commands.  Next.js and React have totes excellent documentation.  Customization and deploy to Vercel with custom domain, is extrememly rapid and flawless.  LAMP this is not.
+Next.js site up and running on dev server with two commands.  Next.js and React have lots of documentation and an active support commmunity.  Customization and deploy to Vercel with custom domain, is extrememly rapid and flawless.  LAMP this is not.

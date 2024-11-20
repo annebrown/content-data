@@ -5,7 +5,7 @@ description: Configure New Development Environment
 
 ## Usage
 
-Instructions for creating a new dev env for use on bare metal hosts, VM and cloud (GitPod).
+Instructions for creating a new dev env for use on bare metal hosts, VM and cloud VSCode hosts.
 
 ## Dotfiles
 
@@ -20,14 +20,8 @@ $ stow bash vim code hyper konsole
 $ bash
 ```
 
-## Auth
+##  Configure Git
 
-### Install Pwd Mgr
+Install GitHub Mobile on mobile devices.  
 
-Install fav pwd mgr extension on fav browsers.
-
-###  Two Factor Authn
-
-For convenient 2FA, install GitHub Mobile, from Playstore, on phone and other mobile devices.  
-
-# [Configure Git](../../apps/git/index.md)
+[Configure Git](../../apps/git/index.md)

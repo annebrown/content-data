@@ -11,7 +11,15 @@ Automatic, periodic git fetch on remotes:
 
 ```"git.autofetch": true,``` 
 
-## MarkdownLint
+
+## `markdownlint.config`
+
+See [Markdown Rules](https://github.com/DavidAnson/vscode-markdownlint#Rules)
+
+    "markdownlint.config": {
+        "MD025": false,
+        "MD007": { "indent": 4 },
+        "no-hard-tabs": false
 
 ### MD007/ul-indent
 

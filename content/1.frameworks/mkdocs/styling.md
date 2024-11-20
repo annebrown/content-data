@@ -3,10 +3,6 @@ title: Styling
 description: Styling MkDocs
 ---
 
-## Description
-
-{{ description }}
-
 ## Markdown Extra
 
 ### Block Elements

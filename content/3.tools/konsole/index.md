@@ -5,10 +5,6 @@ tags:
   - Konsole
 ---
 
-## Description
-
-{{ description }}
-
 ## Useful Shortcuts
 
 `Ctrl-Shift (` - Split right
@@ -22,8 +18,6 @@ Konsole profiles and bookmarks are located here:
 Use [dotfiles](../../../dev/projects/index.md) to store Konsole config.
 
 ## Create New Profile
-
-Download approp icon, ex: Mkdocs icon, for use in new profile.
 
 Create new profile:
 
@@ -54,7 +48,7 @@ alias | grep [the-profile-name]
 
 ### docserver 
 
-MkDocs - docs-pub (docs.annebrown.ca)
+MkDocs - docs-pub 
 
 #### GUI
 
@@ -66,7 +60,7 @@ General:
 
 Tabs:
 
-- Tab title format: MkDocs - docs.annebrown.ca
+- Tab title format: MkDocs 
 
 Appearance: 
 

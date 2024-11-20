@@ -3,10 +3,6 @@ title: Hyper Plugins
 description: All About Hyper Plugins
 ---
 
-## Description
-
-{{ description }}
-
 ## Installed Plugins
 
 List installed plugins:
