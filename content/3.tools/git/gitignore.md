@@ -7,20 +7,18 @@ tags:
 
 ## Description
 
-Collection of {{ description }} for Reuse
-
-## MkDocs
-.cache      # Dev env
-.site       # build
-
-## Project-Wide
-
-```txt
-.notes/     # Publish Not - clipboard, CLI scratchpad, etc.          
-```
-## Node
+.cache     
+.site       
+.env
+.notes/     # Publish Pas - clipboard, CLI scratchpad, etc.          
 node_modules
-
-## Python
-.venv     # Dev Python interpreter and pkgs
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.data
+.env
+dist
+.venv     # Python interpreter and pkgs
 
