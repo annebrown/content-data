@@ -1,7 +1,6 @@
 ---
-title: 'Docs'
+title: 'Headless CMS'
 description: 'Technical Ref Docs'
-toc: false
 ---
 
 For capture, storage and access to dev data.

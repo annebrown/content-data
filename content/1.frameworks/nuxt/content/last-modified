@@ -1,0 +1,103 @@
+---
+titled: Last Modified
+description: Last Modified Date
+---
+
+## Co-Located Content
+
+`/pages/[...slug].vue`:
+
+```vue
+<template>
+  <div v-if="page">
+    <h1>{{ page.title }}</h1>
+    <p v-if="page.updatedAt">Last modified: {{ formatDate(page.updatedAt) }}</p>
+    <p v-if="page.description">{{ page.description }}</p>
+    <ContentRenderer :value="page" />
+  </div>
+</template>
+
+<script setup>
+const route = useRoute()
+const { data: page } = await useAsyncData(`content-${route.path}`, () => 
+  queryContent(route.path).findOne()
+)
+
+function formatDate(date) {
+  return new Date(date).toLocaleString()
+}
+</script>
+```
+
+## Remote Source
+
+Nuxt Content doesn't provide last mod date for files in a remote source. This info must be fetched from the GitHub API.
+
+Server route `server/api/github-file-info.ts` to fetch file info from GitHub :
+
+```vue
+import { defineEventHandler } from 'h3'
+
+export default defineEventHandler(async (event) => {
+  const query = getQuery(event)
+  const filePath = query.path as string
+  const [owner, repo, ...pathParts] = filePath.split('/')
+  const path = pathParts.join('/')
+
+  const url = `https://api.github.com/repos/${owner}/${repo}/commits?path=${path}&per_page=1`
+  
+  const response = await fetch(url)
+  const data = await response.json()
+
+  if (data.length > 0) {
+    return { lastModified: data[0].commit.committer.date }
+  }
+  
+  return { lastModified: null }
+})
+```
+pages/[...slug].vue file to use this API:
+
+```vue
+<template>
+    ...
+    <p v-if="lastModified">Last modified: {{ formatDate(lastModified) }}</p>
+    ...
+</template>
+
+
+<script setup lang='ts'>
+const route = useRoute()
+const { data: page } = await useAsyncData(`content-${route.path}`, () => 
+  queryContent(route.path).findOne()
+)
+
+const { data: fileInfo } = await useFetch('/api/github-file-info', {
+  query: { 
+    path: `${process.env.GITHUB_REPO}/${page.value._file}` 
+  }
+})
+
+const lastModified = computed(() => fileInfo.value?.lastModified)
+
+function formatDate(date) {
+  return new Date(date).toLocaleString()
+}
+</script>
+```
+
+`nuxt.config.ts`:
+
+```ts
+export default defineNuxtConfig({
+  // ... other config
+  runtimeConfig: {
+    public: {
+      GITHUB_REPO: 'owner/repo-name'
+    }
+  }
+})
+
+```
+
+Server route fetches last commit info for a specific file from the GitHub API.
