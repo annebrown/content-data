@@ -3,8 +3,6 @@ title: Angular
 description: Open-source, Full-Stack, Web App Framework
 tags:
   - Angular
-hide:
-  - toc
 ---
 
 > Well documented, scaleable, highly efficient, web dev framework with a rich set of tools, APIs and libs, and a large and active community.

@@ -1,6 +1,6 @@
 ---
-title: Components
-description: Syntax for Using a Nuxt Component in MDC
+title: MDC
+description: Markdown Components 
 ---
 
 ::card

@@ -5,7 +5,7 @@ description: Docs-based SSG, written in Python
 
 MkDocs and its [add-ons](../mkdocs/add-ons/index.md), provide a framework for deploying documention-based static sites.  
 
-MkDocs is quick to learn and deploy.  It's specific focus and design make it suitable for a customizable, rapid, efficient and SSG.  While it doesn't require as much coding knowledge as some other framweorks, it also offers less control over the design and layout.
+MkDocs is quick to learn and deploy.  It's specific focus and design make it suitable for a customizable, fast, and efficient SSG.  While it doesn't require as much coding knowledge as some other framweorks, tradeoffs include less control over design and layout.
 
 ::alert{type="warning" icon="exclamation-circle"}
 Your warning message goes here.

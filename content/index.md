@@ -1,6 +1,8 @@
 ---
-title: 'Headless CMS'
-description: 'Technical Ref Docs'
+title: 'Public'
+description: 'For capture, storage and access to public dev data'
 ---
 
-For capture, storage and access to dev data.
+## Purpose
+
+For capture, storage and access to public dev data.
