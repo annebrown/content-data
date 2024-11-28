@@ -1,5 +1,5 @@
 ---
-title: Cheatsheet
+title: LifeParticle Cheatsheet
 description: Ultimate Markdown Cheatsheet
 tags:
   - Cheatsheet

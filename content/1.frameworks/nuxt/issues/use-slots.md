@@ -25,7 +25,7 @@ description: Some Description
 ---
 ```
 
-To prevent this error yml code from rendering on the page, use a `/pages/[...slug].vue` like: 
+To prevent this error yml code from rendering on the page, use `<contentRenderer>` like`/pages/[...slug].vue`: 
 
 ```vue
 <template>

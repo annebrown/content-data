@@ -1,8 +1,8 @@
 ---
 title: 'Public'
-description: 'For capture, storage and access to public dev data'
+description: 'Public Development Data'
 ---
 
 ## Purpose
 
-For capture, storage and access to public dev data.
+For capture, storage and access to non-sensitive dev data

@@ -1,4 +1,9 @@
-# Text Color
+---
+title: MathJax
+description: MathJax Colors
+---
+
+##Text Color
 
 Using MathJax syntax:
 
