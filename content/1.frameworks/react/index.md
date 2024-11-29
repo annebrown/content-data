@@ -1,6 +1,6 @@
 ---
 title: 'React'
-description: 'Open-Source Front-End JavaScript UI Lib'
+description: 'Front-End JavaScript UI Lib'
 ---
 
 My notes on React, {{ description }}

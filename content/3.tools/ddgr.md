@@ -1,5 +1,5 @@
 ---
-title: ddgr TTY Browser
+title: ddgr
 description: DuckDuckGo TTY Web Browser
 tags:
   - DuckDuckGo

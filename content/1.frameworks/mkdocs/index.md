@@ -7,12 +7,9 @@ MkDocs and its [add-ons](../mkdocs/add-ons/index.md), provide a framework for de
 
 MkDocs is quick to learn and deploy.  It's specific focus and design make it suitable for a customizable, fast, and efficient SSG.  While it doesn't require as much coding knowledge as some other framweorks, tradeoffs include less control over design and layout.
 
-::alert{type="warning" icon="exclamation-circle"}
-Your warning message goes here.
-::
-
-::alert{type="warning"}
-Your warning message goes here.
+::UAlert{icon="i-heroicons-command-line" color="primary" variant="solid"}
+title: "Heads up!"
+description: "You can add components to your app using the cli."
 ::
 
 ::alert{type="warning"}

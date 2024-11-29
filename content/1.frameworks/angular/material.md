@@ -1,5 +1,5 @@
 ---
-title: Material for Angular
+title: Material 
 description: Material Styling for Angular Apps
 ---
 

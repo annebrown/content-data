@@ -1,6 +1,6 @@
 ---
-title: Meta Built-in Plugin
-description: Meta Material Built-In Plugin
+title: Meta
+description: Material Built-In Plugin
 tags:
   - Meta Plugin
 ---

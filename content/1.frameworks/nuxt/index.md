@@ -1,15 +1,12 @@
 ---
 title: 'Nuxt'
-description: 'Next Notes'
+description: 'Full-Stack Vue.js Framework'
 ---
 
 ## Nuxt Config
 
-### F Telemetry
-
 ```js
 export default defineNuxtConfig({
-    telemetry: false,
+    telemetry: false, // F Telemetry
 })
 ```
-

@@ -1,6 +1,6 @@
 ---
-title: awsome-pages Plugin
-description: Essential MkDocs Navi Plugin
+title: Awesome Pgs
+description: MkDocs Navi Plugin
 tags:
   - mkdocs-awesome-pages-plugin
 ---

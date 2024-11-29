@@ -1,6 +1,6 @@
 ---
-title: Material Theme
-description: Material for MkDocs Theme and Framework
+title: Material
+description: MkDocs Theme and Framework
 ---
 
 [Material](https://squidfunk.github.io/mkdocs-material/getting-started) is documentation framework and theme on top of [MkDocs](https://www.mkdocsorg).

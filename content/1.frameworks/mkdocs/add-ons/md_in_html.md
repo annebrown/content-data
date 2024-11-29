@@ -1,5 +1,5 @@
 ---
-title: md_in_html Built-In Extension
+title: md_in_html
 description: Allow HTML in Markdown Docs
 tag:
   - md_in_html
