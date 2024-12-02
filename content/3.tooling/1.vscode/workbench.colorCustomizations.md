@@ -1,6 +1,6 @@
 ---
-title: VSCode Workbench Colors
-description: VSCode Color Customization Ref
+title: Workbench Colors
+description: Custom Colors Ref
 tags:
   - VSCode
 ---

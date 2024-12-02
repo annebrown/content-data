@@ -1,4 +1,7 @@
-# Tailwind Colors - Hex
+---
+title: Color Codes
+description: Tailwind Hex Color Codes
+---
 
 ## Purpose
 

@@ -9,6 +9,8 @@ tags:
 
 Developed by Google.
 
-Angular is used for building SPAs, whereby all the necessary code is loaded in to a single page.
+Angular's SPA design, loads all necessary code into a single page.
 
-Content changes are rendered dynamically, loading only that part of the page that needs updating.  Reduces traffic and increases responsiveness.
+Content changes are rendered dynamically, loading only that part of the page that needs updating.  
+
+Reduces traffic and increases responsiveness.

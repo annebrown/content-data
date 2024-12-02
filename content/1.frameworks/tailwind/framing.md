@@ -1,5 +1,5 @@
 ---
-title: Tailwind
+title: Framing
 description: Borders, Outlines and Rings
 ---
 

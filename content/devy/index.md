@@ -5,9 +5,11 @@ navigation: false
 ---
 
 Internet 
+
 - global, dynamic network of computers that communicate according to standards and SLAs
 
 HTTP 
+
 - Hypertext Transfer Protocol
 - one of many sets of standards describing and recommending how internet computers should communicate
 - client-server model
@@ -26,4 +28,3 @@ HTTP
   - authn data
 - text code fmt, including links to other resources
 - resources accessable via URL form of URI
-

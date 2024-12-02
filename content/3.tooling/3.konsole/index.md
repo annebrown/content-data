@@ -1,19 +1,31 @@
 ---
 title: Konsole
-description: KDE Terminal Emulator Config
+description: KDE Terminal Emulator
 tags:
   - Konsole
 ---
 
 ## Useful Shortcuts
 
-`Ctrl-Shift (` - Split right
+Split right -  `Ctrl-Shift-(`
+
+
+Split up    - `Ctrl-Shift-[`
+ 
 
 ## Config File
 
 Konsole profiles and bookmarks are located here:
 
 ```~/.local/share/konsole```
+
+Example:
+
+```bash
+angular.profile
+nuxt.profile
+bookmarks.xml
+```
 
 Use [dotfiles](../../../dev/projects/index.md) to store Konsole config.
 

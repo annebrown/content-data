@@ -26,7 +26,7 @@ module.exports = {
 /* @@/tailwind.config.js */
 ```
 
-## Add TW Directives to Project CSS
+## Add Tailwind Directives
 
 ```css
 /* @/assets/styles/fleet.css /*

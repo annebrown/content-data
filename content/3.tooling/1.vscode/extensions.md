@@ -1,6 +1,6 @@
 ---
 title: Extensions
-description: VSCode Extension Config
+description: VSCode Extension Configuration
 tags:
   - VSCode
 ---

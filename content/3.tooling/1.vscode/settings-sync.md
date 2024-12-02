@@ -1,6 +1,6 @@
 ---
 title: Settings Sync
-description: Syncs VSCODE Config Settings Across Dev Envs
+description: Sync VSCODE Config
 ---
 
   - Extensions Settings
