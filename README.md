@@ -1,13 +1,9 @@
-# Content Data
+# content-data
 
 ## Description
 
-Headless MDC CMS
+Headless Markdown CMS
 
-## Repo
+Repo: [content-data](https://github.com/annebrown/content-data.git)
 
-[content-data](https://github.com/annebrown/content-data.git)
-
-## Client
-
-[Demo](https://misscommunication.ca)
+Headless Client Demo:  [Demo](https://misscommunication.ca)

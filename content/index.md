@@ -1,6 +1,6 @@
 ---
-title: 'Public'
-description: 'Public Dev Docs'
+title: 'Docs'
+description: 'Dev Docs'
 ---
 
 ## Purpose
