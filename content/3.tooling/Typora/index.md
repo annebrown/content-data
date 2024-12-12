@@ -1,6 +1,7 @@
 ---
 title: Typora
 description: Markdown Tool
+navigation: 'false'
 ---
 
 Not suitable for markdown editing:

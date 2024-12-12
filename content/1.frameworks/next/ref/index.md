@@ -1,6 +1,7 @@
 ---
 title: Next.js Ref
 description: Next.js Ref Notes
+navigation: false
 ---
 
 ## File Stru

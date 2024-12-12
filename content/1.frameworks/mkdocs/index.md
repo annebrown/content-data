@@ -1,6 +1,7 @@
 ---
 title: MkDocs
 description: Docs-based SSG, written in Python
+navigation: false
 ---
 
 MkDocs and its [add-ons](../mkdocs/add-ons/index.md), provide a framework for deploying documention-based static sites.  

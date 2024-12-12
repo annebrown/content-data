@@ -1,6 +1,7 @@
 ---
 title: ChromeOS
 description: Linux-based OS
+navigation: 'false'
 ---
 
 ## [Linux Dev Env](LDE.md)

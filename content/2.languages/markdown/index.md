@@ -1,6 +1,7 @@
 ---
 title: Markdown
 description: Plain Text Markup Language
+navigation: 'false'
 ---
 
 ## Links

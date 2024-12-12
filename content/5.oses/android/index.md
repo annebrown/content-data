@@ -1,6 +1,7 @@
 ---
 title: Android
 description: Mobile Operating System
+navigation: 'false'
 ---
 
 - [New Host Config](new-host-config.md)

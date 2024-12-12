@@ -1,10 +1,7 @@
 ---
 title: OSes
 description: Operating Systems
-tags:
-  - OSes
-hide:
-  - toc
+navigation: false
 ---
 
 Cards Here

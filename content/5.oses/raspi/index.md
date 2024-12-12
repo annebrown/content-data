@@ -3,6 +3,7 @@ title: RasPi
 description: RaspPi Operating System
 tags:
   - RasPi
+navigation: 'false'
 ---
 
 ## Shortcuts

@@ -1,6 +1,7 @@
 ---
 title: 'Docs'
 description: 'Dev Docs'
+navigation: 'false'
 ---
 
 ## Purpose

@@ -1,6 +1,7 @@
 ---
 title: Data Fetching
 description: Fetching Customizations
+navigation: false
 ---
 
 ## Intro

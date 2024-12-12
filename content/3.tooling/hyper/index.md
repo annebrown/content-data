@@ -1,6 +1,7 @@
 ---
 title: Hyper
 description: Terminal Emulator
+navigation: 'false'
 tags:
   - Hyper
 ---

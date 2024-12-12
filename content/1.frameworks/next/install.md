@@ -1,8 +1,6 @@
 ---
 title: Setup
 description: Next.js App Setup
-tags:
-  - Next.js
 ---
 
 ## Create Next.js App

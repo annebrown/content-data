@@ -1,6 +1,7 @@
 ---
 title: Git
 description: Git Config
+navigation: 'false'
 tags:
   - Git
 ---

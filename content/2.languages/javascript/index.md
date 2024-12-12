@@ -1,9 +1,7 @@
 ---
 title: JavaScript
 description: JavaScript Programming Lang
-tags:
-  - JavaScript
-  - Risks
+navigation: false
 ---
 
 - For creating dynamic, interactive content

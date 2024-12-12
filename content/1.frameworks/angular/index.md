@@ -1,8 +1,7 @@
 ---
 title: Angular
 description: Full-Stack JavaScript Framework
-tags:
-  - Angular
+navigation: false
 ---
 
 > Well documented, scaleable, efficient, web dev framework with a rich set of tools, APIs and libs, and a large and active community.

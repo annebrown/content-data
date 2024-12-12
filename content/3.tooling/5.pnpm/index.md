@@ -1,6 +1,7 @@
 ---
 title: pnpm
 description: Node Module Manager
+navigation: 'false'
 ---
 
 ## pnpm Equivalents for npm CLI

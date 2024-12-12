@@ -1,6 +1,7 @@
 ---
 title: Pinia
 description: Store Lib for Vue
+navigation: 'false'
 ---
 
 ## Installation

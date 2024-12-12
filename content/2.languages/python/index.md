@@ -1,6 +1,7 @@
 ---
 title: Python
 description: Programming Language
+navigation: 'false'
 ---
 
 ## Install

@@ -1,6 +1,7 @@
 ---
 title: Vim
 description: Essential dev tool
+navigation: 'false'
 tags:
   - Vim
 ---

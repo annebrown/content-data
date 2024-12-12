@@ -1,6 +1,7 @@
 ---
 title: PWAs
 description: Progressive Web Apps
+navigation: 'false'
 ---
 
 ## Description

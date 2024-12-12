@@ -1,6 +1,7 @@
 ---
 title: Gnome Desktop
 description: Gnome Desktop Config
+navigation: 'false'
 ---
  
 ## Dark Theme
