@@ -11,20 +11,20 @@ Internet
 HTTP 
 
 - Hypertext Transfer Protocol
-- one of many sets of standards describing and recommending how internet computers should communicate
-- client-server model
-- request-response cycle
-- request actions:
+- one of many sets of standards recommending how Internet computers should communicate
+- Client-server model
+- Request-response cycle
+- Request actions:
   - GET - retrieve resource
   - POST: - send data for processing
   - PUT: - modify existing resource
-  - DELETE: - removes a resource
-- response codes:
+  - DELETE: - remove resource
+- Response codes:
   - 200 OK - Success 
   - 400 Not Found
   - 500 Internal Server Error
-- response/request headers
+- Response/request headers
   - content meta
   - authn data
-- text code fmt, including links to other resources
-- resources accessable via URL form of URI
+- Text code fmt, including links to other resources
+- Resources accessible via URL form of URI
