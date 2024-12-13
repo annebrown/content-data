@@ -1,7 +1,7 @@
 ---
-title: 'Docs'
-description: 'Dev Docs'
-navigation: 'false'
+title: Docs
+description: Dev Docs
+navigation: false
 ---
 
 ## Purpose
