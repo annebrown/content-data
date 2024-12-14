@@ -1,6 +1,6 @@
 ---
 title: Config
-description: @Nuxt/Content Config
+description: '@Nuxt/Content Config'
 ---
 
 ```ts
@@ -8,7 +8,7 @@ description: @Nuxt/Content Config
 content: {
     documentDriven: true,
 
-    // Ignore "Number Dot" ordering in /content
+    // RegExp -  Ignore "Number Dot" ordering in /content
     ignores: ['^\\.', '^-', '^[0-5]\\d*\\.'],
 
     highlight: {

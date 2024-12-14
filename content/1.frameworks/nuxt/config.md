@@ -5,7 +5,7 @@ description: Nuxt Configuration
 
 ## Modules
 
-Module order matters.  Ask Nuxt Docs AI for useful deets.  Some of the AI-suggested orders are incorrect.  This specific module order works as intended, without error or conflict: 
+Module order matters.  This specific module order works as intended, without error or conflict: 
 
 ```ts
     modules: [
@@ -22,20 +22,26 @@ Module order matters.  Ask Nuxt Docs AI for useful deets.  Some of the AI-sugges
 ## Telemetry
 
 ```js
-export default defineNuxtConfig({
     telemetry: false, // F Telemetry
-})
 ```
 
 ## Content
 
 See [Nuxt/Content/config](/content/1.frameworks/nuxt/content/config.md).
 
-## Color Mode
+## Styles
+
+### CSS
+
+```TS
+css: ['@/assets/styles/fleet.css', '@/assets/styles/ship.css'],
+```
+
+### Color Mode
 
 ```ts
     colorMode: {
-        preference: 'dark', // default value of $colorMode.preference
+        preference: 'dark', // $colorMode default
     },
 ```
 
@@ -60,6 +66,7 @@ See [Nuxt/Content/config](/content/1.frameworks/nuxt/content/config.md).
           failOnError: false,
         },
       },
+
     compatibilityDate: '2024-09-28',
 
     components: true,

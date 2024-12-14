@@ -1,9 +1,9 @@
 ---
-title: Docs
-description: Dev Docs
+title: Public
+description: Public Technology Devevelopment Docs
 navigation: false
 ---
 
 ## Purpose
 
-For capture, storage and access to non-sensitive development docs and data
+For capture, storage and access to non-sensitive technology development docs and data
