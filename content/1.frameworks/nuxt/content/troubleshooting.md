@@ -5,7 +5,8 @@ description: Troubleshooting Nuxt/Content
 
 ## Display Page Meta
 
-```<template>
+```vue
+<template>
   <div>
     <h1>Debug Information</h1>
     <p>Path: {{ path }}</p>
@@ -27,4 +28,5 @@ const path = route.path
 const { data: page } = await useAsyncData(`content-${path}`, () => 
   queryContent(path).findOne()
 )
-</script>```
+</script>
+```

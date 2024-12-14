@@ -6,4 +6,4 @@ Headless Markdown CMS
 
 Repo: [content-data](https://github.com/annebrown/content-data.git)
 
-Client Demo:  [Demo](https://misscommunication.ca)
+Client Demo:  [Demo](https://docs.annebrown.ca)
