@@ -1,15 +1,19 @@
 ---
 title: HTTP
-description: Web Development Notes
+description: Hypertext Transfer Protocol
 ---
 
-Internet 
+## Description
 
-- global, dynamic network of computers that communicate according to standards and SLAs
+Internet:
+Global, dynamic network of computers that communicate according to protocols, standards, recommendations, SLAs, politics and other influences
 
-HTTP 
+HTTP:
 
-- Hypertext Transfer Protocol
+Rules governing how data is transmitted over the internet
+
+## Deets
+
 - one of many sets of standards recommending how Internet computers should communicate
 - Client-server model
 - Request-response cycle
