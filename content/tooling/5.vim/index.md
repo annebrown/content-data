@@ -1,11 +1,9 @@
 ---
 title: Vim
 description: Essential dev tool
-navigation: 'false'
-tags:
-  - Vim
+navigation: false
 ---
-  
+
 ## Config
 
 Delete `~/.vimrc` file and `~/.vim` dir

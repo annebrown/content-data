@@ -1,7 +1,7 @@
 ---
 title: JavaScript
 description: JavaScript Programming Lang
-
+navigation: false
 ---
 
 - For creating dynamic, interactive content

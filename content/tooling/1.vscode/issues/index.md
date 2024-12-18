@@ -1,5 +1,6 @@
 ---
 title: Issues
-description: MkDocs Issues
+description: VSCode Issues
 navigation: false
 ---
+

@@ -1,9 +1,7 @@
 ---
 title: Refs
 description: Markdown Ref Data & Cheatsheets
-navigation: 'false'
-tags:
-  - Cheatsheet
+navigation: false
 ---
 
 ## Escaping

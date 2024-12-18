@@ -1,9 +1,7 @@
 ---
 title: RasPi
 description: RaspPi Operating System
-tags:
-  - RasPi
-navigation: 'false'
+navigation: false
 ---
 
 ## Shortcuts
@@ -75,5 +73,4 @@ sudo raspi-config
 ```bash
 sudo raspi-config noint <command> <args> [optional-args]
 ```
-
 

@@ -1,6 +1,7 @@
 ---
 title: ULink
 description: ULink Component
+navigation: false
 ---
 
 `ULink` from Nuxt's @nuxt/ui module adds these props to `<NuxtLink>`:

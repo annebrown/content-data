@@ -1,7 +1,7 @@
 ---
 title: 'React'
 description: 'Front-End JavaScript UI Lib'
-navigation: 'false'
+navigation: false
 ---
 
 My notes on React, {{ description }}

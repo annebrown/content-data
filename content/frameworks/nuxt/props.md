@@ -6,7 +6,7 @@ order: 10
 
 ## Props & Properties
 
-### Props 
+### Props
 
 Props, in Vue.js and Nuxt, are a way to pass data from a parent component to a child component.  They are custom attributes that can be registerd on a component.
 

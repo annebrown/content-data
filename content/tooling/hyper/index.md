@@ -1,9 +1,7 @@
 ---
 title: Hyper
 description: Terminal Emulator
-navigation: 'false'
-tags:
-  - Hyper
+navigation: false
 ---
 
 ## Useful Shortcuts

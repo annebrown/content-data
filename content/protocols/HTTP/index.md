@@ -1,6 +1,7 @@
 ---
 title: HTTP
 description: Hypertext Transfer Protocol
+navigation: false
 ---
 
 ## Description

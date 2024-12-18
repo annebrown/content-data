@@ -1,7 +1,6 @@
 ---
 title: Linux
 description: Linux Operating System
-navigation: 'false'
+navigation: false
 ---
 
-Cards Here

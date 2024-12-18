@@ -1,7 +1,7 @@
 ---
 title: Tooling
 description: Development Tools
-navigation: 'false'
+navigation: false
 ---
 
  ## Description

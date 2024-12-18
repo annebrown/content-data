@@ -1,7 +1,7 @@
 ---
 title: Firefox
 description: Firefox Browser
-navigation: 'false'
+navigation: false
 tags:
   - Firefox
 ---

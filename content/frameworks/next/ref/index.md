@@ -1,7 +1,7 @@
 ---
 title: Next.js Ref
 description: Next.js Ref Notes
-
+navigation: false
 ---
 
 ## File Stru
@@ -23,13 +23,12 @@ app/
         page.tsx       # Route: /docs
         section1/
             page.tsx   # Route: /docs/section1
-    
 ```
 
 ## Page
 
 - route UI
- 
+
 ## Layout
 
 - Shared UI for folder and children

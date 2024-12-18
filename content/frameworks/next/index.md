@@ -1,7 +1,7 @@
 ---
 title: Next.js
 description: Full-stack, React Framework
-
+navigation: false
 ---
 
 ## Description

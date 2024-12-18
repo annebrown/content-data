@@ -1,7 +1,7 @@
 ---
 title: Python
 description: Programming Language
-navigation: 'false'
+navigation: false
 ---
 
 ## Install
@@ -20,7 +20,7 @@ Update local PPA cache:
 sudo apt update
 ```
 Install selected version:
- 
+
 ```bash
 sudo apt-get install python3.12 python3-pip
 ```

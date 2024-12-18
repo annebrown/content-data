@@ -1,7 +1,7 @@
 ---
 title: HTML
 description: HyperText Markup Language
-navigation: 'false'
+navigation: false
 ---
 
 

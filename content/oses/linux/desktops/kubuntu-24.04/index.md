@@ -1,7 +1,7 @@
 ---
 title: Kubuntu 24.04 Desktop
 description: KDE Config and Issues
-navigation: 'false'
+navigation: false
 ---
 
 ## [Bluetooth](bluetooth.md)

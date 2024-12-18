@@ -1,6 +1,7 @@
 ---
 title: Default
 description: Same Default Layout
+navigation: false
 ---
 
 `@/layouts/default.vue`:

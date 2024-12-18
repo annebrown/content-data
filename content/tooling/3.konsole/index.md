@@ -1,9 +1,7 @@
 ---
 title: Konsole
 description: KDE Terminal Emulator
-navigation: 'false'
-tags:
-  - Konsole
+navigation: false
 ---
 
 ## Useful Shortcuts
@@ -12,7 +10,7 @@ Split right -  `Ctrl-Shift-(`
 
 
 Split up    - `Ctrl-Shift-[`
- 
+
 
 ## Config File
 

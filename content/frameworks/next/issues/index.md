@@ -1,5 +1,5 @@
 ---
 title: Issues
-description: MkDocs Issues
+description: Next Issues
 navigation: false
 ---

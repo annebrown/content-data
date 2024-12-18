@@ -1,6 +1,7 @@
 ---
 title: Nuxt Config
 description: Nuxt VSCode Config
+navigation: false
 ---
 
 ## Autocomplete

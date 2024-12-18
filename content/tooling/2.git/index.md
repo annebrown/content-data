@@ -1,9 +1,7 @@
 ---
 title: Git
 description: Git Config
-navigation: 'false'
-tags:
-  - Git
+navigation: false
 ---
 
 ## Git Global Config
@@ -38,4 +36,3 @@ gh auth login # Opens browser for authn
 <div class="ab-buttons">
     <div class="item-00 box1"><a href="../git/gitignore/">.gitinore</a></div>
 </div>
-

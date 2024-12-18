@@ -1,6 +1,7 @@
 ---
 title: Issues
 description: Nuxt Issues
+navigation: false
 ---
 
 ## Purpose

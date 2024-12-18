@@ -1,7 +1,7 @@
 ---
 title: pnpm
 description: Node Module Manager
-navigation: 'false'
+navigation: false
 ---
 
 ## CLI

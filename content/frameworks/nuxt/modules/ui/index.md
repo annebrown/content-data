@@ -1,7 +1,7 @@
 ---
 title: NuxtUI
 description: NuxtUI Module
-
+navigation: false
 ---
 
 ## Description

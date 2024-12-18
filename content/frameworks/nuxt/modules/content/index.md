@@ -1,7 +1,7 @@
 ---
 title: Content
 description: Nuxt Content Module
-
+navigation: false
 ---
 
 ## Purpose

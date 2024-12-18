@@ -1,6 +1,7 @@
 ---
 title: 'Frameworks'
 description: 'Technology Development Frameworks'
+navigation: false
 ---
 
 ## Description

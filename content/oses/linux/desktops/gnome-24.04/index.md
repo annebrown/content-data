@@ -1,9 +1,9 @@
 ---
 title: Gnome Desktop
 description: Gnome Desktop Config
-navigation: 'false'
+navigation: false
 ---
- 
+
 ## Dark Theme
 
 ```bash
