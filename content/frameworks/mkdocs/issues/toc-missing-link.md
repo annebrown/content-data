@@ -1,13 +1,6 @@
 ---
 title: TOC Missing a Link
 description: Awesome Pages Not Attaching URL to TOC Sidebar Entry
-tags:
-    - Issues
-    - MkDocs
-    - awesome-pages
-    - mkdocs-awesome-pages-plugin
-    - TOC
-    - OPEN
 ---
 
 - Tech dir has:

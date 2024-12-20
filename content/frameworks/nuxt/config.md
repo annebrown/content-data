@@ -3,7 +3,26 @@ title: Config
 description: Nuxt Configuration
 ---
 
-## Modules
+## package.json
+
+### Dev Server
+
+Config dev server IP addy and assign port number:
+
+```json
+{
+    "name": "project-name",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt dev --host 192.168.5.555 --port 5555",
+		...
+    },
+...
+```
+
+## nuxt.config.ts
+
+### Modules
 
 Module order matters.  This specific module order works as intended, without error or conflict: 
 
@@ -19,25 +38,25 @@ modules: [
 ],
 ```
 
-## Telemetry
+### Telemetry
 
 ```js
 telemetry: false, // F Telemetry
 ```
 
-## Content
+### Content
 
 See [Nuxt/Content/config](/content/1.frameworks/nuxt/content/config.md).
 
-## Styles
+### Styles
 
-### CSS
+CSS:
 
 ```TS
 css: ['@/assets/styles/fleet.css', '@/assets/styles/ship.css'],
 ```
 
-### Color Mode
+Color Mode:
 
 ```ts
 colorMode: {
@@ -45,7 +64,7 @@ colorMode: {
 },
 ```
 
-## Misc
+### Misc
 
 ```ts
 

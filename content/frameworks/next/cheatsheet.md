@@ -1,4 +1,4 @@
---- 
+---
 title: Cheatsheet
 description: Next.js commands and notes
 tags:
@@ -9,9 +9,9 @@ tags:
 ## Commands
 
 | Action          | Command                          |
-|---------------- | -------------------------------- |
+| --------------- | -------------------------------- |
 | New Next.js App | ```npx create-next-app@latest``` |
-| Dev Svr         | ```npm run dev```                |
+| Dev Svr         | ```pnpm dev```                   |
 
 ## Basic App Stru
 
