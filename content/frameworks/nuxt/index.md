@@ -10,7 +10,7 @@ Open-source Vue.js-based, full-stack web framework,  supporting SSG, SSR and hyb
 
 Nuxt's component-based arch allows for independently developed, tested and maintained components, enabling intuitive patterns and consistent IF, simplifying code organization and collab. 
 
-Vite, Nuxt's default build tool, provides HMR and only compiles the code rqd for the current page or component, resulting in smaller bundle sizes, more efficient development and faster build times.  
+Vite, Nuxt's default build tool, provides HMR and only compiles the code rqd for the current page or component, resulting in smaller bundle sizes, and more efficient development, including faster build times.  
 
 Due to is strong emphasis on bundle size reduction, (including tree-shaking and other optimizations), and efficient use of Vue.js, Nuxt apps have a smaller code base compared to similarly focused frameworks.  It's extensive, built-in composables and components, plus large collection of widely supported modules,  help to further reduce app code footprint, while remaining highly scalable.
 
