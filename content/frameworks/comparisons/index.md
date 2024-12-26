@@ -1,9 +1,9 @@
 ---
 title: Comparisons
 description: Framework Comparison Notes
+navigation: false
 ---
 
 ## Purpose
 
-To compare similarly focused frameworks.
-
+To compare and benchmark similarly focused frameworks.

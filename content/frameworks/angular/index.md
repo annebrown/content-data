@@ -10,10 +10,10 @@ Developed by Google.
 
 Angular's SPA design, loads all necessary code into a single page.  
 
-Its heavy reliance on components as it fundamental building block, allows for independent development, maintenance, and testing, etc, of components.  This makes it easier to break complex tasks into smaller ones, making it more intuitive and enabling intuitive patterns and consistent IF, simplifying code organization and collab.
+Its heavy reliance on components as it fundamental building block, allows for independent development, maintenance, and testing, of components.  This makes it easier to break complex tasks into smaller ones, enabling more intuitive patterns, consistent IF, and simplifying code organization and collab.
 
-Content changes are rendered dynamically, loading only that part of the page that needs updating, thus reduces traffic and increasing responsiveness.
+Content changes are rendered dynamically, loading only that part of the page that needs updating, thus reducing traffic and increasing responsiveness.
 
-Angular's data binding help to build more dynamic interfaces.  
+Angular's data binding facilitates dynamic interface design.  
 
-Angular is particularly well-suited for large-scale, enterprise-level apps, due to its ability to handle large, robust, long term, complex projects with high performance and maintainability requirements.
+Angular is  particularly well-suited for large-scale, enterprise-level apps, due to its ability to handle large, robust, long term, complex projects with high performance and maintainability requirements.

@@ -3,15 +3,15 @@ title: Env Vars
 description: Nuxt Environment Variables
 ---
 
-Nuxt is built with [vite](https://vite.dev/).  See [Vite Env Var Handling](/content/2.tech/3.tools/vite/) for info regarding security, specificity, escaping special chars, etc.
+## Config File
 
-## Categories
+To make env vars accessible to `nuxt.config.ts`, place them in `@@/.env`.
 
-`.env.local` - local dev
+Vite uses the [dotenv](https://github.com/motdotla/dotenv) Node module, to load vars from `.env`, at dev build time.
 
 ## Config
 
-Place env vars in `@@/.env`.
+Add `.env` to `.gitignore`. 
 
 ### Runtime
 
@@ -30,14 +30,16 @@ export default defineNuxtConfig({
             
         },
     },  
-})
+}) 
 ```
 
-Env vars specified as `public` are avail to server-side code.  To make accessible to client-side code, prefix with `VITE_`.  
+## Usage
 
-## Access
+Restart server to collect the latest env var config.
 
 Only env vars prefixed with `VITE_` are available to server and client-side code.
+
+Loaded variables are exposed to Vite-processed **client** source code, using the `import.meta.env` object, as strings, including numbers and booleans.
 
 ### Components
 
@@ -46,7 +48,7 @@ Only env vars prefixed with `VITE_` are available to server and client-side code
 <p>Some Env Var: {{ $config.public.VITE_SOME_ENV_VAR }}</p>
 </template>
 ```
-### Server Code
+### API
 
 From `@/server/api/some-script.ts`:
 
@@ -57,5 +59,13 @@ export default defineEventHandler(async (event) => {
 });
 ```
 
+## Escaping
 
+Escape `$`  (dollar sign) with `/` (forward slash).
+
+## Priority
+
+Vars that exist prior to Vite (build) execution have highest priority and will not be overridden by `.env` files.
+
+Specificity takes precedence over generic.  `.env.production` is higher priority then `.env`.
 

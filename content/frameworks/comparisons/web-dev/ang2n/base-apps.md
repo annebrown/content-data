@@ -1,6 +1,6 @@
 ---
-title: Initial App
-description: Framework Initial App
+title: Initial Apps
+description: Initial Framework Apps
 ---
 
 ## Description
@@ -15,7 +15,7 @@ Create Angular app:
 ng new an ## No SSR, no SSG
 ```
 
-Backup Name: `~/testing/ang2n/an/backups/0000an-Base`
+Backup Name: `$PROJECTS-PUBLIC/ang2n/an/backups/0000an-origin`
 
 ### Notes
 
@@ -28,11 +28,12 @@ Create Next.js App:
 ```bash
 npx create-next-app@latest ne
 ```
-Backup Name: `~/testing/ang2n/ne/backups/0000ne-Base`
+
+Backup Name: $PROJECTS-PUBLIC/ang2n/ne/backups/0000ne-original
 
 ### Notes
 
-Includes Tailwind, ESLint, TypeScript, App Router and Turbopack.
+Accepted Tailwind, ESLint, TypeScript, App Router and Turbopack for initial app.
 
 ## Nuxt
 
@@ -42,4 +43,4 @@ Create Nuxt App:
 pnpm dlx nuxi@latest init nu
 ```
 
-Backup Name: `~/testing/ang2n/nu/backups/0000nu-Base`
+Backup Name: `$PROJECTS-PUBLIC/ang2n/nu/backups/0000nu-original

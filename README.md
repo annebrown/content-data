@@ -21,4 +21,3 @@ Clients:
 [https://gamma.annebrown.ca/public (Nuxt)](https://gamma.annebrown.ca/docs)
 
 [https://misscommunication.ca/public (Nuxt)](https://misscommunication.ca/public)
-

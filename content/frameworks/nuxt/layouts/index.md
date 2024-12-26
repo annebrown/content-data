@@ -1,67 +1,52 @@
 ---
-title: Default
-description: Same Default Layout
+title: Layout
+description: Nuxt Page Layout
 navigation: false
 ---
 
-`@/layouts/default.vue`:
+## Layout Files
 
-```js
-<template>
-  <div class="layout-container">
+There are many ways to affect layout in a Nuxt app.   
 
-      <ContentDoc v-slot="{ doc }">
-        <article v-if="doc">
-          <h1>{{ doc.title }}</h1>
-          <ContentRenderer :value="doc" />
-        </article>
-        <template #not-found>
-          <h1>Content not found</h1>
-          <p>The requested content could not be found.</p>
-        </template>
-      </ContentDoc>
+## app.vue
 
+`@/app.vue` is the central entry point for a Nuxt app, and is the wrapper for all other layouts and pages.
 
-    <aside v-if="navigation">
-      <ContentNavigation v-slot="{ navigation }">
-        <ul>
-          <li v-for="link of navigation" :key="link._path">
-            <NuxtLink :to="link._path">{{ link.title }}</NuxtLink>
-          </li>
-        </ul>
-      </ContentNavigation>
-    </aside>
+It renders content for every route, defines global UI elements, such as navi, header and footer, and provides structure for the entire Nuxt app. 
 
+### @/layouts Directory
 
-</div></template>
+The `@/layouts` dir can host a default layout file, plus, named layouts.  
 
-<script setup>
-import { useHead, useAsyncData, queryContent } from '#imports'
+### @/layouts/default.vue
 
-useHead({
-  titleTemplate: (titleChunk) => {
-    return titleChunk ? `${titleChunk} - My Nuxt Content Site` : 'My Nuxt Content Site'
-  },
+`@/layouts/default.vue` provides the structure for all pages not represented by named layouts, including @Nuxt/Content module's `@/contents`.  
+
+### @/layouts/named-layout.vue
+
+Named layouts override `@/layouts/default.vue`, and can be specified using either a compiler macro (`definePageMeta`), or by using the `<NuxtLayout>` component, in `@/app.vue` and any `.vue` file in the`@/pages` subtree, including , `@/pages/[<path>]/[slug].vue`.  
+
+#### definePageMeta
+
+This approach is less concise, moves the name away from where it is invoked, and doesn't allow for dynamic layout names, as supported by `<NuxtLayout>` (`definePageMeta is a compiler macro).  However it is it is the <em>recommended</em> way to specify static layouts.   
+
+`definePageMeta` is processed at compile time (better performance), and avoids hydration mismatches, which is a consideration when using dynamic layouts. 
+
+```vue
+<script setup lang="ts">
+definePageMeta({
+  layout: 'custom'
 })
-
-const { data: navigation } = await useAsyncData('navigation', () => 
-  queryContent().where({ _path: { $contains: '/navigation' } }).findOne()
-)
 </script>
-
-<style scoped>
-.layout-container {
-  display: grid;
-  grid-template-areas: 
-    "header header"
-    "nav main"
-    "footer footer";
-  grid-template-columns: 250px 1fr;
-  grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
-}
-
-aside { grid-area: nav; padding: 1rem; background-color: #f8f8f8; }
-
-</style>
 ```
+
+### <NuxtLayout>
+
+While not the recommended approach, the `<NuxtLayout>` component can be used in a template to specify named layouts, where dynamic layouts are required.
+
+Server-side layouts must be defined before layout rendering, requiring route middleware to avoid hydration mismatch.
+
+### [slug].vue and [...slug].vue
+
+`[...slug].vue` is a catch-all route, while `[slug].vue` privides more more specificity.  `[slug].vue` delivers dynamic routing and page layout for sibling pages in a sub-dir of the `@/pages` subtree.   While `[slug].vue` matches a single node of a routing tree, `[...slug].vue` matches sibling nodes, plus all other routes in the subtree.  It provides for multiple dynamic route segments, including nested dynamic routes.
+
