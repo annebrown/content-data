@@ -1,6 +1,5 @@
 ---
-title: OSes
-description: Operating Systems
-navigation: false
+title: 'OSes'
+description: 'Operating Systems'
+navigation: 'false'
 ---
-
