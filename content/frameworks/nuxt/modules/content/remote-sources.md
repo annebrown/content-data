@@ -29,7 +29,7 @@ content: {
 
 ## Workflow
 
-To publish changes, each deployment built using this remote source must be redeployed without existing cache.
+To publish changes, each deployment built using this remote source must be redeployed on the cloud-provider host.
 
 ## Added Costs
 
@@ -61,7 +61,9 @@ Use caching strategies to minimize repeated requests to remove content source.
 
 ## Local Dev
 
-Config `nuxt.config.ts` to access locally cloned content repo,   to avoid deployment rebuilds for previewing changes:
+### Clone External Sources
+
+Config `nuxt.config.ts` to access the locally cloned content repo:
 
 ```js
 local: {
@@ -70,4 +72,16 @@ local: {
     base: resolve(__dirname, '/path/to/repo/content'),
 },
 ```
+
+This allows for viewing modifications to the content, without waiting for the published app to re-deploy and rebuild it's /content cache.  As well, this reduces hosting costs as pricing is based on BW, serverless function execution, and build minutes.  
+
+### Developer Experience
+
+Local styling/layout, auth and other non-content mods can be v slow to render, even with relatively small `/content` sources.  
+
+@Nuxt/content `watcher` is a dev feature used to control content watching and trigger HMR.  
+
+#### watch
+
+See [watch](watch.md) for details on how to temporarily toggle the dev server to only use cached content. 
 

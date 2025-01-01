@@ -81,7 +81,7 @@ Solid-State-Drives Improve system responsiveness.
 
 ### CPU
 
-Upgrade CUP
+Upgrade CPU
 
 ### RAM
 
@@ -89,6 +89,20 @@ Upgrade RAM
 
 ## Workflow
 
-### Reload
+### Refresh
 
-Restart VSCode regularly, to release memory and improve performance.
+Restart VSCode to release memory.  
+
+Refresh code:
+
+```bash
+rm -rf node_modules .next[ or .nuxt or oth framework] .pnpm-lock
+pnpm i
+```
+
+Tree-shake unused pkgs:
+
+```bash
+pnpm prune
+```
+

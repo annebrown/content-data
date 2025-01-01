@@ -18,7 +18,7 @@ content: {
             light: 'github-light',
         },
 
-    langs: ['regexp', 'json', 'js', 'ts', 'tsx', 'html', 'css', 'vue','shell' , 'mdc', 'yaml', 'md', 'console', 'ini', 'java', 'diff' ],
+    langs: ['regexp', 'perl', 'json', 'js', 'ts', 'tsx', 'html', 'css', 'vue','shell' , 'mdc', 'yaml', 'md', 'console', 'ini', 'java', 'diff' ],
 			},
 
     sources: {

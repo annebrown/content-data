@@ -8,9 +8,13 @@ navigation: false
 
 Adds framework and tooling for a plain text Data Layer
 
-## CMS Formats
+## Data File Formats
 
 - Markdown
 - YML
 - CSV
 - JSON
+
+## Workflow
+
+After making changes to a remote `/content` source, any app that accesses that source, must be redeployed on the cloud-provider, in order to view those changes

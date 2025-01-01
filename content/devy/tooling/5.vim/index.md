@@ -1,6 +1,6 @@
 ---
 title: Vim
-description: Essential dev tool
+description: Efficient Editor
 navigation: false
 ---
 

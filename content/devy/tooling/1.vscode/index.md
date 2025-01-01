@@ -6,5 +6,5 @@ navigation: false
 
 ## Description
 
-V efficient, v portable code editor and dev tool.
+Efficient, portable code editor and dev tool.
 
