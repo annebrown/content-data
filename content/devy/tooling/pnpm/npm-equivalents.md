@@ -1,6 +1,6 @@
 ---
-title: npM Equivalents
-description: pnpm Equivalents for npm CLI
+title: 'npm Equivalents'
+description: 'pnpm Equivalents for npm CLI'
 ---
 
 ### Run nuxi CLI & Add Module

@@ -10,7 +10,7 @@ To research, analyze (dev experience, libs, etc.) and benchmark comparable, real
 
 ## Approach
 
-For each Framework being analyzed, create a publicly avail (no auth) web app, with the same data, design, components, structure, and configs, and with comparable tools (parsers, compilers, builder, bundler, etc.) and API calls.  This will focus benchmarking on core framework performance.
+For each Framework being analyzed, create a publicly avail (no auth, no ip-whitelist) web app, with the same data, design, components, structure, and configs, and with comparable tools (parsers, compilers, builder, bundler, etc.) and API calls.  This will focus benchmarking on core framework performance.
 
 ## Project Structure
 

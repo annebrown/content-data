@@ -6,4 +6,4 @@ navigation: false
 
 ## Description
 
-Libs and rule sets providing a structured coding foundation
+Libs and rule sets providing a structured development foundation
