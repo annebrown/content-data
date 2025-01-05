@@ -1,9 +1,9 @@
 ---
-title: Issues
-description: Electron Issues
-navigation: false
+title: 'Issues'
+description: 'Electron Issues'
+navigation: 'false'
 ---
 
 ## Purpose
 
-Record issues and solutions for reuse
+Record probs and solutions for reuse

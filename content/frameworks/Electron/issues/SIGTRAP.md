@@ -8,7 +8,6 @@ description: Common Electron Linux Error
 `electron exited with signal SIGTRAP`:
 
 ```bash 
-
 $ pnpm run start
 > shortcut-panel@1.0.0 start /home/anne/electron/shortcut-panel 
 > pnpm exec tsc && electron ./dist/main.js 
@@ -29,15 +28,14 @@ Configure the chrome-sandbox binary to be executed as root with mode '4755'.
 
 Get chrome-sandbox locn:
 
-```
+```bash
 $ find ./nodfind ./node_modules -name "chrome-sandbox"
 ./node_modules/.pnpm/electron@33.2.1/node_modules/electron/dist/chrome-sandbox
-
 ```
 
 Set setuid bit:
 
-```
+```bash
 sudo chown root:root ./node_modules/.pnpm/electron@33.2.1/node_modules/electron/dist/chrome-sandbox
 sudo chmod 4755 ./node_modules/.pnpm/electron@33.2.1/node_modules/electron/dist/chrome-sandbox
 ```
