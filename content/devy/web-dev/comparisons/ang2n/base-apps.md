@@ -1,6 +1,7 @@
 ---
 title: Initial Apps
 description: Initial Framework Apps
+lastModified: '2025-01-07'
 ---
 
 ## Description

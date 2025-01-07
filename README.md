@@ -4,11 +4,13 @@
 
  Headless CMS
 
+## Description
+
+Framework-agnostic, markdown data source
+
 ## Purpose
 
-Framework-agnostic data source for use in prototyping and testing.
-
-For capture, storage and access to non-sensitive technology development docs and data
+ For use in prototyping and testing, and for capture, storage and access to non-sensitive technology development docs and data
 
 Repo: [content-data](https://github.com/annebrown/content-data.git)
 

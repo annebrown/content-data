@@ -29,7 +29,7 @@ content: {
 
 ## Workflow
 
-To publish changes, each deployment built using this remote source must be redeployed on the cloud-provider host.
+To publish changes, each client built using this remote source must be redeployed on the cloud-provider host.
 
 ## Added Costs
 
@@ -79,7 +79,7 @@ This allows for viewing modifications to the content, without waiting for the pu
 
 Local styling/layout, auth and other non-content mods can be v slow to render, even with relatively small `/content` sources.  
 
-@Nuxt/content `watcher` is a dev feature used to control content watching and trigger HMR.  
+@Nuxt/content `watcher` is a dev feature used to control content watching for HMR.  
 
 #### watch
 

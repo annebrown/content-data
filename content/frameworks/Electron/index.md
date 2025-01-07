@@ -16,5 +16,5 @@ Electron uses the Chromium engine (the open-source project for Google's Chrome b
 
 Blink handles visual presentation, including DOM mgmt and parsing and displaying HTML, CSS, and JavaScript.
 
- Electron uses the chrome-sandbox binary for its render process. See [sandboxing](/public/frameworks/electron/snadboxing)
+ Electron uses the chrome-sandbox binary for its render process. See [sandboxing](/public/frameworks/electron/sandboxing)
 

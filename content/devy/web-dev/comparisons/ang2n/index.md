@@ -2,6 +2,7 @@
 title: Ang2N
 description: Angular, Nuxt & Next.js
 navigation: false
+lastModified: '2025-01-07'
 ---
 
 ## Description

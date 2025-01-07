@@ -1,0 +1,53 @@
+---
+title: Setup
+description: Perl Dev Setup
+---
+
+## Install
+
+Oh wait.....Already built-in.
+
+Git
+
+`.gitignore`:
+
+```bash
+!Build/
+.last_cover_stats
+/META.yml
+/META.json
+/MYMETA.*
+*.o
+*.pm.tdy
+*.bs
+
+# Devel::Cover
+cover_db/
+
+# Devel::NYTProf
+nytprof.out
+
+# Dist::Zilla
+/.build/
+
+# Module::Build
+_build/
+Build
+Build.bat
+
+# Module::Install
+inc/
+
+# ExtUtils::MakeMaker
+/blib/
+/_eumm/
+/*.gz
+/Makefile
+/Makefile.old
+/MANIFEST.bak
+/pm_to_blib
+/*.zip
+```
+
+
+
