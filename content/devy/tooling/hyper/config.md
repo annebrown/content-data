@@ -1,13 +1,12 @@
 ---
 title: Hyper
 description: Hyper Terminal for Linux
-tags: 
-  - Hyper
+lastModified: '2025-01-08'
 ---
 
 ## Config File
 
-Config File: `~/.config/Hyper/config.json`.  
+Config File: `~/.config/Hyper/config.json`.
 
 Also: `Menu > Edit > Preferences` or `Ctrl+comma`
 
@@ -39,4 +38,3 @@ Refresh terminal to reload config:
  `Menu > View>  Reload` or `Ctrl-Shift-R` or restart app.
 
 ## [Plugins](plugins.md)
-

@@ -2,6 +2,7 @@
 title: Git
 description: Git Config
 navigation: false
+lastModified: '2025-01-08'
 ---
 
 ## Git Global Config
@@ -19,7 +20,7 @@ git config --global user.email anne@browndomain.com
 
 Install from `pi-apps`.
 
-#### Ubuntu 
+#### Ubuntu
 
 ```bash
 sudo apt install gh

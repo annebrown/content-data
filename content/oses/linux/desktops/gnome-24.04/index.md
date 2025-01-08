@@ -2,6 +2,7 @@
 title: Gnome Desktop
 description: Gnome Desktop Config
 navigation: false
+lastModified: '2025-01-08'
 ---
 
 ## Dark Theme
@@ -38,4 +39,3 @@ Add to ```~/.dotfiles/bash/.bash_aliases```:
 alias gterm='gnome-terminal --title="$USER@$HOSTNAME: $PWD \$" &'
 alias xfterm='xfce4-terminal --title="$USER@$HOSTNAME: $PWD \$" &'
 ```
-

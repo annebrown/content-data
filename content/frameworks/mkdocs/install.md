@@ -1,6 +1,7 @@
 ---
 title: Install
 description: Install and run MkDocs
+lastModified: '2025-01-08'
 ---
 
 ## Create venv

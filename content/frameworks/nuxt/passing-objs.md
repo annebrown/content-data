@@ -1,6 +1,7 @@
 ---
 title: Passing Objects
 description: Passing Objects in Nuxt
+lastModified: '2025-01-08'
 ---
 
 ## Managing Shared State
@@ -102,7 +103,7 @@ Parent component can receive data in the method it passed to the child:
 ```js
 <script setup>
 function signUp(email) {
-  console.log(email) 
+  console.log(email)
 }
 </script>
 ```
@@ -111,4 +112,3 @@ function signUp(email) {
 - Parent can send data to child via props
 - Props in Vue 3 and Nuxt 3 are one-way down
 - For two-way binding, use v-model or implement a custom two-way binding using props and emits.
-

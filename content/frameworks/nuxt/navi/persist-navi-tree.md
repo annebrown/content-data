@@ -1,11 +1,12 @@
 ---
 title: Persist Navi Tree
 description: Maintain Navi Tree State
+lastModified: '2025-01-08'
 ---
 
 ## Problem
 
-On first load, default layout `/layouts/default.vue` invokes `NaviNavigation.vue` to render expandable navigation tree.  On navigation to another route in the tree, page is displayed but content for navi tree element disappears. 
+On first load, default layout `/layouts/default.vue` invokes `NaviNavigation.vue` to render expandable navigation tree.  On navigation to another route in the tree, page is displayed but content for navi tree element disappears.
 
 ## Requirement
 
@@ -38,19 +39,19 @@ const route = useRoute()
 
 const organizedNavigation = computed(() => {
   if (!navigation.value) return []
-  
+
   const items = [...navigation.value]
   const index = items.find(item => item._path === '/index' || item._path === '/')
-  
+
   if (index) {
     const indexIndex = items.indexOf(index)
     items.splice(indexIndex, 1)
-    
+
     // Make the index item expandable and contain all other items
     index.children = items
     return [index]
   }
-  
+
   return items
 })
 
@@ -111,7 +112,3 @@ watch(() => route.path, (newPath) => {
 }
 </style>
 ```
-
-
-
-

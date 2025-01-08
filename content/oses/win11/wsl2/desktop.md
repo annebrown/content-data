@@ -1,6 +1,7 @@
 ---
 title: Linux Desktop
-description: Install and configure Linux desktop on Win11
+description: Setup Linux desktop on Win11
+lastModified: '2025-01-08'
 ---
 
 ## Install Distro
@@ -38,7 +39,7 @@ Ref: [Easiest WSL2 Desktop Setup Possible](https://www.reddit.com/r/bashonubuntu
 
 ## Install Chrome
 
-Firefox broken on Ubuntu WSL2.  
+Firefox broken on Ubuntu WSL2.
 
 ```bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb

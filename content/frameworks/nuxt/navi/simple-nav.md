@@ -1,6 +1,7 @@
 ---
 title: Simple Nav
 description: Simple Nav Passed Btw Components
+lastModified: '2025-01-08'
 ---
 
 ```js
@@ -8,7 +9,7 @@ description: Simple Nav Passed Btw Components
 const dirNode = '/books/javascript'
 const pathRegexp = '^/books/javascript'
 
-const { data: dragonBooks } = await useAsyncData('javascriptBooks', () => 
+const { data: dragonBooks } = await useAsyncData('javascriptBooks', () =>
   queryContent(dirNode)
     .where({ _path: { $regex: pathRegexp } })
     .find()
@@ -34,7 +35,6 @@ In the parent component:
 </template>
 ```
 
-- Child component fetchs list of books 
+- Child component fetchs list of books
 - Instead of emitting event, child uses scoped slot to pass data to parent
-- Parent uses v-slot to receive data from child 
-
+- Parent uses v-slot to receive data from child

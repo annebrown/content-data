@@ -1,8 +1,7 @@
 ---
 title: Awesome Pgs
 description: MkDocs Navi Plugin
-tags:
-  - mkdocs-awesome-pages-plugin
+lastModified: '2025-01-08'
 ---
 
 The aptly-named awesome-pages plulgin adds automatic and specific dir-based navi, without polluting `mkdocs.yml`.  For detailed usage instructions see [mkdocs-aweome-pages-plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin).
@@ -26,7 +25,7 @@ nav:
   - first-page.md
   - ... | intro-*.md # all starting with "intro"
   - ... # all remaining entries
-  - Title Text: some-page.md # Provide a title 
+  - Title Text: some-page.md # Provide a title
   - Link Title: https://some-site.com
   - last-page.md
 ```
@@ -35,7 +34,7 @@ nav:
 
 Lines beginning with `...` are called `Rest Filters`.
 
-A rest filter applies to items in the containing folder.  
+A rest filter applies to items in the containing folder.
 
 ## Custom Sections
 
@@ -48,4 +47,3 @@ nav:
   - Section 2:
       - another-page.md
 ```
-

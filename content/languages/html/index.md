@@ -2,13 +2,14 @@
 title: HTML
 description: HyperText Markup Language
 navigation: false
+lastModified: '2025-01-08'
 ---
 
 
-Internet 
+Internet
 - physical computer network
-- supports communication, including data transfer (including HTTP)) 
-HTTP 
+- supports communication, including data transfer (including HTTP))
+HTTP
 - standard protcol outlining how computers communicate over the Internet
 - client-server model
 - request-response cycle
@@ -18,7 +19,7 @@ HTTP
   - PUT: - modify existing resource
   - DELETE: - removes a resource
 - response codes:
-  - 200 OK - Success 
+  - 200 OK - Success
   - 400 Not Found
   - 500 Internal Server Error
 - response/request headers
@@ -28,4 +29,3 @@ HTTP
 - accessable via URL form of URI
 WWW
 - UI for the Internet
-

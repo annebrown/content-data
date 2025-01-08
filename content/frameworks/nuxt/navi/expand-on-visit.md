@@ -1,6 +1,7 @@
 ---
 title: Expand On Visit
 description: Expand Navi to Entry for Current Route
+lastModified: '2025-01-08'
 ---
 
 Collapsible navi tree to auto-expand to show current page's locan, on each new page render
@@ -21,8 +22,8 @@ Collapsable `NavigationTree.vue`
           {{ item.isExpanded ? '-' : '+' }}
         </button>
       </div>
-      <NavigationTree 
-        v-if="item.children && item.isExpanded" 
+      <NavigationTree
+        v-if="item.children && item.isExpanded"
         :items="item.children"
         :current-path="currentPath"
       />
@@ -79,7 +80,7 @@ import NavigationTree from './NavigationTree.vue'
 
 const route = useRoute()
 
-const { data: navigation } = await useAsyncData('navigation', () => 
+const { data: navigation } = await useAsyncData('navigation', () =>
   fetchContentNavigation(queryContent('/local'))
 )
 

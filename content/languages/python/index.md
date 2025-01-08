@@ -2,6 +2,7 @@
 title: Python
 description: Programming Language
 navigation: false
+lastModified: '2025-01-08'
 ---
 
 ## Install
@@ -47,7 +48,7 @@ Activate Python virtual env:
 ```bash
 source .venv/bin/activate
 ```
-`pip` will now install every Python pkg into `./.venv` until venv is deactivated (`exit` or Ctrl-C or close terminal).  
+`pip` will now install every Python pkg into `./.venv` until venv is deactivated (`exit` or Ctrl-C or close terminal).
 
 A project's venv must be re-activated (`source .venv/bin/activate`) to install more pkgs or run services.
 
@@ -59,7 +60,7 @@ alias activate-venv="source ./.venv/bin/activate"
 
 ## List Installed venv Pkgs
 
-To list installed pkgs while venv is activated: 
+To list installed pkgs while venv is activated:
 
 ```bash
 pip list

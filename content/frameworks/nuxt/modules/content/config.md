@@ -1,10 +1,13 @@
 ---
 title: Config
 description: '@Nuxt/Content Config'
+lastModified: '2025-01-08'
 ---
 
 ```ts
-// @Nuxt/Content Module
+//<--------@/nuxt.config.ts---------------------------------------------------->
+...
+
 content: {
 	documentDriven: true,
 
@@ -18,7 +21,7 @@ content: {
             light: 'github-light',
         },
 
-    langs: ['regexp', 'perl', 'json', 'js', 'ts', 'tsx', 'html', 'css', 'vue','shell' , 'mdc', 'yaml', 'md', 'console', 'ini', 'java', 'diff' ],
+    langs: ['regexp', 'perl', 'json', 'js', 'ts', 'tsx', 'html', 'css', 'vue','shell' , 'mdc', 'yaml', 'md', 'console', 'ini', 'java', 'diff', 'log' ],
 			},
 
     sources: {
@@ -27,7 +30,7 @@ content: {
           driver: 'github',
           repo: "annebrown/content-base",
           branch: "main",
-          dir: "content", 
+          dir: "content",
         },
         local: {
             prefix: '/local',
@@ -40,3 +43,6 @@ content: {
             base: resolve(__dirname, '/home/anne/prod/content-data/backups'),
 	}, // sources
 }, // content
+
+   ...
+//<--------@/nuxt.config.ts---------------------------------------------------->

@@ -2,6 +2,7 @@
 title: 'pnpm'
 description: 'Node Module Manager'
 navigation: 'false'
+lastModified: '2025-01-08'
 ---
 
 ## Description

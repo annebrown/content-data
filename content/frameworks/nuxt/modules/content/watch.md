@@ -1,6 +1,7 @@
 ---
 title: watch
 description: Content Watcher
+lastModified: '2025-01-08'
 ---
 
 ## Purpose
@@ -27,4 +28,4 @@ When styling or working on other aspects that do not require latest `/content` s
 DISABLE_CONTENT_WATCH=true pnpm dev
 ```
 
-This `watch` config is specific to @Nuxt/content and differs from the `watch` property in Nuxt config.  
+This `watch` config is specific to @Nuxt/content and differs from the `watch` property in Nuxt config.

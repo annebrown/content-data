@@ -1,9 +1,7 @@
 ---
 title: Node.js Install EACCESS Error
 description: Permissions error installing Node.js
-tags:
-  - Issues
-  - SOLVED
+lastModified: '2025-01-08'
 ---
 
 ## Status

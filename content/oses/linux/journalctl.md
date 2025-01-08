@@ -1,6 +1,7 @@
 ---
 title: journalctl Command
 description: Linux Log Viewer
+lastModified: '2025-01-08'
 ---
 
 ## Purpose
@@ -105,7 +106,7 @@ Output:
 then:
 
 ```bash
-journalctl _UID=33 --since today 
+journalctl _UID=33 --since today
  ```
 
 ## Show All Values for a given Journal Field

@@ -5,6 +5,6 @@ navigation: false
 lastModified: '2025-01-07'
 ---
 
-## Purpose
+## Description
 
-Dev Notes
+Notes on Public Dev Projects

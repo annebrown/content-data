@@ -1,6 +1,7 @@
 ---
 title: Undefined Navi Data
 description: Navi Data Unavail when Component Renders
+lastModified: '2025-01-08'
 ---
 
 ## Navi Component Logic
@@ -9,7 +10,7 @@ description: Navi Data Unavail when Component Renders
 <script setup>
 import { useAsyncData, queryContent, fetchContentNavigation } from '#imports'
 
-const { data: navigation } = await useAsyncData('navigation', () => 
+const { data: navigation } = await useAsyncData('navigation', () =>
   fetchContentNavigation(queryContent('/route/path'))
 )
 </script>
@@ -23,7 +24,7 @@ Wrap `useAsyncData` or `useFetch` in a `try-catch`:
 
 ```js
 try {
-  const { data: navigation } = await useAsyncData('navigation', () => 
+  const { data: navigation } = await useAsyncData('navigation', () =>
     fetchContentNavigation(queryContent('/local'))
   )
 } catch (error) {
@@ -35,7 +36,7 @@ try {
 
 ```vue
 <script setup>
-const { data: navigation, pending } = await useAsyncData('navigation', () => 
+const { data: navigation, pending } = await useAsyncData('navigation', () =>
   fetchContentNavigation(queryContent('/local'))
 )
 </script>
@@ -83,11 +84,11 @@ Use `v-if`:
 
 ## `useLazyAsyncData`
 
-Use `useLazyAsyncData` to render component, then load data: 
+Use `useLazyAsyncData` to render component, then load data:
 
 ```vue
 <script setup>
-const { data: navigation, pending } = useLazyAsyncData('navigation', () => 
+const { data: navigation, pending } = useLazyAsyncData('navigation', () =>
   fetchContentNavigation(queryContent('/local'))
 )
 </script>

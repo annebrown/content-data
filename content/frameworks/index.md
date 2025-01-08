@@ -8,3 +8,5 @@ lastModified: '2025-01-07'
 ## Description
 
 Libs and rule sets providing a structured development foundation
+
+Last Modified: {{ $doc.lastModified }}

@@ -1,6 +1,7 @@
 ---
 title: New Host Config
 description: Install Linux Dev Env on Android
+lastModified: '2025-01-08'
 ---
 
 ## Install userland
@@ -12,7 +13,7 @@ Install Userland from Playstore.
 ```bash
 sudo hostname [device name]
 sudo apt install -y vim
-sudo vim /etc/hostname 
+sudo vim /etc/hostname
 ```
 
 ## Add Network Hosts

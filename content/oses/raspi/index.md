@@ -2,6 +2,7 @@
 title: RasPi
 description: RaspPi Operating System
 navigation: false
+lastModified: '2025-01-08'
 ---
 
 ## Shortcuts
@@ -73,4 +74,3 @@ sudo raspi-config
 ```bash
 sudo raspi-config noint <command> <args> [optional-args]
 ```
-

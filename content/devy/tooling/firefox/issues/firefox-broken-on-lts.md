@@ -1,9 +1,7 @@
 ---
 title: Firefox Broken on LTS Distro
 description: Broken FF on Ubuntu 24.04 LTS
-tags:
-  - Issues
-  - SOLVED
+lastModified: '2025-01-08'
 ---
 
 ## Fix

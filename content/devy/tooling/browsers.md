@@ -1,6 +1,7 @@
 ---
 title: Browsers
 description: Web Browsers
+lastModified: '2025-01-08'
 ---
 
 ## Temporal Search
@@ -32,4 +33,3 @@ For more options, config a search and copy relevent search params from the URL. 
 ### KDE Global Menu
 
 To use KDE Plasma's Global Menu, Panel widget, `Use system title bar and borders` in `Settings`.
-

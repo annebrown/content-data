@@ -1,6 +1,7 @@
 ---
 title: Setup
 description: Electron App Creation
+lastModified: '2025-01-08'
 ---
 
 ## Description

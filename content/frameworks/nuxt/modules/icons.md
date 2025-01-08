@@ -1,6 +1,7 @@
 ---
 title: Icon
 description: Nuxt Icon Module
+lastModified: '2025-01-08'
 ---
 
 ## Description

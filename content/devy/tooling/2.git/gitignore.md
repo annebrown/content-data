@@ -1,16 +1,15 @@
 ---
 title: .gitignore
 description: .gitignore Items
-tags:
-  - .gitignore
+lastModified: '2025-01-08'
 ---
 
 ## Description
 
-.cache     
-.site       
+.cache
+.site
 .env
-.notes/     # Publish Pas - clipboard, CLI scratchpad, etc.          
+.notes/     # Publish Pas - clipboard, CLI scratchpad, etc.
 node_modules
 *.log*
 .nuxt
@@ -21,4 +20,3 @@ node_modules
 .env
 dist
 .venv     # Python interpreter and pkgs
-

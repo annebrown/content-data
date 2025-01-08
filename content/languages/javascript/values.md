@@ -1,6 +1,7 @@
 ---
 title: Values
 description: JavaScript Values
+lastModified: '2025-01-08'
 ---
 
 ## Values
@@ -32,7 +33,7 @@ Block: `/* Anything between these */`
 let x = 3; // Number Data Type
 let result = "PASS"; // String
 let testPassed = true; //Boolan
-let noDefault = null; // Null 
+let noDefault = null; // Null
 let noDefault; // Undefined
 let flagvar = Symbol("PASS"); // Symbol
 LET foodPrice = BigInt("0f10111111"); // Bigint
@@ -45,14 +46,14 @@ LET foodPrice = BigInt("0f10111111"); // Bigint
 - maths, functions, dates, arrays, maps, sets
 
 ```js
-let importantObj = {}; // Object 
+let importantObj = {}; // Object
 let importantObj new Object(); // Object
 let colors = ["red", "yellow", "green"]; // Array Data Type
 let book = { // Object Data Type
     title: "JavaScript Programming",
     ISBN: "978-3-16-148410-",
     author: "John Doe",
-    price: 25.99 
+    price: 25.99
 }
 ```
 

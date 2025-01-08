@@ -1,6 +1,7 @@
 ---
 title: Strings
 description: JavaScript String Data Type
+lastModified: '2025-01-08'
 ---
 
 ## Usage
@@ -44,8 +45,8 @@ let stringLen = stringA.length; // 6
 ## Escaping Chars
 
 ```js
-string0 = "This is a single quote: \'"; 
-string1 = "This is a double quote: \"";  
+string0 = "This is a single quote: \'";
+string1 = "This is a double quote: \"";
 string2 = "This is a backslash: \\";
 
 ```
@@ -56,7 +57,7 @@ string2 = "This is a backslash: \\";
 let result = targetString.substring(startIndex , endIndex);
 let phoneNumberA = "1-800-555-5555"; // 14 chars
 let phoneNumberB = "555-123-5555"; // 12 digits
-let lenA = phoneNumberA.length; 
+let lenA = phoneNumberA.length;
 let lastFourDigits = phoneNumberA.substring(lenA - 4, lenA);
 ```
 
@@ -89,7 +90,7 @@ let newString = originalString.replace("colour", "color");
 ## trim() Method
 
 ```js
-let noBookendWhiteSpaceString = messyString.trim();  
+let noBookendWhiteSpaceString = messyString.trim();
 ```
 
 ## charAt() Method
@@ -114,5 +115,5 @@ Return secondString.localeCompare(firstString); // 0 or IDK
 ## String Object
 
 ```js
-let stringObject = new String("Cello"); 
+let stringObject = new String("Cello");
 ```

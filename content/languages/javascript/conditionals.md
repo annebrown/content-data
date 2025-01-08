@@ -1,6 +1,7 @@
 ---
 title: Conditionals
 description: JavaScript Conditional Statements
+lastModified: '2025-01-08'
 ---
 
 ## if, else if, else
@@ -32,7 +33,7 @@ if (cups < 2) {
 ## Ternary Opertor
 
 ```js
-(test) ? // Logic if true : // Logic if false 
+(test) ? // Logic if true : // Logic if false
 ```
 
 ```js title="Example"
@@ -66,7 +67,7 @@ switch (true) {
         break;
     case guess == 5;
         msg = "correct";
-    default 
+    default
         msg = "Please enter a number from 1 to 10";
 }
 ```

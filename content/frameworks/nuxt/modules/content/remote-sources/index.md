@@ -1,6 +1,7 @@
 ---
 title: Remote Sources
 description: Using Remote Sources for Content Module
+lastModified: '2025-01-08'
 ---
 
 ## Config
@@ -16,7 +17,7 @@ content: {
     sources: {
         github: {
           prefix: '/remote-docs', // Route prefix for remote contents
-          driver: 'github', // Unstorage driver 
+          driver: 'github', // Unstorage driver
           repo: "annebrown/repo-name",
           branch: "main",
           dir: "content", // Dir in external repo where contents are located.
@@ -73,15 +74,14 @@ local: {
 },
 ```
 
-This allows for viewing modifications to the content, without waiting for the published app to re-deploy and rebuild it's /content cache.  As well, this reduces hosting costs as pricing is based on BW, serverless function execution, and build minutes.  
+This allows for viewing modifications to the content, without waiting for the published app to re-deploy and rebuild it's /content cache.  As well, this reduces hosting costs as pricing is based on BW, serverless function execution, and build minutes.
 
 ### Developer Experience
 
-Local styling/layout, auth and other non-content mods can be v slow to render, even with relatively small `/content` sources.  
+Local styling/layout, auth and other non-content mods can be v slow to render, even with relatively small `/content` sources.
 
-@Nuxt/content `watcher` is a dev feature used to control content watching for HMR.  
+@Nuxt/content `watcher` is a dev feature used to control content watching for HMR.
 
 #### watch
 
-See [watch](watch.md) for details on how to temporarily toggle the dev server to only use cached content. 
-
+See [watch](watch.md) for details on how to temporarily toggle the dev server to only use cached content.

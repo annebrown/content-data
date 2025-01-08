@@ -2,6 +2,7 @@
 title: Props
 description: Nuxt Props
 order: 10
+lastModified: '2025-01-08'
 ---
 
 ## Props & Properties
@@ -10,7 +11,7 @@ order: 10
 
 Props, in Vue.js and Nuxt, are a way to pass data from a parent component to a child component.  They are custom attributes that can be registerd on a component.
 
-Props can be defined for use in a child component, `@/components/some-path/ChildComponent.vue`, using the `defineProps`, a compile-time macro that is only available inside `<script setup>`: 
+Props can be defined for use in a child component, `@/components/some-path/ChildComponent.vue`, using the `defineProps`, a compile-time macro that is only available inside `<script setup>`:
 
 ```vue
 <script setup>
@@ -31,7 +32,7 @@ and passed from a parent component:
 <template>
   <div>
 
-    <SomePathChildComponent 
+    <SomePathChildComponent
       title="Welcome to Nuxt"
       description="A Vue framework for building modern web applications"
     />

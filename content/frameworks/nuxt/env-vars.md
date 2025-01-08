@@ -1,6 +1,7 @@
 ---
 title: Env Vars
 description: Nuxt Environment Variables
+lastModified: '2025-01-08'
 ---
 
 ## Config File
@@ -11,7 +12,7 @@ Vite uses the [dotenv](https://github.com/motdotla/dotenv) Node module, to load 
 
 ## Config
 
-Add `.env` to `.gitignore`. 
+Add `.env` to `.gitignore`.
 
 ### Runtime
 
@@ -27,10 +28,10 @@ export default defineNuxtConfig({
             someOthEnvVar: process.env.VITE_SOME_ENV_VAR,  //default
             someEnvVar: 'some data', //override default,
             someOthEnvVar: process.env.VITE_SOME_ENV_VAR || 'some other data',
-            
+
         },
-    },  
-}) 
+    },
+})
 ```
 
 ## Usage
@@ -68,4 +69,3 @@ Escape `$`  (dollar sign) with `/` (forward slash).
 Vars that exist prior to Vite (build) execution have highest priority and will not be overridden by `.env` files.
 
 Specificity takes precedence over generic.  `.env.production` is higher priority then `.env`.
-

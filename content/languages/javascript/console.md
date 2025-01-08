@@ -1,8 +1,7 @@
 ---
 title: Console
 description: Server log
-tags:
-  - Console
+lastModified: '2025-01-08'
 ---
 
 ## Methods
@@ -39,7 +38,7 @@ console.warn('Attention! Allons-y');
 console.clear(); // Purpose, Unclear
 ```
 
-### console.time() 
+### console.time()
 
 - ms elapsed between console.time('Label') and console.timeEnd('Label') methods execution.
 
@@ -74,7 +73,7 @@ a        1
 b        2
 ```
 
-### console.count() 
+### console.count()
 
 Counts num of times funct() was called
 
@@ -122,12 +121,11 @@ TODO: Not clear what exactly, replacing "%c" does.
 
 ```js title="Example"
 const spacing = '10px';
-const styles = 
-      `padding: ${spacing}; background-color: white; color: green; font-style: 
+const styles =
+      `padding: ${spacing}; background-color: white; color: green; font-style:
        italic; border: 1px solid black; font-size: 2em;`;
 console.log('%cLabel', styles);
 ```
 
-- Console sidebar organizes logs 
+- Console sidebar organizes logs
 - Msgs can be filtered by label and msg type
-

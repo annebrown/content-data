@@ -1,6 +1,7 @@
 ---
 title: Config
 description: Nuxt Configuration
+lastModified: '2025-01-08'
 ---
 
 ## package.json
@@ -24,16 +25,16 @@ Config dev server IP addy and assign port number:
 
 ### Modules
 
-Module order matters.  This specific module order works as intended, without error or conflict: 
+Module order matters.  This specific module order works as intended, without error or conflict:
 
 ```ts
 modules: [
     '@nuxt/ui',
-    '@nuxt/content', 
-    '@nuxtjs/tailwindcss', 
+    '@nuxt/content',
+    '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
-    '@nuxt/image', 
-    '@nuxtjs/mdc', 
+    '@nuxt/image',
+    '@nuxtjs/mdc',
     '@nuxt/icon',
 ],
 ```
@@ -78,7 +79,7 @@ database: { // sqlite (non-persistent)
       options: { name: 'db' }
     }
 },
-      
+
 nitro: {
     prerender: {
       crawlLinks: true,

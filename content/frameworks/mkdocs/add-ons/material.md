@@ -1,6 +1,7 @@
 ---
 title: Material
 description: MkDocs Theme and Framework
+lastModified: '2025-01-08'
 ---
 
 [Material](https://squidfunk.github.io/mkdocs-material/getting-started) is documentation framework and theme on top of [MkDocs](https://www.mkdocsorg).
@@ -18,9 +19,8 @@ pip install mkdocs-material
 Add to `mkdocs.yml`:
 
 ```yml
-theme: 
+theme:
   name: material
 ```
 
 MkDocs and Material for MkDocs have a rich set of available themes, plugins and Python Markdown extensions, some of which are built-in.  Here are some of these [add-ons](../add-ons/index.md).
-

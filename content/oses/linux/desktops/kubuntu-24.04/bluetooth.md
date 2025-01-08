@@ -2,6 +2,7 @@
 title: Kubuntu 24.04 Bluetooth
 description: Bluetooth Service and Issues
 navigation: false
+lastModified: '2025-01-08'
 ---
 
 Kubuntu 24.04 LTS has totes open bluetooth issues.  Use proprietary dongle until issues are resolved.
@@ -60,12 +61,12 @@ Output:
 
 | IF | PLUG (client) | SLOT |
 |---|---|---|
-| bluetooth-control | bluetooth-autostart:bluetooth-control  | - | 
-| mount-observe  | bluetooth-autostart:mount-observe | - |   
+| bluetooth-control | bluetooth-autostart:bluetooth-control  | - |
+| mount-observe  | bluetooth-autostart:mount-observe | - |
 | network | bluetooth-autostart:network | :network |
 | network-bind | bluetooth-autostart:network-bind  | :network-bind |
 | network-observe | bluetooth-autostart:network-observe | - |
-| system-observe | bluetooth-autostart:system-observe | - | 
+| system-observe | bluetooth-autostart:system-observe | - |
 
 - bluetooth-control SLOT is provided by the core snap
 - bluez - no snap exists which provides a slot based on the bluez IF.  You need an application snap to reveal it.

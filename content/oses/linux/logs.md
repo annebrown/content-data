@@ -1,6 +1,7 @@
 ---
 title: Logs
 description: Linux Log Files and Mgmt
+lastModified: '2025-01-08'
 ---
 
 ## Path
@@ -19,7 +20,7 @@ description: Linux Log Files and Mgmt
 - `syslog` - System logs, such as kernel activities
 - `Xorg.log` - graphics driver, its failures, warnings, etc.
 
-## journalctl 
+## journalctl
 
 ```journalctl --list-boots```
 

@@ -1,6 +1,7 @@
 ---
 title: Styling
 description: Styling MkDocs
+lastModified: '2025-01-08'
 ---
 
 ## Markdown Extra
@@ -11,7 +12,7 @@ Examples: (`<dev>, <table>, <pre>, <p>, ...`)
 
 - Elements are surrounded by blank lines
 - Start and end tags not indented
-- Block elements in lists have same indent as rest of list 
+- Block elements in lists have same indent as rest of list
 
 ### Block Level MD Flag
 
@@ -64,7 +65,7 @@ Yields:
 
 ### Headers
 
-This: 
+This:
 
 ```html
 <style>

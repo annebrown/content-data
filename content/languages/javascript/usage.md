@@ -1,6 +1,7 @@
 ---
 title: Usage
 description: JavaScript Usage
+lastModified: '2025-01-08'
 ---
 
 ## Usage
@@ -35,12 +36,12 @@ description: JavaScript Usage
 
 `Code Execution Phase`
 
-:    Thread of execution, whereby vals of functs and vars are updated in order 
+:    Thread of execution, whereby vals of functs and vars are updated in order
 
 When a function is called, a new Execution Context is created inside the calling execution context.
 
 ## Parsing Order
- 
+
 - HTML file is parsed until it hits `<script>` tag
 - Parsing is paused until script is fetched and executed.
 - JS files are executed in order of appearance in the doc.
@@ -51,7 +52,7 @@ When a function is called, a new Execution Context is created inside the calling
 <script src="script.js" async>
 ```
 
-- js file is downloaded at same time as HTML parsing.  
+- js file is downloaded at same time as HTML parsing.
 - When file is finished downloading, HTML parsing is paused until code is executed.
 
 ## defer Attrib

@@ -1,9 +1,7 @@
 ---
 title: Variables
 description: JavaScript Variables
-tags:
-  - JavaScript
-  - Variables
+lastModified: '2025-01-08'
 ---
 
 - Name of storage locn where data is stored
@@ -11,7 +9,7 @@ tags:
 - begin with a letter, _ or $
 - can contain letters, numberes, underscore or $
 - can't belong to reserved keywords
-  
+
 ## Const
 
 ```js
@@ -33,4 +31,3 @@ var a = 5; // Function Scoped
 ```js
 let there = "Be Peace"; //Block Scoped
 ```
-

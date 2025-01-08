@@ -1,6 +1,7 @@
 ---
 title: New Dev Env
 description: Configure New Development Environment
+lastModified: '2025-01-08'
 ---
 
 ## Usage
@@ -22,6 +23,6 @@ $ bash
 
 ##  Configure Git
 
-Install GitHub Mobile on mobile devices.  
+Install GitHub Mobile on mobile devices.
 
 [Configure Git](../../apps/git/index.md)

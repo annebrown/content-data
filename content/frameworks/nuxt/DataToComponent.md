@@ -1,6 +1,7 @@
 ---
 title: Data To Component
 description: Calling Component w Vars
+lastModified: '2025-01-08'
 ---
 
 ## Define Prop in Child Component

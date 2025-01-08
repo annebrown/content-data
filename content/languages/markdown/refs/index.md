@@ -2,15 +2,16 @@
 title: Refs
 description: Markdown Ref Data & Cheatsheets
 navigation: false
+lastModified: '2025-01-08'
 ---
 
 ## Escaping
 
-| Char       | Markdown  | 
+| Char       | Markdown  |
 | :--------: | :-------- |
-| &lt;       | `&lt;`    | 
-| &amp;      | `&amp;`   | 
-| space      | `&nbsp;`  | 
+| &lt;       | `&lt;`    |
+| &amp;      | `&amp;`   |
+| space      | `&nbsp;`  |
 | &copy;     | `&copy;`  |
 
 ## Comments
@@ -22,4 +23,3 @@ navigation: false
 | `[//]: # (Single Line)`       | Link                             |
 | `[/]: # (Single Line)`        | Link - Most Widely Supported     |
 | `[comment]: word`             | Link - Single word               |
-

@@ -1,11 +1,12 @@
 ---
 title: Config
 description: MkDocs Config
+lastModified: '2025-01-08'
 ---
 
 ## The `mkdocs.yml` File
 
-Most of MkDocs config is done in the `[proj-dir]/mkdocs.yml` file.  For some plugins, order matters.  
+Most of MkDocs config is done in the `[proj-dir]/mkdocs.yml` file.  For some plugins, order matters.
 
 The next section contains sample settings.  Some of these are covered [here](../mkdocs/add-ons/index.md).
 
@@ -96,7 +97,7 @@ theme:
     #- toc.integrate
   #-----------------------------------------------------------------------------
   # palette:
-  #-----------------------------------------------------------------------------  
+  #-----------------------------------------------------------------------------
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -105,7 +106,7 @@ theme:
         name: Switch to light mode
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
       primary: blue
       accent: green
       toggle:
@@ -153,7 +154,7 @@ extra:
       - accept
       - manage
     title: Cookie consent
-    description: >- 
+    description: >-
       This site's cookies record your visits and prefs. Your privacy, your choice.
   generator: false # Made with Material for MkDocs
 ```
@@ -193,7 +194,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.snippets:
-      auto_append: 
+      auto_append:
         - includes/abbr.md
   - pymdownx.superfences
   - pymdownx.tabbed:

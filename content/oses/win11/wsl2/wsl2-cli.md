@@ -1,6 +1,7 @@
 ---
 title: WSL2 CLI
 description: Linux Shell Program and Command Lang
+lastModified: '2025-01-08'
 ---
 
 Run from windows CLI (.exe extension not rqd).
@@ -28,7 +29,7 @@ wsl --shutdown
 wsl -t distro 		# terminate/shutdown a distro
 ```
 
-## Change default user 
+## Change default user
 
 ```bash
 dist_name config --default-user anne

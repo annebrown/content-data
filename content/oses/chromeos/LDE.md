@@ -1,6 +1,7 @@
 ---
 title: Linux Dev Env
-description: Install Linux Dev Env on ChromOS Host
+description: Linux Dev on ChromOS
+lastModified: '2025-01-08'
 ---
 
 ## Install LDE

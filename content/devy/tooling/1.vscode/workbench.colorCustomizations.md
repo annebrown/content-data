@@ -1,8 +1,7 @@
 ---
 title: Workbench Colors
 description: Custom Colors Ref
-tags:
-  - VSCode
+lastModified: '2025-01-07'
 ---
 
 ```json

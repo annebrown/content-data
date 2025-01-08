@@ -5,9 +5,12 @@ navigation: false
 lastModified: '2025-01-07'
 ---
 
-> Well documented, scalable, efficient, web dev framework with a rich set of tools, APIs and libs, and a large and active community.
+## Description
 
 Developed by Google.
+
+> Well documented, scalable, efficient, web dev framework with a rich set of tools, APIs and libs, and a large and active community.
+
 
 Angular's SPA design, loads all necessary code into a single page.  
 
@@ -18,3 +21,4 @@ Content changes are rendered dynamically, loading only that part of the page tha
 Angular's data binding facilitates dynamic interface design.  
 
 Angular is  particularly well-suited for large-scale, enterprise-level apps, due to its ability to handle large, robust, long term, complex projects with high performance and maintainability requirements.
+

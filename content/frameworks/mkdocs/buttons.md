@@ -1,6 +1,7 @@
 ---
 title: Buttons
 description: MkDocs Buttons
+lastModified: '2025-01-08'
 ---
 
 ```md title="This:"
@@ -24,4 +25,3 @@ Yields this:
 ```
 
 [docs](/){ .md-button .md-button--primary}
-

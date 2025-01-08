@@ -8,5 +8,35 @@
         "nuxthq",
         "nuxtjs",
         "tailwindcss"
-    ]
-}
+    ],
+
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+      },
+      "files.autoSave": "onWindowChange",
+      "files.autoSaveDelay": 1000,
+      "files.associations": {
+        "*.md": "markdown"
+      },
+      "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true
+      },
+      "files.trimTrailingWhitespace": true,
+      "files.insertFinalNewline": true,
+      "files.trimFinalNewlines": true,
+      "files.autoGuessEncoding": true,
+      "files.defaultLanguage": "markdown",
+      "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true
+      },
+      "runOnSave.commands": [
+        {
+          "match": "\\.md$",
+          "command": "node ${workspaceFolder}/update-frontmatter.js ${file}"
+        }
+      ],
+  }

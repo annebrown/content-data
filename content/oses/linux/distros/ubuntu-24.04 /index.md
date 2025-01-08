@@ -2,7 +2,9 @@
 title: Ubuntu 24.04 LTS
 description: Linux Operating System
 navigation: false
+lastModified: '2025-01-08'
 ---
 
-- [Apt -vs - Snap](apt-vs-snap.md)
-- [Bluetooth](../../desktops/kubuntu-24.04/bluetooth.md)
+## Description
+
+Notes on Ubuntu 24.04 LTS

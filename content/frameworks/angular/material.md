@@ -9,3 +9,5 @@ lastModified: '2025-01-07'
 ```bash
 ng add @angular/material
 ```
+
+Last Modified: {{ $doc.lastModified }}

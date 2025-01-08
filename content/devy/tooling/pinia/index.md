@@ -2,6 +2,7 @@
 title: Pinia
 description: Store Lib for Vue
 navigation: false
+lastModified: '2025-01-08'
 ---
 
 ## Installation

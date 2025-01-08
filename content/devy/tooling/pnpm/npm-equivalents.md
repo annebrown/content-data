@@ -1,11 +1,12 @@
 ---
 title: 'npm Equivalents'
 description: 'pnpm Equivalents for npm CLI'
+lastModified: '2025-01-08'
 ---
 
 ### Run nuxi CLI & Add Module
 
-### npm 
+### npm
 
 ```bash
 npx nuxi@latest module add some-module

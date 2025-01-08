@@ -1,9 +1,7 @@
 ---
 title: Incorrect React Version
-description: Next.js dev server returns error 
-tags:
-    - Issues
-    - SOLVED
+description: Next.js dev server returns error
+lastModified: '2025-01-08'
 ---
 
 Next.js install script, `create-next-app`, returns error when attempting to run dev svr:
@@ -15,7 +13,7 @@ Error: Next.js requires react >= 19.0.0 to be installed.
 
 ### Fix
 
-The app is asking for a React version that doesn't exist.  `create-next-app` authors over-anticipated the version 19 release date?  
+The app is asking for a React version that doesn't exist.  `create-next-app` authors over-anticipated the version 19 release date?
 
 Solution : Install Release Candidate (RC):
 
@@ -23,6 +21,6 @@ Solution : Install Release Candidate (RC):
 npm install --save-exact react@rc react-dom@rc
 ```
 
-### Status 
+### Status
 
 STATUS: RESOLVED

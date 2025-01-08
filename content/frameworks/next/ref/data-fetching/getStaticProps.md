@@ -1,11 +1,12 @@
 ---
 title: getStaticProps
 description: SSG Fetch
+lastModified: '2025-01-08'
 ---
 
 - SSG
 - data before page is rendered on svr
-  
+
 ## Example:
 
 Fetch posts from API and display on page:

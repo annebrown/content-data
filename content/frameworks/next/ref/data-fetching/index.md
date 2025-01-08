@@ -1,7 +1,8 @@
 ---
 title: Data Fetching
 description: Fetching Customizations
-
+navigation: false
+lastModified: '2025-01-08'
 ---
 
 ## Intro
@@ -10,7 +11,7 @@ Next.js prefetches all pages by default. This can be customized, based on perf a
 
 ### `fetch` - Svr
 
-- extends native fetch web API 
+- extends native fetch web API
 - caching and revalidating for svr requests
 - async / await in svr components
 

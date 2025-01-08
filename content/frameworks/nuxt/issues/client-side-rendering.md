@@ -1,6 +1,7 @@
 ---
 title: Client-Side Rendering
 description: Client-Side Rendering Issues
+lastModified: '2025-01-08'
 ---
 
 ## Rendered Element Disappears
@@ -11,7 +12,7 @@ Navi tree renders for a second, then disappears completely.
 
 ### Hydration Mis-Match
 
-Hydration mismatch between server-side and client-side rendering. 
+Hydration mismatch between server-side and client-side rendering.
 
 ## Try `<client-only>`
 
@@ -28,13 +29,13 @@ To help prevent disappearing issues, wrap element in `<client-only>` component t
 
 ## Try Async Data Loading
 
-If data is being loaded asynchronously, it might be temporarily available and then reset. 
+If data is being loaded asynchronously, it might be temporarily available and then reset.
 
 Use `useLazyAsyncData` instead of `useAsyncData` to help prevent issues with SSR and hydration.
 
 ```vue
 <script setup>
-const { data: navigation } = useLazyAsyncData('navigation', () => 
+const { data: navigation } = useLazyAsyncData('navigation', () =>
   fetchContentNavigation()
 )
 </script>
@@ -48,7 +49,7 @@ Use `toRef` to ensure data is properly reactive:
 <script setup>
 import { toRef } from 'vue'
 
-const { data } = useLazyAsyncData('navigation', () => 
+const { data } = useLazyAsyncData('navigation', () =>
   fetchContentNavigation()
 )
 const navigation = toRef(data)
@@ -61,7 +62,7 @@ Add error handling to data fetching :
 
 ```vue
 <script setup>
-const { data: navigation, error } = useLazyAsyncData('navigation', () => 
+const { data: navigation, error } = useLazyAsyncData('navigation', () =>
   fetchContentNavigation()
 )
 
@@ -112,7 +113,7 @@ If you're still experiencing issues after trying these solutions, please provide
 
 ## Suggesting Another Approach
 
-There may be a more efficient approach to determining the cause of this problem of the tree disappearing.  Can you determine what change was made to the previous /components/navi/NavigationTree.vue component, that may have caused the tree to be rerendered, thus disappearing the one loaded at the time that the app was initially loaded?  Could it be an error in the styling coding that is stopping the navigation tree element from completely rendering? 
+There may be a more efficient approach to determining the cause of this problem of the tree disappearing.  Can you determine what change was made to the previous /components/navi/NavigationTree.vue component, that may have caused the tree to be rerendered, thus disappearing the one loaded at the time that the app was initially loaded?  Could it be an error in the styling coding that is stopping the navigation tree element from completely rendering?
 
 
 Based on the conversation history and the changes we've made to the NavigationTree.vue component, there are a few potential causes for the navigation tree disappearing after initial render. Let's examine the most recent changes and identify possible issues:
@@ -187,7 +188,7 @@ Recursive component issue: The recursive nature of the component could be causin
 
 <template>
   <!-- ... other template code ... -->
-  <NaviNavigationTree 
+  <NaviNavigationTree
     v-if="expandedItems.has(item._path) && hasChildren(item)"
     :items="getFilteredChildren(item)"
     :depth="depth + 1"

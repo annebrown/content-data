@@ -1,8 +1,7 @@
 ---
 title: Meta
 description: Material Built-In Plugin
-tags:
-  - Meta Plugin
+lastModified: '2025-01-08'
 ---
 
 [Meta](https://squidfunk.github.io/mkdocs-material/plugins/meta "Official Site") recursively merges the contents of `.meta.yml`  files with the frontmatter of all pages contained in the same folder and all subfolders.  This, with the help of other plugins, enables powerful features, such as inherited tags:
@@ -11,7 +10,7 @@ tags:
 ---
 title: some title
 description: some descr
-tags: 
+tags:
  - Issues
  - VSCode
  - OPEN
@@ -24,6 +23,6 @@ All pages in the containing folder receive these tags, with the help of another 
 `mkdocs.yml`:
 
 ```yml
-plugins: 
+plugins:
   - meta
 ```

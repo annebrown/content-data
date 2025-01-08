@@ -2,6 +2,7 @@
 title: HTTP
 description: Hypertext Transfer Protocol
 navigation: false
+lastModified: '2025-01-08'
 ---
 
 ## Description
@@ -24,7 +25,7 @@ Rules governing how data is transmitted over the internet
      - PUT: - modify existing resource
      - DELETE: - remove resource
 - Response codes:
-     - 200 OK - Success 
+     - 200 OK - Success
      - 400 Not Found
      - 500 Internal Server Error
 - Response/request headers

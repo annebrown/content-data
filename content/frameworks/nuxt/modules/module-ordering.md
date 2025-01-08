@@ -1,6 +1,7 @@
 ---
 title: Module Order
 description: Nuxt Module Execution Order
+lastModified: '2025-01-08'
 ---
 
 ## Description

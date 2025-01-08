@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Update Frontmatter",
+        "type": "shell",
+        "command": "node",
+        "args": [
+          "${workspaceFolder}/update-frontmatter.js",
+          "${file}"
+        ],
+        "problemMatcher": [],
+        "isBackground": true
+      }
+    ]
+}

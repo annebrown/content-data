@@ -1,13 +1,14 @@
 ---
 title: 'Page Meta'
 description: 'Static and Dynamic Page Meta'
+lastModified: '2025-01-08'
 ---
 
 ## Static
 
 'definePageMeta' defines static, custom, page-specific, metadata, including content meta (title,), layout, middleware, type (login) etc:
 
-```vue 
+```vue
 <script setup lang="ts">
     definePageMeta({
         title: 'Chapter 1',
@@ -34,12 +35,9 @@ Properties set by `definePageMeta` are extracted by a macro and then processed a
   <div>
     <h1>{{ pageTitle }}</h1>
     <p>{{ pageDesc }}</p>
-      
+
     <!-- Page Cargo -->
-      
+
   </div>
 </template>
 ```
-
-
-

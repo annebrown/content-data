@@ -1,6 +1,7 @@
 ---
 title: Hyper Plugins
-description: All About Hyper Plugins
+description: Hyper Plugin Notes
+lastModified: '2025-01-08'
 ---
 
 ## Installed Plugins
@@ -39,7 +40,7 @@ hyper u # or rm or remove or uninstall # : )
 
 For probs, read npm deets.  As well, some plugins are not avail on linux.
 
-### hyperborder 
+### hyperborder
 
 Match & nicely contrast w my vscode config
 
@@ -65,4 +66,4 @@ Add to 'plugins: [`:
 hyper-statusline-extended
 
 NOT
-hyper-transparent-bg 
+hyper-transparent-bg

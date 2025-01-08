@@ -1,8 +1,7 @@
 ---
 title: Functions
 description: JavaScript Functions
-tags:
-  - JavaScript
+lastModified: '2025-01-08'
 ---
 
 - Functions are objects with attribs and logic
@@ -13,4 +12,3 @@ tags:
 ```js
 const sum = (a, b) => b + a;
 ```
-

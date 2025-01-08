@@ -1,9 +1,7 @@
---- 
+---
 title: Cheatsheet
 description: Cmds and notes
-tags:
-    - Cheatsheet
-    - MkDocs
+lastModified: '2025-01-08'
 ---
 
 ```txt

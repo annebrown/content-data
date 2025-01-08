@@ -1,6 +1,7 @@
 ---
 title: Install Hyper
 description: Install Hyper Terminal
+lastModified: '2025-01-08'
 ---
 
 ## Required Libraries
@@ -45,4 +46,3 @@ Reload term to pick up [dotfiles](../../../dev/projects/index.md) customized con
  Also reload, if at first, `rt-mouse-button` doesn't trigger context menu.
 
 ## [Config](config.md)
- 

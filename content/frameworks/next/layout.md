@@ -1,19 +1,20 @@
 ---
 title: Layout
 description: Next.js Layout
+lastModified: '2025-01-08'
 ---
 
-## `/app/layout.tsx` 
+## `/app/layout.tsx`
 
-- Initial, default, page content frame 
+- Initial, default, page content frame
 - Structure and elements rqd for app default pages
 - Initial `/app/layout.tsx`:
 
 ```tsx
 /*******************************************************************************
  File: /app/layout.tsx
- Purpose: Frame for default app pages  
- ******************************************************************************/ 
+ Purpose: Frame for default app pages
+ ******************************************************************************/
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -37,8 +38,3 @@ export default function RootLayout({
   );
 }
 ```
-
-
-
-
-

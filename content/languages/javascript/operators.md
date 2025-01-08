@@ -1,6 +1,7 @@
 ---
 title: Operators
 description: JavaScript Operators
+lastModified: '2025-01-08'
 ---
 
 ## Assignment Operators
@@ -19,7 +20,7 @@ a+=b; // Addition // Add numbers, or concat strings
 a-=b; // Subtraction
 a*=b; // Multiplication
 a/=b; // Division
-a%=b; // Remainder 
+a%=b; // Remainder
 a**=b; // Exponentiation
 a<<=b; // Left Shift
 a>>=b; // Right Shift
@@ -61,7 +62,7 @@ a >>> b // Zero-Fill Right Shift b bits, add 0 from left
 
 ## Comma Operator
 
-- Evaluate left to right, return rightmost 
+- Evaluate left to right, return rightmost
 
 ```js title="Example"
 // Update two vars in same expression
@@ -99,7 +100,7 @@ delete objectName[ 'property' ]
 - returns undefined
 
 ```js
-return void 0;  
+return void 0;
 ```
 
 ## Relational Operators
@@ -109,7 +110,7 @@ return void 0;
 - Tests if attrbName property exists in object or if attr val exists in array
 
 ```js
-attribName in someThing; 
+attribName in someThing;
 ```
 
 ## instanceof

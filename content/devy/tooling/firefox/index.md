@@ -2,6 +2,5 @@
 title: Firefox
 description: Firefox Browser
 navigation: false
-tags:
-  - Firefox
+lastModified: '2025-01-08'
 ---

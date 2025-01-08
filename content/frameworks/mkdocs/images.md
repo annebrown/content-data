@@ -1,8 +1,7 @@
 ---
 title: Images
 description: MkDocs Image Handling
-tags:
-  - MkDocs Images
+lastModified: '2025-01-08'
 ---
 
 ## Install Deps

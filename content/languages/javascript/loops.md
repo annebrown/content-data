@@ -1,6 +1,7 @@
 ---
 title: Loops
 description: JavaScript Loop Statements
+lastModified: '2025-01-08'
 ---
 
 ## for
@@ -69,7 +70,7 @@ do {
 ```js title="Example"
 for (let i in object) {
     brightnessLoop: while ( object.brightness >= 100) {
-    
+
         contrastLoop: while (object.contrast <= 50) {
             optimizeValue(this.object);
             continue everythingLoop;

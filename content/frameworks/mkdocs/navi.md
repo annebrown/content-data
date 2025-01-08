@@ -1,11 +1,12 @@
 ---
 title: Navi
 description: MkDocs Navi
+lastModified: '2025-01-08'
 ---
 
 ## `nav` Config Setting
 
-The `/mkdocs.yml` file's `nav:` config setting defines global site navi contents and structure.  
+The `/mkdocs.yml` file's `nav:` config setting defines global site navi contents and structure.
 
 If absent, navi is automatically, alphabetically generated from all of the MD files in `docs`, with `index` files at the top of sub-sections.
 

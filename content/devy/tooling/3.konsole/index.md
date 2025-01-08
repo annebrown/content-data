@@ -2,6 +2,7 @@
 title: Konsole
 description: KDE Terminal Emulator
 navigation: false
+lastModified: '2025-01-08'
 ---
 
 ## Useful Shortcuts
@@ -57,9 +58,9 @@ alias | grep [the-profile-name]
 
 ## Profiles
 
-### docserver 
+### docserver
 
-MkDocs - docs-pub 
+MkDocs - docs-pub
 
 #### GUI
 
@@ -71,13 +72,10 @@ General:
 
 Tabs:
 
-- Tab title format: MkDocs 
+- Tab title format: MkDocs
 
-Appearance: 
+Appearance:
 
 - Something different
 
 #### konsolerc
-
-
-

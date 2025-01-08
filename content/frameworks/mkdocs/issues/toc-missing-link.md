@@ -1,7 +1,10 @@
 ---
 title: TOC Missing a Link
-description: Awesome Pages Not Attaching URL to TOC Sidebar Entry
+description: Awesome Pages Link Prob
+lastModified: '2025-01-08'
 ---
+
+## Description
 
 - Tech dir has:
 

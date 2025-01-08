@@ -1,6 +1,7 @@
 ---
 title: Go Tour
 description: Stand-Alone Tour of Go
+lastModified: '2025-01-08'
 ---
 
 To run the tour:
@@ -16,4 +17,3 @@ Running the 'tour' will open a browser:
 ```bash
 anne@devy: ~go/bin/tour
 ```
-

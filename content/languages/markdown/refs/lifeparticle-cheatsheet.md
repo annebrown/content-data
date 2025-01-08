@@ -1,8 +1,7 @@
 ---
 title: LifeParticle Cheatsheet
 description: Ultimate Markdown Cheatsheet
-tags:
-  - Cheatsheet
+lastModified: '2025-01-08'
 ---
 
 Source: `README.md`, from <https://github.com/lifeparticle/Markdown-Cheatsheet.git>
@@ -11,7 +10,7 @@ Source: `README.md`, from <https://github.com/lifeparticle/Markdown-Cheatsheet.g
 
 <a name="top"></a>
 
-##  The Ultimate Markdown Cheat Sheet 
+##  The Ultimate Markdown Cheat Sheet
 
 
 <!-- Section --------------------------------------------------------------- -->
@@ -1493,4 +1492,3 @@ You can write JSX in your markdown document using [MDX](https://mdxjs.com/).
   "[Tips for Making your GitHub Profile Page Accessible](https://github.blog/2023-10-26-5-tips-for-making-your-github-profile-page-accessible)".
 
 </div>
-

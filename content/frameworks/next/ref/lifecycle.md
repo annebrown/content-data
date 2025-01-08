@@ -1,6 +1,7 @@
 ---
-title: Next.js LIfecycle 
+title: Next.js LIfecycle
 description: Next.js app stages
+lastModified: '2025-01-08'
 ---
 
 ## Next.js Lifecycle

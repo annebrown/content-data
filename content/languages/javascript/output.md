@@ -1,6 +1,7 @@
 ---
 title: Output Options
 description: JavaScript Output Options
+lastModified: '2025-01-08'
 ---
 
 ## Update innerHTML
@@ -23,7 +24,7 @@ document.getElementById(id="targetElement").innerHTML = 'content'
 
 - writes to HTML doc, to build page
 
-- if a doc is already loaded, it is replaced 
+- if a doc is already loaded, it is replaced
 
 
 ## Alert Box

@@ -1,6 +1,7 @@
 ---
 title: awesome-pages
 description: awesome-pages not deployed on Netlify
+lastModified: '2025-01-08'
 ---
 
 ## Problem
@@ -13,4 +14,4 @@ SOLVED
 
 ## Solution
 
-Problem was caused by an entry in `.gitignore`, preventing `.pages` from being commited.  
+Problem was caused by an entry in `.gitignore`, preventing `.pages` from being commited.

@@ -1,10 +1,12 @@
 ---
 title: perl
-description: 
+description: Fav Programming Lang
+navigation: false
+lastModified: '2025-01-08'
 ---
 
 ## Description
 
-Best Programming Lang
+Fav Programming Lang, after FORTH.
 
-Meek, obeisant servant, existing only to let you bend it to your uses....Larry Wall
+> "Meek, obeisant servant, existing only to let you bend it to your uses"....Larry Wall

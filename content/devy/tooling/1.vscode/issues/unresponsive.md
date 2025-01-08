@@ -1,6 +1,7 @@
 ---
 title: Unresponsive
 description: OS Unresponsive to Input
+lastModified: '2025-01-07'
 ---
 
 ## Description
