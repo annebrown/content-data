@@ -15,5 +15,5 @@ Creates a `tour` binary in `GOPATH's bin dir, `.
 Running the 'tour' will open a browser:
 
 ```bash
-anne@devy: ~go/bin/tour
+anne@devy: ~/go/bin/tour
 ```

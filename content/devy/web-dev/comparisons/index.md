@@ -2,16 +2,16 @@
 title: 'Comparisons'
 description: 'Comparing Web Dev Frameworks'
 navigation: 'false'
-lastModified: '2025-01-07'
+lastModified: '2025-01-08'
 ---
 
 ## Purpose
 
-To research, analyze (dev experience, libs, etc.) and benchmark comparable, real-world web dev frameworks. 
+To research, analyze (dev experience, libs, etc.) and benchmark comparable, real-world web dev frameworks.
 
 ## Approach
 
-For each Framework being analyzed, create a publicly avail (no auth, no ip-whitelist) web app, with the same data, design, components, structure, and configs, and with comparable tools (parsers, compilers, builder, bundler, etc.) and API calls.  This will focus benchmarking on core framework performance.
+For each Framework being analyzed, create a publicly avail (no auth, no ip-whitelist) web app, with the same data, design, components, structure, styling, and configs, and with comparable tools (parsers, compilers, builder, bundler, etc.) and API calls.  This focuses benchmarking on core framework performance.
 
 ## Project Structure
 
@@ -19,11 +19,7 @@ Create an app with the framework's default project structure.  Customize only to
 
 ## Data
 
-Use identical, on-board content.   Access the same public headless CMS, using the same API calls and auth approach (none, unless testing auth).  Use framework core, when , when comparing frameworks.
-
-## Design
-
-Use identical component structures, styling and config.
+Use identical, built-in content.   Access the same public headless CMS, using the same API calls and auth approach (none, unless testing auth).
 
 ## Analysis
 
@@ -38,4 +34,3 @@ Use identical component structures, styling and config.
 Code organization, maintenance, debugging and collab
 
 Docs, Tools and Libs
-

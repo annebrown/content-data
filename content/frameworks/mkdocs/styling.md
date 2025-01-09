@@ -99,7 +99,7 @@ markdown_extensions:
 
 and the add this line to the page:
 
-```HTML
+```html
 <link rel="stylesheet" href="../[some-page-name].css">
 ```
 

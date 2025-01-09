@@ -20,16 +20,22 @@ lastModified: '2025-01-08'
 
 6. Make executable:
 
-    ```chronos@localhost / $ sudo install -Dt /usr/local/bin -m 755 \
-	~/Downloads/crouton```
+    ```bash
+    chronos@localhost / $ sudo install -Dt /usr/local/bin -m 755 \
+	~/Downloads/crouton
+    ```
 
 7. Pull the Trigger
 
-    ```chronos@localhost / $ sudo crouton -t touch,[xfce|lxde|kde]```
+    ```bash
+    chronos@localhost / $ sudo crouton -t touch,[xfce|lxde|kde]
+    ```
 
 8. Desktop
 
-    ```chronos@localhost / $ sudo cruton -t [xfce|lxde|kde]```
+    ```bash
+    chronos@localhost / $ sudo cruton -t [xfce|lxde|kde]
+    ```
 
 9. Provide password.
 

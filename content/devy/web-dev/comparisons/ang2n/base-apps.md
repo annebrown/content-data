@@ -1,7 +1,7 @@
 ---
 title: Initial Apps
 description: Initial Framework Apps
-lastModified: '2025-01-07'
+lastModified: '2025-01-08'
 ---
 
 ## Description
@@ -16,11 +16,11 @@ Create Angular app:
 ng new an ## No SSR, no SSG
 ```
 
-Backup Name: `$PROJECTS-PUBLIC/ang2n/an/backups/0000an-origin`
+Backup Name: `$PROJECTS-PUBLIC/ang2n/an/backups/0000an-original`
 
 ### Notes
 
-Declined SSR and SSG for initial app.
+Decline SSR and SSG for initial app.
 
 ## Next.js
 
@@ -30,7 +30,7 @@ Create Next.js App:
 npx create-next-app@latest ne
 ```
 
-Backup Name: $PROJECTS-PUBLIC/ang2n/ne/backups/0000ne-original
+Backup Name: `$PROJECTS-PUBLIC/ang2n/ne/backups/0000ne-original`
 
 ### Notes
 
@@ -44,4 +44,4 @@ Create Nuxt App:
 pnpm dlx nuxi@latest init nu
 ```
 
-Backup Name: `$PROJECTS-PUBLIC/ang2n/nu/backups/0000nu-original
+Backup Name: `$PROJECTS-PUBLIC/ang2n/nu/backups/0000nu-original`

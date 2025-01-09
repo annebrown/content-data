@@ -53,7 +53,7 @@ See [Nuxt/Content/config](/content/1.frameworks/nuxt/content/config.md).
 
 CSS:
 
-```TS
+```ts
 css: ['@/assets/styles/fleet.css', '@/assets/styles/ship.css'],
 ```
 

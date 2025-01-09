@@ -11,11 +11,9 @@ Headless, framework-agnostic data source, for use in prototyping and testing.
 
 Also used for capture, storage and access to non-sensitive technology development docs and data.
 
-Dynamic frontmatter fields to promote consistency, improve CMS maint, streamline content editing and reduce human error. Ex:
+Uses dynamic frontmatter fields to promote consistency, streamline content maint and reduce human error.
 
-`lastModified: 'YYYY-MM-DD` frontmatter field - dynamimcally updated on explicit save
-
-> NOTE: explicit save, `Ctrl-S`, is required.  Auto-save (like focus change) does not trigger this action.
+Ex: `lastModified: 'YYYY-MM-DD'` - dynamimcally updated on save
 
 ## Design Considerations
 
