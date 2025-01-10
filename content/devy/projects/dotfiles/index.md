@@ -2,15 +2,16 @@
 title: dotfiles
 description:  dotfiles Project
 navigation: false
-lastModified: '2025-01-08'
+lastModified: '2025-01-10'
 ---
 
 ## Description
 
-The [dotfiles project](https://github.com/annebrown/dotfiles) povides
+The [dotfiles project](https://github.com/annebrown/dotfiles) povides a consistent linux development environment for a bare metal linux host, virtual machine, container, cloud (GitPod, GitHub.dev, StackBlitz, etc.), and for linux dev on other OSes (iOS, xOS, Android, RasPi, ChromeOS, Win11, etc).
+
 Used in conjunction with dotfiles-priv.
 
-Also inludes project, stack, host, OS, and desktop-flavor overrides.  Pulls in scripts for configuring screen layouts, starting required services and configuring apps (vscode, vim, terminals, git, etc.).  Brings additional static assets, including images and code.
+Also inludes project, stack, host, OS, and desktop-flavor overrides.  Pulls in scripts for configuring multi-monitor layouts, starting required services and configuring apps (vscode, vim, terminals, git, etc.).  Brings additional static assets, including images and code.
 
 > This project contains public config stuff.  Sensitive config data is sourced from dotfiles-priv.
 

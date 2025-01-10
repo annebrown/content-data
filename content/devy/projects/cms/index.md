@@ -1,6 +1,6 @@
 ---
 title: Headless CMS
-description:  Headless, framework-agnostic data source
+description:  Framework-agnostic data source
 navigation: false
 lastModified: '2025-01-09'
 ---
@@ -11,7 +11,7 @@ The [Headless CMS project](https://github.com/annebrown/dotfiles) is a framework
 
 Also used for capture, storage and access to non-sensitive technology development docs and data.
 
-Dynamic frontmatter fields are employed to promote consistency, improve CMS maint, and reduce human error.
+Dynamic frontmatter fields are employed using VS Code scripts (See [VS Code Dynamic Markdown](../../tooling/1.vscode/dynamic-markdown.md/)), to promote consistency, improve CMS maint, and reduce human error.
 
 Ex: `lastModified: 'YYYY-MM-DD'` frontmatter field - dynamimcally updated on save
 

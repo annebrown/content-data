@@ -1,11 +1,11 @@
 ---
 title: XXXXXXXX
-description:  XXXXXXXX
+description: XXXXXXXX
 navigation: false
-lastModified: '2025-01-08'
+lastModified: '2025-01-10'
 ---
 
-##  XXXXXXXX
+## XXXXXXXX
 
 At least one body element is required to avoid this error in client apps built upon the Nuxt framework and `@Nuxt/content` module:
 
@@ -13,7 +13,7 @@ At least one body element is required to avoid this error in client apps built u
 Document not found, overwrite this content with #not-found slot in <ContentDoc>.
 ```
 
-##  Other CMS Client Considerations
+## Other CMS Client Considerations
 
 Use `navigation: false` to omit `index.md` files from navi.  Avoids dup routes (parent dir plus child 'index.md')
 

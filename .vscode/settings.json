@@ -11,8 +11,8 @@
     ],
 
     "editor.codeActionsOnSave": {
-        "source.fixAll": true
-      },
+        "source.fixAll": "explicit"
+    },
       "files.autoSave": "onWindowChange",
       "files.autoSaveDelay": 1000,
       "files.associations": {

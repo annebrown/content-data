@@ -1,7 +1,7 @@
 ---
 title: Client-Side Rendering
 description: Client-Side Rendering Issues
-lastModified: '2025-01-08'
+lastModified: '2025-01-10'
 ---
 
 ## Rendered Element Disappears
@@ -16,7 +16,7 @@ Hydration mismatch between server-side and client-side rendering.
 
 ## Try `<client-only>`
 
-To help prevent disappearing issues, wrap element in `<client-only>` component to ensure element is only rendered on client side
+Render element only on client side:
 
 ```vue
 <template>
@@ -29,9 +29,9 @@ To help prevent disappearing issues, wrap element in `<client-only>` component t
 
 ## Try Async Data Loading
 
-If data is being loaded asynchronously, it might be temporarily available and then reset.
+Asynchronously loaded data could be temporarily available, but then reset.  Replace `useAsyncData`
 
-Use `useLazyAsyncData` instead of `useAsyncData` to help prevent issues with SSR and hydration.
+with `useLazyAsyncData` to alieviate SSR and hydration issues.
 
 ```vue
 <script setup>
