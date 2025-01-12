@@ -1,7 +1,7 @@
 ---
 title: Config
 description: External Source Config
-lastModified: '2025-01-10'
+lastModified: '2025-01-11'
 ---
 
 ## GitHub
@@ -26,6 +26,10 @@ content: {
 },
 
 ```
+
+> NOTE: Once a client app has accessed a GitHub repo `/content`, the repo name in the `sources:`, a relationship is made between teh client and GitHub, which no longer necessitates must not be changed.  When
+>
+> source, supports changing the repo name and still keeping wh API endpoint of
 
 ## Local FS Source
 
