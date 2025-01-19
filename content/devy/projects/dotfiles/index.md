@@ -1,8 +1,8 @@
 ---
 title: dotfiles
-description:  dotfiles Project
+description: Development Environment
 navigation: false
-lastModified: '2025-01-10'
+lastModified: '2025-01-16'
 ---
 
 ## Description

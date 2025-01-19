@@ -2,7 +2,7 @@
 title: Public
 description: Technology Development Docs
 navigation: false
-lastModified: '2025-01-10'
+lastModified: '2025-01-19'
 ---
 
 ## Description
@@ -10,49 +10,44 @@ lastModified: '2025-01-10'
 Headless, framework-agnostic data source
 
 ## Purpose
-
-Content logic separation
-
-Special-focus, independent views and IFs
-
-Single source of truth for prototyping and testing multiple client apps
-
-Used for capture, storage and access to non-sensitive technology development docs and data.
+- Capture, storage and access to non-sensitive tech dev docs and data
+- Prototyping and testing
+- Content logic separation
+- Portability
 
 ## Documentation
 
-Project templates `@/templates` hold the docs (single source of truth) for client app design considerations.
-
-## Content Maintenance
+Templates `@/templates` hold the docs (single source of truth) for client app design considerations.
 
 ### Templates
 
-Templates `@/templates` facilitate consistent content.
+- Facilitate consistency
 
 ### Dynamic Frontmatter
 
 VS Code scripts and tasks are employed to provide dynamic frontmatter fields.
 
-Ex: `lastModified: 'YYYY-MM-DD'` - dynamimcally updated on save
+Ex: `lastModified: 'YYYY-MM-DD'` is dynamimcally updated on save.
 
-Promotes consistency, streamlines content maint and reduces human error
+- Vintage hint
+- Promotes consistency
+- Streamlines content maint
+- Reduces human error
 
 ## Repo
 
-Public GitHub Repo: [content-data](https://github.com/annebrown/content-data.git)
+Public GitHub Repo: [content-data](https://github.com/annebrown/content-data)
 
-##  Web-Based CMS Clients
+##  Client Apps
 
-Public CMS client apps:
+### Web Apps
 
-[https://docs.annebrown.ca](https://docs.annebrown.ca)
+- [annebrown.ca/docs-pub](https://annebrown.ca/docs-pub)
+- [docs-pub.annebrown.ca](https://docs-pub.annebrown.ca)
+- [browndomain.com/docs-pub](https://www.browndomain.com/docs-pub)
+- [gamma.annebrown.ca/docs-pub](https://gamma.annebrown.ca/docs-pub)
+- [misscommunication.ca/docs-pub](https://misscommunication.ca/docs-pub)
 
-[https://www.browndomain.com/public](https://www.browndomain.com/public)
-
-[https://gamma.annebrown.ca/public](https://gamma.annebrown.ca/docs)
-
-[https://misscommunication.ca/public](https://misscommunication.ca/public)
-
-## Electron CMS Clients
+### Electron Apps
 
 Electron CMS client app - prototype stage, not ready for open-source

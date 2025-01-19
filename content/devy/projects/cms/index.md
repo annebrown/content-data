@@ -2,12 +2,12 @@
 title: Headless CMS
 description:  Framework-agnostic data source
 navigation: false
-lastModified: '2025-01-09'
+lastModified: '2025-01-16'
 ---
 
 ## Description
 
-The [Headless CMS project](https://github.com/annebrown/dotfiles) is a framework-agnostic data source, for use in prototyping and testing.
+The [Headless CMS project](https://github.com/annebrown/content-data) is a framework-agnostic data source, for use in prototyping and testing.
 
 Also used for capture, storage and access to non-sensitive technology development docs and data.
 

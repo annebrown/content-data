@@ -2,34 +2,39 @@
 title: Layers
 description: Shared Code
 navigation: false
-lastModified: '2025-01-13'
+lastModified: '2025-01-15'
 ---
 
 ## Description
 
 Layers is a Nuxt feature allowing common code to be shared among projects.
 
-Common code can be co-located with apps in monorepos, accessed via installed npm pkgs, and imported from GitHub repos.
+Shared code can be co-located with apps in monorepos, accessed from installed npm pkgs, and from external GitHub repos.  The production host will clone an entire monorepo and build using shared assets as configured.  If using NPM pkg or GitHub repo for base assets, the host server installs or clones the asset base during the build.
 
 ## Monorepo
 
 A monorepo contains common assets, plus similarly focused apps that require a common, centralized code base.  This approach would have a structure like:
 
 ```
-nuxt/
+kevin/
 ├── base/
 │   ├── nuxt.config.ts
-│   └── assets/
-│       └── css/
-│           └── fleet.css
+│   ├── tailwind.config.ts
+│   ├── assets/
+│   │   └── css/
+│   │       └── fleet.css
+│   └── content/
+│
 ├── apps/
 │   ├── app1/
-│   │     └── assets/
+│   │    ├── nuxt.config.ts
+│   │    └── assets/
 │   │           └── css/
 │   │                 └── ship.css
 │   ├── app2/
 │   └── ...
-└── nuxt.config.ts
+│
+└── vercel.json
 ```
 
 ## Base Config
@@ -55,7 +60,9 @@ export default defineNuxtConfig({
 //<--------@@/base/nuxt.config.ts---------------------------------------------->
 ```
 
-## Extends Property
+## Apps Config
+
+### Extends Property
 
 The `extends` property in a project's `nuxt.config.ts` allows the project's code to be extended to include common monorepo assets, as well as code from installed npm pkgs and GitHub repos:
 
@@ -87,6 +94,22 @@ export default defineNuxtConfig({
 //<--------@@/apps/app1/nuxt.config.ts----------------------------------------->
 ```
 
+## Prod Host Config
+
+Ex, `@@/vercel.json`:
+
+```json
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".output",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./",
+  "projects": [
+    { "name": "app1", "path": "apps/app1" },
+    { "name": "app2", "path": "apps/app2" }
+  ]
+}
+```
+
 ## Reusing Components
 
 Nuxt component syntax rqd to reuse component `@/base/components/fleet/navi/Toc.vue` from the shared base:
@@ -108,3 +131,9 @@ The following list of assets in the common code base are automatically scanned b
 - `plugins`
 - `server`
 - `utils`
+
+If using `@Nuxt/content` module, it is scanned automatically as well.
+
+## Deployments
+
+When deploying, the host automatically clones the entire monorepo, then builds using the extended the base layer, according to base and app config.

@@ -2,7 +2,7 @@
 title: XXXXXXXX
 description: XXXXXXXX
 navigation: false
-lastModified: '2025-01-10'
+lastModified: '2025-01-19'
 ---
 
 ## XXXXXXXX
@@ -16,5 +16,3 @@ Document not found, overwrite this content with #not-found slot in <ContentDoc>.
 ## Other CMS Client Considerations
 
 Use `navigation: false` to omit `index.md` files from navi.  Avoids dup routes (parent dir plus child 'index.md')
-
-Mod date is for code vintage hint. Do not render irrelevant, ambiguous `lastModified` frontmatter data on `index.md` pages.
