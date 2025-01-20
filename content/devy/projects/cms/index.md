@@ -2,35 +2,52 @@
 title: Headless CMS
 description:  Framework-agnostic data source
 navigation: false
-lastModified: '2025-01-16'
+lastModified: '2025-01-20'
 ---
 
-## Description
+### Description
 
-The [Headless CMS project](https://github.com/annebrown/content-data) is a framework-agnostic data source, for use in prototyping and testing.
+Headless, framework-agnostic data source
 
-Also used for capture, storage and access to non-sensitive technology development docs and data.
+## Purpose
+- Capture, storage and access to non-sensitive tech dev docs and data
+- Prototyping and testing
+- Content logic separation
+- Portability
 
-Dynamic frontmatter fields are employed using VS Code scripts (See [VS Code Dynamic Markdown](../../tooling/1.vscode/dynamic-markdown.md/)), to promote consistency, improve CMS maint, and reduce human error.
+## Documentation
 
-Ex: `lastModified: 'YYYY-MM-DD'` frontmatter field - dynamimcally updated on save
+Templates `@/templates` hold the docs (single source of truth) for client app design considerations.
+
+## Templates
+
+- Facilitate consistency
+
+## Dynamic Frontmatter
+
+VS Code scripts and tasks are employed to provide [dynamic frontmatter fields](/docs-pub/devy/tooling/vscode/dynamic-markdown).
+
+Ex: `lastModified: 'YYYY-MM-DD'` is dynamimcally updated on save.
+
+- Vintage hint
+- Promotes consistency
+- Streamlines content maint
+- Reduces human error
 
 ## Repo
 
 Public GitHub Repo: [content-data](https://github.com/annebrown/content-data)
 
-##  Web-Based CMS Clients
+##  Client Apps
 
-Public CMS clients apps:
+### Web Apps
 
-[https://docs.annebrown.ca](https://docs.annebrown.ca)
+- [annebrown.ca/docs-pub](https://annebrown.ca/docs-pub)
+- [docs-pub.annebrown.ca](https://docs-pub.annebrown.ca)
+- [browndomain.com/docs-pub](https://www.browndomain.com/docs-pub)
+- [gamma.annebrown.ca/docs-pub](https://gamma.annebrown.ca/docs-pub)
+- [misscommunication.ca/docs-pub](https://misscommunication.ca/docs-pub)
 
-[https://www.browndomain.com/public](https://www.browndomain.com/public)
+### Electron Apps
 
-[https://gamma.annebrown.ca/public](https://gamma.annebrown.ca/docs)
-
-[https://misscommunication.ca/public](https://misscommunication.ca/public)
-
-## Electron CMS Client
-
-Pubilc Electron app status - prototype stage.  Not yet suitable for open-source
+Electron CMS client app - prototype stage, not ready for open-source

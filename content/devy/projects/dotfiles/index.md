@@ -1,8 +1,8 @@
 ---
 title: dotfiles
-description: Development Environment
+description: Development Environment Config
 navigation: false
-lastModified: '2025-01-16'
+lastModified: '2025-01-20'
 ---
 
 ## Description
@@ -17,6 +17,7 @@ Also inludes project, stack, host, OS, and desktop-flavor overrides.  Pulls in s
 
 ## Repo
 
+Project Repo: [](https://github.com/annebrown/dotfiles)
 Public GitHub Repo: [content-data](https://github.com/annebrown/dotfiles)
 
 ## Usage
