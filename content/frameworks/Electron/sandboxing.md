@@ -1,7 +1,7 @@
 ---
 title: Sandboxing
 description: Security Model
-lastModified: '2025-01-08'
+lastModified: '2025-01-26'
 ---
 
 ## Description
@@ -10,4 +10,4 @@ Electron uses the Chromium engine for most of its core functionality.  It theref
 
 ## setuid Bit
 
-chrome-sandbox requires special root permissions, or Electron will refuse to run and will exit with a SIGTRAP error. See [Sandboxing Issue](/public/frameworks/electron/issues/sandboxing) for instructions on how to set the correct file permissions for the chrome-sandbox binary.
+chrome-sandbox requires special root permissions, or Electron will refuse to run and will exit with a SIGTRAP error. See [Sandboxing Issue](/public/frameworks/electron/issues/sigtrap) for instructions on how to set the correct file permissions for the chrome-sandbox binary.
