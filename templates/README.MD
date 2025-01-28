@@ -8,7 +8,7 @@ Markdown templates and CMS client app design considerations
 
 ### Purpose
 
-- Single souce of truth (documentation) for design considerations
+- Single source of truth (documentation) for design considerations
 - Consistent content structure
 - Stable client app design target
 - Streamline CMS maint workflows

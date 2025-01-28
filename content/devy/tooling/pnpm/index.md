@@ -2,12 +2,12 @@
 title: 'pnpm'
 description: 'Node Module Manager'
 navigation: 'false'
-lastModified: '2025-01-08'
+lastModified: '2025-01-27'
 ---
 
 ## Description
 
-Better performance and more efficient deps mgmt than npm
+Better performance, more efficient deps mgmt
 
 ## CLI
 
