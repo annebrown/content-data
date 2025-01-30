@@ -7,12 +7,6 @@ navigation: false
 
 ## Description
 
-- Used to retrieve route meta
-- Returns current route object
-- Reactive - updates automatically on route change
-
-## Usage
-
 `useRouter()`
 
 - Composable to obtain `router` object (router instance)
@@ -35,7 +29,6 @@ const route = useRoute()
 const configuredRoute = router.getRoutes().find((r) => r.name === route.name)
 const hasChildren = configuredRoute?.children && configuredRoute.children.length > 0
 ```
-
 
 `configuredRoute`
 
