@@ -2,5 +2,9 @@
 title: 'OSes'
 description: 'Operating Systems'
 navigation: 'false'
-lastModified: '2025-01-08'
+lastModified: '2025-02-10'
 ---
+
+## Description
+
+Notes on OSes
