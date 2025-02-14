@@ -2,12 +2,12 @@
 title: Components
 description: Components
 navigation: false
-lastModified: '2025-02-03'
+lastModified: '2025-02-12'
 ---
 
 ## Markdown Usage
 
-Components located in `@/components/content` or `@@/base/components/content`, can be used in markdown content:
+Components located in `@/components/content` or `@@/base/components/content`, or in additionally configured sources, can be used in markdown content:
 
 ```markdown
 # Title
@@ -15,6 +15,31 @@ Components located in `@/components/content` or `@@/base/components/content`, ca
 ## Some Data
 
 <SomeComponent />
+
+```
+
+or
+
+```markdown
+# Title
+
+## Some Data
+
+::SomeComponent
+::
+
+```
+
+or
+
+```markdown
+# Title
+
+## Some Data
+
+::SomeComponent
+Some content
+::
 
 ```
 

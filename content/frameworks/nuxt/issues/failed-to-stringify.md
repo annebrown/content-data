@@ -1,7 +1,7 @@
 ---
-title: Failed to Sstringify
-description: Failed to stringify de server logs
-lastModified: '2025-01-08'
+title: Failed to Stringify
+description: Failed to Stringify Server Logs
+lastModified: '2025-02-13'
 ---
 
 ## Error
@@ -12,11 +12,11 @@ lastModified: '2025-01-08'
  WARN  [nuxt] Failed to stringify dev server logs. Received DevalueError: Cannot stringify a function. You can define your own reducer/reviver for rich types following the instructions in https://nuxt.com/docs/api/composables/use-nuxt-app#payload.
  ```
 
- ## Cause
+## Cause
 
  Nuxt tries to stringify a complex object or function using standard JSON serialization, during Nuxt's dev server log serialization process.
 
- ## Try Lazy Loading
+## Try Lazy Loading
 
 Use useLazyAsyncData to handle data reactively, to mitigate serialization issues.
 
