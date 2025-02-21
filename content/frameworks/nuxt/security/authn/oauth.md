@@ -20,7 +20,7 @@ pnpm dlx nuxi module add nuxt-auth-utils zod
 
 Add session password to `@/.env`:
 
-```env
+```txt
 NUXT_SESSION_PASSWORD=a-random-password-with-at-least-32-characters
 ```
 
@@ -101,6 +101,7 @@ export default defineEventHandler(async (event) => {
 
   return {}
 });
+```
 
 ## Protect Content
 
