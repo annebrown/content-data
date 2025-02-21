@@ -1,65 +1,14 @@
 ---
 title: Components
-description: Components
+description: Nuxt Components
 navigation: false
-lastModified: '2025-02-12'
+lastModified: '2025-02-21'
 ---
 
-## Markdown Usage
+## Description
 
-Components located in `@/components/content` or `@@/base/components/content`, or in additionally configured sources, can be used in markdown content:
+Nuxt components, located in specified directories, are automatically imported.
 
-```markdown
-# Title
+## Rendering
 
-## Some Data
-
-<SomeComponent />
-
-```
-
-or
-
-```markdown
-# Title
-
-## Some Data
-
-::SomeComponent
-::
-
-```
-
-or
-
-```markdown
-# Title
-
-## Some Data
-
-::SomeComponent
-Some content
-::
-
-```
-
-For more flexible component organization, register them [globally](global) or use a [wrapper component](#wrapper-component).
-
-@Nuxt/content will only recognize a single component per markdown file, with additional components being ignored.
-
-## Global
-
-Register components globally in `nuxt.config` to use them in vue templates and markdown `/content`:
-
-```ts
-export default defineNuxtConfig({
-  // ...
-  components: {
-    global: true, // Register components globally
-    dirs: [
-      '~/components',
-      // ...
-    ],
-  },
-});
-```
+Nuxt components can designed for universal, client-side, server-side, [edge-side](/content/frameworks/nuxt/rendering/esr/index.md), or a combination of rendering strategies.
