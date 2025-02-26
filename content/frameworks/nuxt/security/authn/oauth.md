@@ -1,7 +1,7 @@
 ---
 title: OAuth
 description: Nuxt OAuth Authn
-lastModified: '2025-02-21'
+lastModified: '2025-02-23'
 ---
 
 ## Overview
@@ -20,7 +20,7 @@ pnpm dlx nuxi module add nuxt-auth-utils zod
 
 Add session password to `@/.env`:
 
-```txt
+```properties
 NUXT_SESSION_PASSWORD=a-random-password-with-at-least-32-characters
 ```
 
