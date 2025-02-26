@@ -2,9 +2,9 @@
 title: Devy
 description: Dev Notes
 navigation: false
-lastModified: '2025-01-18'
+lastModified: '2025-02-26'
 ---
 
 ## Description
 
-Public Project Dev Notes
+Tech Dev Docs

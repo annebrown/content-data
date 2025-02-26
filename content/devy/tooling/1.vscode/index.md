@@ -2,9 +2,9 @@
 title: VSCode
 description: Visual Studio Code IDE
 navigation: false
-lastModified: '2025-01-08'
+lastModified: '2025-02-26'
 ---
 
 ## Description
 
-Efficient, portable code editor and dev tool.
+Highly efficient, extremely configurable, portable, widely entrenched, IDE, with
