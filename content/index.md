@@ -2,7 +2,7 @@
 title: Docs-Pub
 description: Technology Development Docs
 navigation: false
-lastModified: '2025-01-31'
+lastModified: '2025-03-05'
 ---
 
 ## Description
@@ -18,4 +18,4 @@ Headless, framework-agnostic data source
 
 ## Documentation
 
-See [Headless CMS Project](/docs-pub/devy/projects/cms)
+See [Headless CMS Project](https://docs-pub.annebrown.ca)
