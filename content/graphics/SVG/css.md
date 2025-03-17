@@ -1,7 +1,7 @@
 ---
 title: 'CSS'
 description: 'SVG CSS Styling'
-lastModified: '2025-03-06'
+lastModified: '2025-03-11'
 ---
 
 ## Description
@@ -43,7 +43,7 @@ Any edits to the svg must also be
 
 ### Failed to resolve component: sodipodi:namedview
 
-```Error
+```bash
 Failed to resolve component: sodipodi:namedview
 If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement.
 ```
@@ -60,6 +60,6 @@ Config `nuxt.config.ts` to exclude `sodipodi` element from component resolution:
 
 ### Uncaught InvalidCharacterError
 
-```Error
+```bash
 Uncaught (in promise) InvalidCharacterError: Failed to execute 'createElement' on 'Document': The tag name provided ('/_nuxt/assets/images/logo.svg') is not a valid name.
 ```

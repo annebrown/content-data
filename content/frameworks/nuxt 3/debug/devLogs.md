@@ -1,7 +1,7 @@
 ---
 title: devLogs
 description: Stream Server Logs to Client
-lastModified: '2025-01-08'
+lastModified: '2025-03-14'
 ---
 
 ## Enable `devLogs`
@@ -37,12 +37,4 @@ export default defineNuxtPlugin((nuxtApp) => {
 })
 ```
 
- `dev:ssr-logs` hook is only called dev mode.
-
-## Silence Logs
-
-Set `devLogs` to `silent` in `nuxt.config.ts`:
-
-```ts
-
-```
+ `dev:ssr-logs` hook is only called in dev mode.

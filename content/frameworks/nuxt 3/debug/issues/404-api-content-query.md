@@ -1,7 +1,7 @@
 ---
-title: 404 /api/_content/...
-description: Global Fetch API
-lastModified: '2025-01-26'
+title: Console 404
+description: Console 404 for Existing '@/pages/'
+lastModified: '2025-03-14'
 ---
 
 ## Description
@@ -14,7 +14,7 @@ Console Error:
 
 ```txt
 Failed to load resource: the server responded with a status of 404 (Document not found!)
-```txt
+```
 
 URL:
 

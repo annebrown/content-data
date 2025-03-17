@@ -1,12 +1,12 @@
 ---
 title: LogLevel
 description: Configure Nuxt Logging
-lastModified: '2025-01-08'
+lastModified: '2025-03-14'
 ---
 
 ## Dev Server Command
 
-Add `--log-level info` to dev server script in `package.json`:
+In `package.json`, add `--log-level info` to dev server script args:
 
 ```json
   "scripts": {
@@ -17,7 +17,7 @@ Add `--log-level info` to dev server script in `package.json`:
   },
 ```
 
-Nuxt Config
+## Nuxt Config
 
 Configure `LogLevel` in `nuxt.config.ts`:
 

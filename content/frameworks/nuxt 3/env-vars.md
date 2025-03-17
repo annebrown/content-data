@@ -1,7 +1,7 @@
 ---
 title: Env Vars
 description: Nuxt Environment Variables
-lastModified: '2025-01-08'
+lastModified: '2025-03-11'
 ---
 
 ## Config File
@@ -49,6 +49,7 @@ Loaded variables are exposed to Vite-processed **client** source code, using the
 <p>Some Env Var: {{ $config.public.VITE_SOME_ENV_VAR }}</p>
 </template>
 ```
+
 ### API
 
 From `@/server/api/some-script.ts`:

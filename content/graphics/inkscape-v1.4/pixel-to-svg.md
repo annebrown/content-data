@@ -1,7 +1,7 @@
 ---
 title: 'Raster to Vector'
 description: 'Gradient-Edged Raster to Sharp Vector'
-lastModified: '2025-03-05'
+lastModified: '2025-03-15'
 ---
 
 ## Purpose
@@ -19,7 +19,7 @@ Prioritize sharp edges:
 
 ## Clean Up Paths
 
-- Remove excess nodes and smooth curves using Node tool.
+- Remove excess nodes, and smooth curves, using Node tool.
 
 ## Export to SVG
 
