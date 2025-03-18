@@ -3,13 +3,11 @@ title: Docs-Pub
 email: annebrown@gmail.com
 description: >- # Ignore newlines until "baseurl:"
   GitHub Pages, Jekyll SSG deployment of headless, framework agnostic Markdown CMS
+remote_theme: olivier3lanc/Jekyll-LibDoc
 url: "https://gh-pages.annebrown.ca"
 github_username:  annebrown
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+
 
 # Default Ignored:
 #   - .sass-cache/
