@@ -1,14 +1,14 @@
 ---
-title: Image Editors
-description: Graphical Design Tools
+title: Inkscape V1.4
+description: SVG Editor
 navigation: false
 lastModified: '2025-03-27'
 ---
 
 ## Description
 
-Software tools to create, modify, and enhance digital images.
+Vector graphics design tool
 
-### Inkscape
+### Workflows
 
 See [Inkscape Workflows](../../graphics/inkscape-v1.4/index.md)

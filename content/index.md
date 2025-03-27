@@ -7,13 +7,12 @@ lastModified: 2025-03-25
 
 ## Description
 
-Headless, framework-agnostic data source
+- Design and Development Notes
+- Public, headless, framework-agnostic data source
 
 ## Purpose
 
-- Capture, storage and access to non-sensitive tech dev docs and data
-- Prototyping and testing
-- Content logic separation
+- Capture and storage of non-sensitive, publicly available docs
 - Portability
 
 ## Documentation

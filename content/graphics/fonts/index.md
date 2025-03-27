@@ -1,8 +1,8 @@
 ---
 title: 'Fonts'
-description: 'Using Fonts'
+description: 'Font Config'
 navigation: false
-lastModified: '2025-03-26'
+lastModified: '2025-03-27'
 ---
 
 ## Ubuntu LTS

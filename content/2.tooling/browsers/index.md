@@ -1,7 +1,7 @@
 ---
 title: Browsers
 description: Web Browsers
-lastModified: '2025-01-08'
+lastModified: '2025-03-27'
 ---
 
 ## Temporal Search
@@ -26,7 +26,7 @@ For results within the past year, enter in the omnibox:
 
 Then enter search string in page (content/body) search bar, not omnibox.
 
-For more options, config a search and copy relevent search params from the URL.  After customizing a specific search string, bookmark and/or make it the home page.
+For more options, config a search and copy relevent search params from the URL.
 
 ## Chromium-Based Browsers
 

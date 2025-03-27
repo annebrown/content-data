@@ -1,7 +1,7 @@
 ---
-title: Firefox Broken on LTS Distro
+title: FF Broken on LTS Distro
 description: Broken FF on Ubuntu 24.04 LTS
-lastModified: '2025-01-08'
+lastModified: '2025-03-27'
 ---
 
 ## Fix
@@ -42,7 +42,7 @@ Pin-Priority: 1000
 ' | sudo tee /etc/apt/preferences.d/mozilla
 ```
 
-### Get Mozilla pkgs list
+### Get Mozilla Pkgs List
 
 ```bash
 sudo apt update

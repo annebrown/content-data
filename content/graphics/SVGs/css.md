@@ -1,7 +1,7 @@
 ---
 title: 'CSS'
 description: 'SVG CSS Styling'
-lastModified: '2025-03-11'
+lastModified: '2025-03-27'
 ---
 
 ## Description
@@ -34,32 +34,3 @@ Common SVG attributes used to style SVGs include:
 ## Data store
 
 SVGs must be inlined in HTML ('.html', template, component etc.) in order to style its objects using its `class` or `id` selectors.
-
-Any edits to the svg must also be
-
-- Store and edit in `components/img/Logo.vue`, Nuxt 3 component
-
-## Console Errors
-
-### Failed to resolve component: sodipodi:namedview
-
-```bash
-Failed to resolve component: sodipodi:namedview
-If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement.
-```
-
-Config `nuxt.config.ts` to exclude `sodipodi` element from component resolution:
-
-```ts
-    vue: {
-        compilerOptions: {
-          isCustomElement: (tag) => tag.startsWith('sodipodi:'),
-        },
-    },
-```
-
-### Uncaught InvalidCharacterError
-
-```bash
-Uncaught (in promise) InvalidCharacterError: Failed to execute 'createElement' on 'Document': The tag name provided ('/_nuxt/assets/images/logo.svg') is not a valid name.
-```
