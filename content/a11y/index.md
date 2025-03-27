@@ -1,6 +1,7 @@
 ---
-title: A11y
-description: 'Accessability'
+title: Accessability
+description: 'A11y Design and Development'
+navigation: false
 lastModified: '2025-03-27'
 ---
 
