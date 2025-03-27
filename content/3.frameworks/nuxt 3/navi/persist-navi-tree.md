@@ -1,7 +1,7 @@
 ---
 title: Persist Navi Tree
 description: Maintain Navi Tree State
-lastModified: '2025-01-08'
+lastModified: '2025-03-22'
 ---
 
 ## Problem
@@ -32,7 +32,7 @@ Modify your NaviNavigation.vue component to use this state:
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
 
-const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
+const { data: navigation } = await useLazyAsyncData('navigation', () => fetchContentNavigation())
 
 const expandedItems = useState('expandedItems', () => new Set())
 const route = useRoute()

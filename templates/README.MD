@@ -1,20 +1,9 @@
 # Templates
 
-## content/
-
-### Description
+## Description
 
 Markdown templates and CMS client app design considerations
 
-### Purpose
+## Frontmatter
 
-- Single source of truth (documentation) for design considerations
-- Consistent content structure
-- Stable client app design target
-- Streamline CMS maint workflows
-- Reduce errors, esp human, and inconsistencies
-- Improved collab
-
-## client-config/
-
-Data for use in CMS client app config
+This content is sourced from a publicly viewable GitHub repository.  Do not include any private content and do not rely on `draft` or any other fields in the frontmatter to control access to sensitive content.

@@ -1,7 +1,7 @@
 ---
 title: Expand On Visit
 description: Expand Navi to Entry for Current Route
-lastModified: '2025-03-17'
+lastModified: '2025-03-22'
 ---
 
 Collapsible navi tree to auto-expand to show current page's locan, on each new page render
@@ -84,7 +84,7 @@ import NavigationTree from './NavigationTree.vue'
 
 const route = useRoute()
 
-const { data: navigation } = await useAsyncData('navigation', () =>
+const { data: navigation } = await useLazyAsyncData('navigation', () =>
   fetchContentNavigation(queryContent('/local'))
 )
 

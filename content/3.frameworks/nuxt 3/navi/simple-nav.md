@@ -1,7 +1,7 @@
 ---
 title: Simple Nav
 description: Simple Nav Passed Btw Components
-lastModified: '2025-01-08'
+lastModified: '2025-03-22'
 ---
 
 ```js
@@ -9,7 +9,7 @@ lastModified: '2025-01-08'
 const dirNode = '/books/javascript'
 const pathRegexp = '^/books/javascript'
 
-const { data: dragonBooks } = await useAsyncData('javascriptBooks', () =>
+const { data: dragonBooks } = await useLazyAsyncData('javascriptBooks', () =>
   queryContent(dirNode)
     .where({ _path: { $regex: pathRegexp } })
     .find()

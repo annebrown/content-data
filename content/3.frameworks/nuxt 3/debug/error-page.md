@@ -1,7 +1,7 @@
 ---
 title: Error Handling
 description: Nuxt Error Handling
-lastModified: '2025-01-08'
+lastModified: '2025-03-22'
 ---
 
 `@/error.vue`:
@@ -31,7 +31,7 @@ lastModified: '2025-01-08'
 <script lang="ts" setup>
     const route = useRoute()
 
-    const { data: page } = await useAsyncData(route.path, () => queryContent(route.path).findOne())
+    const { data: page } = await useLazyAsyncData(route.path, () => queryContent(route.path).findOne())
 
     if (!page.value) {
         throw createError({ statusCode: 404, statusMessage: 'Page Not Found.', fatal: true })

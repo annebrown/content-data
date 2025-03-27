@@ -1,7 +1,7 @@
 ---
 title: Use Slots Error
 description: Use slots with <ContentRenderer>
-lastModified: '2025-01-08'
+lastModified: '2025-03-22'
 ---
 
 ## Error Description
@@ -43,6 +43,6 @@ To prevent this error yml code from rendering on the page, use `<contentRenderer
 
 <script lang="ts" setup>
 const { path } = useRoute()
-const { data: page } = await useAsyncData(`content-${path}`, () => queryContent(path).findOne())
+const { data: page } = await useLazyAsyncData(`content-${path}`, () => queryContent(path).findOne())
 </script>
 ```

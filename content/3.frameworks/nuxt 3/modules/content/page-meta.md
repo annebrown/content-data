@@ -1,7 +1,7 @@
 ---
 title: Page Meta
 description: Display Page Meta
-lastModified: '2025-01-08'
+lastModified: '2025-03-22'
 ---
 
 Discover available markdown page meta using something like:
@@ -12,7 +12,7 @@ Discover available markdown page meta using something like:
 const route = useRoute()
 const path = route.path
 
-const { data: page } = await useAsyncData(`content-${path}`, () =>
+const { data: page } = await useLazyAsyncData(`content-${path}`, () =>
   queryContent(path).findOne()
 )
 </script>

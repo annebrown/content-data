@@ -2,7 +2,7 @@
 title: Security
 description: Nuxt Security
 navigation: false
-lastModified: '2025-02-10'
+lastModified: '2025-03-23'
 ---
 
 ## Description

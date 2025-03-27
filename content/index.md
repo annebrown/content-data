@@ -2,7 +2,7 @@
 title: Docs-Pub
 description: Technology Development Docs
 navigation: false
-lastModified: '2025-03-18'
+lastModified: '2025-03-25'
 ---
 
 ## Description
@@ -19,7 +19,3 @@ Headless, framework-agnostic data source
 ## Documentation
 
 See [Headless CMS Project](https://docs-pub.annebrown.ca)
-
-## Jekyll
-
- `raw` tags are used for Markdown code blocks containing special characters, '$' and curly braces, to avoid errors during 'Liquid' syntax processing for Jekyll SSG implementations.

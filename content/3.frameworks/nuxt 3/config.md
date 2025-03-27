@@ -1,7 +1,7 @@
 ---
 title: Config
 description: Nuxt Configuration
-lastModified: '2025-01-08'
+lastModified: '2025-03-27'
 ---
 
 ## package.json
@@ -82,7 +82,7 @@ database: { // sqlite (non-persistent)
 
 nitro: {
     prerender: {
-      crawlLinks: true,
+      cawait useLazyAsyncDatalLinks: true,
       failOnError: false,
     },
   },

@@ -1,7 +1,7 @@
 ---
 title: Undefined Navi Data
 description: Navi Data Unavail when Component Renders
-lastModified: '2025-01-08'
+lastModified: '2025-03-22'
 ---
 
 ## Navi Component Logic
@@ -10,7 +10,7 @@ lastModified: '2025-01-08'
 <script setup>
 import { useAsyncData, queryContent, fetchContentNavigation } from '#imports'
 
-const { data: navigation } = await useAsyncData('navigation', () =>
+const { data: navigation } = await useLazyAsyncData('navigation', () =>
   fetchContentNavigation(queryContent('/route/path'))
 )
 </script>
@@ -24,7 +24,7 @@ Wrap `useAsyncData` or `useFetch` in a `try-catch`:
 
 ```js
 try {
-  const { data: navigation } = await useAsyncData('navigation', () =>
+  const { data: navigation } = await useLazyAsyncData('navigation', () =>
     fetchContentNavigation(queryContent('/local'))
   )
 } catch (error) {
@@ -36,7 +36,7 @@ try {
 
 ```vue
 <script setup>
-const { data: navigation, pending } = await useAsyncData('navigation', () =>
+const { data: navigation, pending } = await useLazyAsyncData('navigation', () =>
   fetchContentNavigation(queryContent('/local'))
 )
 </script>
