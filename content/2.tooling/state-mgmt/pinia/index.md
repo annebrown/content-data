@@ -2,61 +2,112 @@
 title: Pinia
 description: Store Lib for Vue
 navigation: false
-lastModified: '2025-03-17'
+lastModified: '2025-03-27'
 ---
 
-## Installation
+## Description
 
-Install nuxi locally as a dev dep:
-
-```bash
-pnpm add -D nuxi
-```
-
-Then run nuxi module and add some-module:
+## Install
 
 ```bash
-pnpm run nuxi module add some-module
+pnpm i pinia
 ```
 
-## Create a Store
+## Create Stores
 
-```js
-// stores/counter.js
+```ts
+//--------@/stores/subtractor.ts----------------------------------------------->
+// Returns Numeric value and function
 import { defineStore } from 'pinia'
+import { ref } from 'vue'
 
-export const useCounterStore = defineStore( 'counter', {
-    state: () => {
-        return { count: 0}
-    }
+export const useSubtractorStore = defineStore('subtractor', () => {
+  const subtractor = ref(0)
 
-    // Could also be defined as state: () => ({ count: 0 })
+  function subtract() {
+    subtractor.value--
+  }
 
-    actions: {
-        increment() {
-            this.count++
-        },
-    }
+  return { subtractor, subtract }
+})
+//--------@/stores/subtractor.ts----------------------------------------------->
+```
+
+and
+
+```ts
+//--------@/stores/alerts.ts--------------------------------------------------->
+import { defineStore } from 'pinia'
+import { ref } from 'vue'
+
+export const useAlertsStore = defineStore('alerts', () => {
+  const alerts = ref([])
+
+  function addAlert(message) {
+    alerts.value.push(message)
+  }
+
+  function clearAlerts() {
+    alerts.value = []
+  }
+
+  return { alerts, addAlert, clearAlerts }
+})
+//--------@/stores/alerts.ts--------------------------------------------------->
+```
+
+## Import Stores
+
+Configure `nuxt.config.ts` to import all stores:
+
+```ts
+export default defineNuxtConfig({
+  modules: [
+    '@pinia/nuxt',
+    // other modules
+  ],
+  imports: {
+    dirs: ['stores'], // This enables auto-imports from the stores directory
+  }
 })
 ```
 
 ## Use Store in a Component
 
-```ts
+```vue
+<!--------@/app/components/meta/RandoComponent.vue----------------------------->
+<template><div>
+
+    <h2>App Stores</p>
+
+    <h2>Subtractor</h2>
+
+    <!-- Render Numeric Value -->
+    <p>Subtractor value: {{ subtracterStore.subtractor }}</p>
+
+    <!-- Modify Numeric Value -->
+    <button @click="subtracterStore.subtract">Subtract</button>
+
+    <h2>Alerts</h2>
+
+    <!-- Clear Alerts -->
+    <button @click="alertsStore.clearAlerts">Jettison Alerts</button>
+
+    <!-- Display Alerts-->
+    <ul v-if="alertsStore.alerts.length">
+        <li v-for="(alert, index) in alertsStore.alerts" :key="index">
+            {{ alert }}
+        </li>
+    </ul>
+    <p v-else>No wave, no wake.</p>
+
+</div></template>
+
 <script setup>
-import {useCounterStore } from '@/stores/counter'
-
-const counter = useCounterStore ()
-
-counter.count++
-counter.$patch({ count: counter.count + 1 })
-counter.increment()
+    const alertsStore = useAlertsStore()
+    const subtracterStore = useSubtracterStore()
 </script>
-
-<template>
-  <!-- Access the state directly from the store -->
-  <div>Current Count: {{ counter.count }}</div>
-</template>
+<!--------@/app/components/meta/RandoComponent.vue----------------------------->
 ```
 
 ## Example

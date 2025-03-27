@@ -2,7 +2,7 @@
 title: Docs-Pub
 description: Technology Development Docs
 navigation: false
-lastModified: '2025-03-25'
+lastModified: 2025-03-25
 ---
 
 ## Description
