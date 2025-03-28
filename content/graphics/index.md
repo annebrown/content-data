@@ -2,9 +2,9 @@
 title: 'Graphics'
 description: 'Visual Design'
 navigation: false
-lastModified: '2025-03-27'
+lastModified: '2025-03-28'
 ---
 
 ## Description
 
-- Fonts, images, and graphic design workflows
+Fonts, images, and graphic design workflows

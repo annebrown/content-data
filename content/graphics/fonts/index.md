@@ -2,14 +2,14 @@
 title: 'Fonts'
 description: 'Font Config'
 navigation: false
-lastModified: '2025-03-27'
+lastModified: '2025-03-28'
 ---
 
 ## Ubuntu LTS
 
 ### System-Wide Fonts
 
-#### Ubuntu Repositories
+#### Ubuntu Repos
 
 Search Ubuntu repositories:
 
@@ -40,7 +40,7 @@ Download and extract `.ttf` or `otf` file to `~/.local/share/fonts/` and update 
 sudo fc-cache -fv
 ```
 
-### App-Specific
+## App-Specific
 
 #### Inkscape
 
