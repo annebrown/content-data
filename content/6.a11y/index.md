@@ -2,7 +2,7 @@
 title: Accessability
 description: 'A11y Design and Development'
 navigation: false
-lastModified: '2025-03-27'
+lastModified: 2025-03-28
 ---
 
 ## alt
@@ -21,15 +21,13 @@ lastModified: '2025-03-27'
 - In the absence of visible text, provides accessible names for interactive elements
 - For example, ensure screen reader users understand what will happen when they activate a button or toggle:
 
-```html
-{% raw %}
+```vue
 <!-- Nuxt/ui Button Component -->
-<UButton
-    :icon="isDark ? 'i-lucide-moon' : 'i-lucide-sun'"
-    :aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
+Button
+    icon="isDark ? 'i-lucide-moon' : 'i-lucide-sun'"
+    aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
     @click="isDark = !isDark"
-/>
-{% endraw %}
+
 ```
 
 ## Loading Feedback

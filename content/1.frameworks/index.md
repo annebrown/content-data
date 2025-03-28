@@ -1,8 +1,8 @@
 ---
-title: 'Frameworks'
+title: Frameworks
 description: 'Technology Development Frameworks'
 navigation: false
-lastModified: '2025-01-11'
+lastModified: 2025-01-11
 ---
 
 ## Description

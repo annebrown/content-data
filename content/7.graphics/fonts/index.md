@@ -1,8 +1,8 @@
 ---
-title: 'Fonts'
+title: Fonts
 description: 'Font Config'
 navigation: false
-lastModified: '2025-03-28'
+lastModified: 2025-03-28
 ---
 
 ## Ubuntu LTS
@@ -42,7 +42,7 @@ sudo fc-cache -fv
 
 ## App-Specific
 
-#### Inkscape
+### Inkscape
 
 - Uses system-wide and user-specific fonts, which may not be available to the user's browser
 - Text must be converted to paths

@@ -1,8 +1,8 @@
 ---
-title: 'Issues'
+title: Issues
 description: 'GitHub Issues'
 navigation: false
-lastModified: '2025-03-28'
+lastModified: 2025-03-28
 ---
 
 ## Description

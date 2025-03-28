@@ -1,7 +1,7 @@
 ---
 title: Websocket
-description: Communication Protocol
-lastModified: '2025-03-25'
+description: 'Communication Protocol'
+lastModified: 2025-03-25
 ---
 
 WebSocket is a communication protocol that uses real-time, bi-directional communications over a single TCP connection between server and client software.
