@@ -1,7 +1,7 @@
 ---
 title: .gitignore
 description: .gitignore Items
-lastModified: '2025-01-08'
+lastModified: '2025-03-31'
 ---
 
 ## Description
@@ -9,7 +9,7 @@ lastModified: '2025-01-08'
 .cache
 .site
 .env
-.notes/     # Publish Pas - clipboard, CLI scratchpad, etc.
+.notes/     # clipboard, composing CLI, AI strings.
 node_modules
 *.log*
 .nuxt

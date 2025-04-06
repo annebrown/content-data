@@ -1,12 +1,13 @@
 ---
 title: 'Pull Requests'
 description: 'GitHub PRs'
-lastModified: '2025-01-08'
+lastModified: '2025-03-31'
 ---
 
-A PR request asks for changes made in a branch to be merged into the main branch.
+# Description
 
-PRs facilitate collaborative code review.
+- PRs facilitate collaborative code review.
+- Asks for changes made in a branch to be merged into the main branch.
 
 ## Usage
 
@@ -30,4 +31,4 @@ PRs facilitate collaborative code review.
 4. Review and collaborate
 5. Merge PR into main branch.
 6. GitHub.com > Pull requests > Collab branch > Merge pull request
-7. Delete PR or confinue to collaborate
+7. Delete PR or continue to collaborate

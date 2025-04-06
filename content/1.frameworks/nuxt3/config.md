@@ -1,7 +1,7 @@
 ---
 title: Config
 description: Nuxt Configuration
-lastModified: '2025-03-27'
+lastModified: '2025-04-05'
 ---
 
 ## package.json
@@ -16,7 +16,7 @@ Config dev server IP addy and assign port number:
     "private": true,
     "scripts": {
         "dev": "nuxt dev --host 192.168.5.555 --port 5555",
-		...
+  ...
     },
 ...
 ```
@@ -73,23 +73,9 @@ devtools: { enabled: true },
 
 srcDir: 'app/',
 
-database: { // sqlite (non-persistent)
-    default: {
-      connector: 'sqlite',
-      options: { name: 'db' }
-    }
-},
-
-nitro: {
-    prerender: {
-      cawait useLazyAsyncDatalLinks: true,
-      failOnError: false,
-    },
-  },
-
 compatibilityDate: '2024-09-28',
 
 components: true,
 
-})
+
 ```

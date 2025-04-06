@@ -1,7 +1,7 @@
 ---
 title: Webhooks
 description:  GitHub Webhooks
-lastModified: '2025-01-10'
+lastModified: '2025-03-31'
 ---
 
 ## Purpose
@@ -10,4 +10,4 @@ Webhooks allow repos to watch for specific events (e.g., pushes, PRs, specific m
 
 ## Uses
 
-Webhooks can be used to trigget builds for CI/CD, outage monitoring, microservice comms, etc.
+Webhooks can be used to trigger builds for CI/CD, outage monitoring, microservice comms, etc.
