@@ -1,7 +1,7 @@
 ---
 title: 'Dark-Mode'
 description: 'Tone Considerations'
-lastModified: '2025-04-06'
+lastModified: '2025-04-07'
 ---
 
 ## Description
@@ -23,30 +23,33 @@ Using a single file instead of two, reduces initial page load size.  It also red
 If vector images are not an option, a brightness mode component can be used to select an image based on light or dark state, for example:
 
 ```vue
-<!--------@/app/components/ship/Logo.vue--------------------------------------->
-<template><div>
-
-<!-- Logo -->
-<NuxtLink to="/">
-    <img
-        :src="logoSrc"
-        alt="Logo - Trees and water inside a circle, with text: Save the
-                Grove Again"
-        width="1479"
-        height="419"
+<!--------@/components/ship/ColorMode.vue-------------------------------------->
+<template>
+  <ClientOnly>
+    <UButton
+        class="h-fit mr-1 ml-0 pl-0"
+        :icon="isDark ? 'i-heroicons-sun-20-solid' : 'i-heroicons-moon-20-solid'"
+        variant="link"
+        :aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
+        @click="isDark = !isDark"
+        :ui="{
+            leadingIcon: 'text-(--ui-text) size-8 align-bottom'
+         }"
     />
-</NuxtLink>
+  </ClientOnly>
+</template>
 
-</div></template>
-
-<script setup>
-    import { computed } from 'vue'
-
-    const colorMode = useColorMode()
-
-    const logoSrc = computed(() =>
-        colorMode.value === 'light' ? '/img/content/logo-rect-light.png' : '/img/content/logo-rect-dark.svg'
-    )
+<script setup lang="ts">
+const colorMode = useColorMode()
+const isDark = computed({
+  get () {
+    return colorMode.value === 'dark'
+  },
+  set () {
+    colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
+  }
+})
 </script>
-<!--------@/app/components/ship/Logo.vue--------------------------------------->
+<!--------@/components/ship/ColorMode.vue-------------------------------------->
+
 ```

@@ -1,7 +1,7 @@
 ---
 title: 'Raster to Vector'
 description: 'Gradient-Edged Raster to Sharp Vector'
-lastModified: '2025-03-15'
+lastModified: '2025-04-07'
 ---
 
 ## Purpose
@@ -26,7 +26,3 @@ Prioritize sharp edges:
 - Set Fill to black
 - Set Stroke to none
 - Export
-
-## Optimize
-
-Remove barnacles with `svgo` to reduce file size.
